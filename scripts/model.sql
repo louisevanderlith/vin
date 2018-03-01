@@ -1,0 +1,2 @@
+INSERT INTO Model
+VALUES(NOW(), FALSE, )
