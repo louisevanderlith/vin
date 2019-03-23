@@ -1,13 +1,16 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type Series struct {
-	db.Record
 	Model     *Model
 	Platform  *Platform
 	Spec      string
 	StartYear int
 	EndYear   int
 	Listings  []*Listing
+}
+
+func (m Series) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

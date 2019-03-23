@@ -1,6 +1,6 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type BodyLayout = int
 
@@ -17,10 +17,13 @@ const (
 )
 
 type Body struct {
-	db.Record
 	Code      string
 	Layout    BodyLayout
 	Doors     int
 	StartYear int
 	EndYear   int
+}
+
+func (m Body) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

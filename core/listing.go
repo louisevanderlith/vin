@@ -1,9 +1,8 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type Listing struct {
-	db.Record
 	UniqueVIN      string // VIN without SEQ No
 	SequenceNo     int
 	Series         *Series
@@ -13,4 +12,8 @@ type Listing struct {
 	EngineHistory  []*EngineHistory
 	GearboxHistory []*GearboxHistory
 	Alterations    []*Alteration
+}
+
+func (m Listing) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

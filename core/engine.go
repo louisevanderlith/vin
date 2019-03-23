@@ -1,6 +1,6 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type EngineLayout = int
 
@@ -31,7 +31,6 @@ const (
 )
 
 type Engine struct {
-	db.Record
 	Family            string
 	Series            string
 	Code              string
@@ -49,4 +48,8 @@ type Engine struct {
 	StartYear         int
 	EndYear           int
 	Models            []*Model
+}
+
+func (m Engine) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

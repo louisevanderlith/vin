@@ -1,6 +1,6 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type GearboxType = int
 
@@ -12,7 +12,6 @@ const (
 )
 
 type Gearbox struct {
-	db.Record
 	SeriesCode string
 	Code       string
 	Gears      int
@@ -20,4 +19,8 @@ type Gearbox struct {
 	Models     []*Model
 	StartYear  int
 	EndYear    int
+}
+
+func (m Gearbox) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

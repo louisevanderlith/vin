@@ -1,6 +1,6 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type DriveLayout = int
 
@@ -17,7 +17,6 @@ const (
 )
 
 type Platform struct {
-	db.Record
 	Code        string
 	Engine      *Engine
 	Gearbox     *Gearbox
@@ -25,4 +24,8 @@ type Platform struct {
 	DriveLayout DriveLayout
 	StartYear   int
 	EndYear     int
+}
+
+func (m Platform) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

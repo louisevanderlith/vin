@@ -1,9 +1,9 @@
-package models
+package core
 
 import (
 	"time"
 
-	"github.com/louisevanderlith/db"
+	"github.com/louisevanderlith/husk"
 )
 
 type AlterationType = int
@@ -16,10 +16,13 @@ const (
 )
 
 type Alteration struct {
-	db.Record
 	AlterDate   time.Time
 	AlterType   AlterationType
 	Code        string
 	Description string
 	Odometer    int64
+}
+
+func (m Alteration) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

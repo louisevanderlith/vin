@@ -1,8 +1,6 @@
-package models
+package core
 
-import (
-	"github.com/louisevanderlith/db"
-)
+import "github.com/louisevanderlith/husk"
 
 type VehicleType = int
 
@@ -18,10 +16,13 @@ const (
 )
 
 type WMI struct {
-	db.Record
 	Code         string
 	CountryCode  string
 	Manufacturer *Manufacturer
 	Country      *Country
 	VehicleType  VehicleType
+}
+
+func (m WMI) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }

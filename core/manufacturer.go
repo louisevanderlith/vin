@@ -1,9 +1,8 @@
-package models
+package core
 
-import "github.com/louisevanderlith/db"
+import "github.com/louisevanderlith/husk"
 
 type Manufacturer struct {
-	db.Record
 	Name           string
 	CommonName     string
 	Description    string
@@ -12,4 +11,8 @@ type Manufacturer struct {
 	Parent         *Manufacturer
 	WMIs           []*WMI
 	AssemblyPlants []*AssemblyPlant
+}
+
+func (m Manufacturer) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
 }
