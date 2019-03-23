@@ -14,6 +14,7 @@ type VIN struct {
 	Full   string `hsk:"size(17)"`
 	Unique string `hsk:"min(2)"`
 	Serial int
+	WMInfo WMInfo
 }
 
 //Valid checks if the object's values meets the data requirements
@@ -60,6 +61,13 @@ func ValidateVIN(fullvin string) error {
 //deconstruct will attempt to populat as much detail as possible for the given VIN
 func (v *VIN) deconstruct() error {
 	v.Unique, v.Serial = getUniqueSerial(v.Full)
+	wmiInfo, err := FindWMInfo(v.Unique)
+
+	if err != nil {
+		return err
+	}
+
+	v.WMInfo = wmiInfo
 
 	return nil
 }

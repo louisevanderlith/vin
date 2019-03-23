@@ -2,15 +2,25 @@ package core
 
 import "github.com/louisevanderlith/husk"
 
+type VehicleType = int
+
+const (
+	PassengerCar VehicleType = iota
+	Motorcycle
+	Truck
+	MPV
+	Trailer
+	LSV // Low speed vehicle
+	ATV
+	Incomplete
+)
+
 type Manufacturer struct {
+	WMICode        string
 	Name           string
-	CommonName     string
 	Description    string
-	StartYear      int
-	EndYear        int
-	Parent         *Manufacturer
-	WMIs           []*WMI
-	AssemblyPlants []*AssemblyPlant
+	VehicleType    VehicleType
+	AssemblyPlants []AssemblyPlant
 }
 
 func (m Manufacturer) Valid() (bool, error) {

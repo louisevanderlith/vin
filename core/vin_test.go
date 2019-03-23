@@ -2,6 +2,19 @@ package core
 
 import "testing"
 
+//This is expectected from every test.
+var expectations = VIN{
+	Full:   "5NPEU46F77H259112",
+	Unique: "5NPEU46F77H",
+	Serial: 259112,
+	WMInfo: WMInfo{
+		Country:      "USA",
+		Manufacturer: "Hyundai",
+		VehicleType:  PassengerCar,
+		Region:       "North America",
+	},
+}
+
 func TestVIN_IsValid(t *testing.T) {
 	in := "5NPEU46F77H259112"
 	err := ValidateVIN(in)
@@ -30,12 +43,7 @@ func TestVIN_NoIOQ(t *testing.T) {
 }
 
 func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
-	expect := VIN{
-		Full:   "5NPEU46F77H259112",
-		Serial: 259112,
-	}
-
-	obj := newVIN("5NPEU46F77H259112")
+	obj := newVIN(expectations.Full)
 
 	err := obj.deconstruct()
 
@@ -43,18 +51,13 @@ func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
 		t.Error(err)
 	}
 
-	if obj.Serial != expect.Serial {
-		t.Errorf("expected %v, got %v", expect.Serial, obj.Serial)
+	if obj.Serial != expectations.Serial {
+		t.Errorf("expected %v, got %v", expectations.Serial, obj.Serial)
 	}
 }
 
 func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
-	expect := VIN{
-		Full:   "5NPEU46F77H259112",
-		Unique: "5NPEU46F77H",
-	}
-
-	obj := newVIN("5NPEU46F77H259112")
+	obj := newVIN(expectations.Full)
 
 	err := obj.deconstruct()
 
@@ -62,7 +65,63 @@ func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
 		t.Error(err)
 	}
 
-	if obj.Unique != expect.Unique {
-		t.Errorf("expected %s, got %s", expect.Unique, obj.Unique)
+	if obj.Unique != expectations.Unique {
+		t.Errorf("expected %s, got %s", expectations.Unique, obj.Unique)
+	}
+}
+
+func TestDeconstruct_WMI_ManufacturerCorrect(t *testing.T) {
+	obj := newVIN(expectations.Full)
+
+	err := obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	if obj.WMInfo.Manufacturer != expectations.WMInfo.Manufacturer {
+		t.Errorf("expected %v, got %v", expectations.WMInfo.Manufacturer, obj.WMInfo.Manufacturer)
+	}
+}
+
+func TestDeconstruct_WMI_CountryCorrect(t *testing.T) {
+	obj := newVIN(expectations.Full)
+
+	err := obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	if obj.WMInfo.Country != expectations.WMInfo.Country {
+		t.Errorf("expected %v, got %v", expectations.WMInfo.Country, obj.WMInfo.Country)
+	}
+}
+
+func TestDeconstruct_WMI_VehicleTypeCorrect(t *testing.T) {
+	obj := newVIN(expectations.Full)
+
+	err := obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	if obj.WMInfo.VehicleType != expectations.WMInfo.VehicleType {
+		t.Errorf("expected %v, got %v", expectations.WMInfo.VehicleType, obj.WMInfo.VehicleType)
+	}
+}
+
+func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
+	obj := newVIN(expectations.Full)
+
+	err := obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	if obj.WMInfo.Region != expectations.WMInfo.Region {
+		t.Errorf("expected %v, got %v", expectations.WMInfo.Region, obj.WMInfo.Region)
 	}
 }

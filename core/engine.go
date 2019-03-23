@@ -47,7 +47,7 @@ type Engine struct {
 	Induction         Induction
 	StartYear         int
 	EndYear           int
-	Models            []*Model
+	Models            []Model
 }
 
 func (m Engine) Valid() (bool, error) {

@@ -5,15 +5,22 @@ import (
 )
 
 type context struct {
-	VINS husk.Tabler
+	VINS    husk.Tabler
+	Regions husk.Tabler
 }
 
 var ctx context
 
 func init() {
-	//defer seed();
+	defer seed();
 
 	ctx = context{
-		VINS: husk.NewTable(new(VIN)),
+		VINS:    husk.NewTable(new(VIN)),
+		Regions: husk.NewTable(new(Region)),
 	}
+}
+
+func seed() {
+	//conf/regions.seed.json
+	
 }

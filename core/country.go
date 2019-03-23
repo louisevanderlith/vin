@@ -7,8 +7,7 @@ type Country struct {
 	Name       string
 	StartChar  string
 	EndChar    string
-	Region     *Region
-	WMIs       []*WMI
+	Manufacturers       []Manufacturer
 }
 
 func (m Country) Valid() (bool, error) {
