@@ -11,8 +11,8 @@ type context struct {
 
 var ctx context
 
-func init() {
-	defer seed();
+func CreateContext() {
+	defer seed()
 
 	ctx = context{
 		VINS:    husk.NewTable(new(VIN)),
@@ -20,7 +20,17 @@ func init() {
 	}
 }
 
+func Shutdown() {
+	ctx.Regions.Save()
+	ctx.VINS.Save()
+}
+
 func seed() {
-	//conf/regions.seed.json
-	
+	err := ctx.Regions.Seed("db/regions.seed.json")
+
+	if err != nil {
+		panic(err)
+	}
+
+	ctx.Regions.Save()
 }

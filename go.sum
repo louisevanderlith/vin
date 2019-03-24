@@ -26,6 +26,8 @@ github.com/louisevanderlith/db v0.0.0-20180711124348-2c1357a1ba87 h1:3G51ORjv6Iw
 github.com/louisevanderlith/db v0.0.0-20180711124348-2c1357a1ba87/go.mod h1:/IjhvbDHN8OK43tpkSUU2kyrdUe9aPu1VTkscsmJ4S4=
 github.com/louisevanderlith/husk v0.1.0 h1:4xrM+r7HLwONxII2TcvLia/QvVWJfNROp0yacqz5ww8=
 github.com/louisevanderlith/husk v0.1.0/go.mod h1:FiREVNZW48kA++iCekTEqFLcpe1m31+FQhd1ePm0YLA=
+github.com/louisevanderlith/husk v0.1.1 h1:OJZ4BFSsGjFkSrkI4yYc2BgGkklB/gs0Iz+wH+hSZAk=
+github.com/louisevanderlith/husk v0.1.1/go.mod h1:FiREVNZW48kA++iCekTEqFLcpe1m31+FQhd1ePm0YLA=
 github.com/louisevanderlith/mango v0.2.21 h1:MHQRyb3eFzK1qKZqEQhl3msel5o+ZdFYq2X/X7vcpdA=
 github.com/louisevanderlith/mango v0.2.21/go.mod h1:+9RvCkch8S6Tt+EV1pdAUCqh8r0jDdh0L+pYrX8QrcY=
 github.com/louisevanderlith/secure v0.0.0-20190317183523-c30af983991a h1:C7HiaEdbxhkxlQjFIli6OOGhMjggMqveoFi0gvitGa4=

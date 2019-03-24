@@ -23,7 +23,7 @@ func EnableFilter(s *mango.Service) *control.ControllerMap {
 
 	ctrlmap.Add("/lookup", emptyMap)
 
-	beego.InsertFilter("/*", beego.BeforeRouter, ctrlmap.FilterMaster)
+	beego.InsertFilter("/*", beego.BeforeRouter, ctrlmap.FilterAPI)
 
 	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
 		AllowAllOrigins: true,
@@ -32,5 +32,5 @@ func EnableFilter(s *mango.Service) *control.ControllerMap {
 		ExposeHeaders:   []string{"Content-Length", "Access-Control-Allow-Origin"},
 	}))
 
-	return ctrlmap.ControllerMap
+	return ctrlmap
 }

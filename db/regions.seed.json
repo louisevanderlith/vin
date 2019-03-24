@@ -1,0 +1,4187 @@
+[
+    {
+        "Name": "Africa",
+        "StartChar": "A",
+        "EndChar": "H",
+        "Countries": [
+            {
+                "RegionCode": "A",
+                "Name": "South Africa",
+                "StartChar": "A",
+                "EndChar": "H",
+                "Manufacturers": [
+                    {
+                        "WMICode": "AAV",
+                        "Name": "Volkswagen",
+                        "Description": "Volkswagen South Africa",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    },
+                    {
+                        "WMICode": "AC5",
+                        "Name": "Hyundai",
+                        "Description": "Hyundai South Africa",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    },
+                    {
+                        "WMICode": "ADD",
+                        "Name": "Hyundai",
+                        "Description": "Hyundai South Africa",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    },
+                    {
+                        "WMICode": "AFA",
+                        "Name": "Ford",
+                        "Description": "Ford South Africa",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    },
+                    {
+                        "WMICode": "AHT",
+                        "Name": "Toyota",
+                        "Description": "Toyota South Africa",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "A",
+                "Name": "Ivory Coast",
+                "StartChar": "J",
+                "EndChar": "N",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "A",
+                "Name": "Not Assigned",
+                "StartChar": "P",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "B",
+                "Name": "Angola",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "B",
+                "Name": "Kenya",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "BF9",
+                        "Name": "KIBO Motorcycles",
+                        "Description": "KIBO Motorcycles Kenya",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "B",
+                "Name": "Tanzania",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "B",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "C",
+                "Name": "Benin",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "C",
+                "Name": "Madagascar",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "C",
+                "Name": "Tunisia",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "CL9",
+                        "Name": "Wallyscar",
+                        "Description": "Wallyscar Tunisia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "C",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "D",
+                "Name": "Egypt",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "D",
+                "Name": "Morocco",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "D",
+                "Name": "Zambia",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "D",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "E",
+                "Name": "Ghana",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "E",
+                "Name": "Mozambique",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "E",
+                "Name": "Not Assigned",
+                "StartChar": "L",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "F",
+                "Name": "India",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "F",
+                "Name": "Nigeria",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "F",
+                "Name": "Not Assigned",
+                "StartChar": "L",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "G",
+                "Name": "Not Assigned",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "H",
+                "Name": "Not Assigned",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Asia",
+        "StartChar": "J",
+        "EndChar": "R",
+        "Countries": [
+            {
+                "RegionCode": "J",
+                "Name": "Japan",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "JA",
+                        "Name": "Isuzu",
+                        "Description": "Isuzu Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JC1",
+                        "Name": "Fiat Automobiles/Mazda",
+                        "Description": "Fiat Automobiles/Mazda Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JF",
+                        "Name": "Fuji Heavy Industries",
+                        "Description": "Fuji Heavy Industries Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JHL",
+                        "Name": "Honda",
+                        "Description": "Honda Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JHM",
+                        "Name": "Honda",
+                        "Description": "Honda Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JMB",
+                        "Name": "Mitsubishi",
+                        "Description": "Mitsubishi Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JM6",
+                        "Name": "Mazda",
+                        "Description": "Mazda Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JN",
+                        "Name": "Nissan",
+                        "Description": "Nissan Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JS",
+                        "Name": "Suzuki",
+                        "Description": "Suzuki Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JT",
+                        "Name": "Toyota",
+                        "Description": "Toyota Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JY",
+                        "Name": "Yamaha",
+                        "Description": "Yamaha Japan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JA3",
+                        "Name": "Mitsubishi",
+                        "Description": "Mitsubishi",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JA4",
+                        "Name": "Mitsubishi",
+                        "Description": "Mitsubishi",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JA",
+                        "Name": "Isuzu",
+                        "Description": "Isuzu",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JD",
+                        "Name": "Daihatsu",
+                        "Description": "Daihatsu",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JF",
+                        "Name": "Fuji Heavy Industries (Subaru)",
+                        "Description": "Fuji Heavy Industries (Subaru)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JH",
+                        "Name": "Honda",
+                        "Description": "Honda",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JK",
+                        "Name": "Kawasaki",
+                        "Description": "Kawasaki",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JL5",
+                        "Name": "Mitsubishi Fuso",
+                        "Description": "Mitsubishi Fuso",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JMB",
+                        "Name": "Mitsubishi Motors",
+                        "Description": "Mitsubishi Motors",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JMY",
+                        "Name": "Mitsubishi Motors",
+                        "Description": "Mitsubishi Motors",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JMZ",
+                        "Name": "Mazda",
+                        "Description": "Mazda",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JN",
+                        "Name": "Nissan",
+                        "Description": "Nissan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JS",
+                        "Name": "Suzuki",
+                        "Description": "Suzuki",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JT",
+                        "Name": "Toyota",
+                        "Description": "Toyota",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "JY",
+                        "Name": "Yamaha",
+                        "Description": "Yamaha Japan",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "K",
+                "Name": "Sri Lanka",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "K",
+                "Name": "Isreal",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "K",
+                "Name": "South Korea",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "KL",
+                        "Name": "Daewoo General Motors South Korea",
+                        "Description": "Daewoo General Motors South Korea",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KM",
+                        "Name": "Hyundai",
+                        "Description": "Hyundai",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KMY",
+                        "Name": "Daelim",
+                        "Description": "Daelim",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KM1",
+                        "Name": "Hyosung",
+                        "Description": "Hyosung Korea",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KN",
+                        "Name": "Kia",
+                        "Description": "Kia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KNM",
+                        "Name": "Renault Samsung",
+                        "Description": "Renault Samsung",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KPA",
+                        "Name": "SsangYong",
+                        "Description": "SsangYong",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KPT",
+                        "Name": "SsangYong",
+                        "Description": "SsangYong",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KL",
+                        "Name": "Daewoo/GM",
+                        "Description": "Daewoo/GM Korea South Korea",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KMH",
+                        "Name": "Hyundai",
+                        "Description": "Hyundai South Korea",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KN",
+                        "Name": "Kia",
+                        "Description": "Kia South Korea",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "KPT",
+                        "Name": "SsangYong",
+                        "Description": "SsangYong South Korea",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "K",
+                "Name": "Kazakhstan",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "L",
+                "Name": "China",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "LAE",
+                        "Name": "Jinan Qingqi Motorcycle",
+                        "Description": "Jinan Qingqi Motorcycle",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LAN",
+                        "Name": "Changzhou Yamasaki Motorcycle",
+                        "Description": "Changzhou Yamasaki Motorcycle",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBB",
+                        "Name": "Zhejiang Qianjiang Motorcycle (Keeway/Generic)",
+                        "Description": "Zhejiang Qianjiang Motorcycle (Keeway/Generic)",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBE",
+                        "Name": "Beijing Hyundai",
+                        "Description": "Beijing Hyundai",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBM",
+                        "Name": "Zongshen Piaggio",
+                        "Description": "Zongshen Piaggio",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBP",
+                        "Name": "Chongqing Jainshe Yamaha",
+                        "Description": "Chongqing Jainshe Yamaha",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LB2",
+                        "Name": "Geely Motorcycles",
+                        "Description": "Geely Motorcycles",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LCE",
+                        "Name": "Hangzhou Chunfeng Motorcycles (CFMOTO)",
+                        "Description": "Hangzhou Chunfeng Motorcycles (CFMOTO)",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LDC",
+                        "Name": "Dong Feng Peugeot Citroen (DPCA), China",
+                        "Description": "Dong Feng Peugeot Citroen (DPCA), China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LDD",
+                        "Name": "Dandong Huanghai Automobile",
+                        "Description": "Dandong Huanghai Automobile",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LDN",
+                        "Name": "SouEast Motor",
+                        "Description": "SouEast Motor",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LDY",
+                        "Name": "Zhongtong Coach",
+                        "Description": "Zhongtong Coach, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LET",
+                        "Name": "Jiangling-Isuzu Motors",
+                        "Description": "Jiangling-Isuzu Motors, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LE4",
+                        "Name": "Beijing Benz",
+                        "Description": "Beijing Benz, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFB",
+                        "Name": "FAW, China",
+                        "Description": "FAW, China (busses)",
+                        "VehicleType": 2,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFG",
+                        "Name": "Taizhou Chuanl Motorcycle Manufacturing",
+                        "Description": "Taizhou Chuanl Motorcycle Manufacturing",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFP",
+                        "Name": "FAW, China (passenger vehicles)",
+                        "Description": "FAW, China (passenger vehicles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFT",
+                        "Name": "FAW, China (trailers)",
+                        "Description": "FAW, China (trailers)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFV",
+                        "Name": "FAW-Volkswagen, China",
+                        "Description": "FAW-Volkswagen, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFW",
+                        "Name": "FAW JieFang, China",
+                        "Description": "FAW JieFang, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFY",
+                        "Name": "Changshu Light Motorcycle Factory",
+                        "Description": "Changshu Light Motorcycle Factory",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGB",
+                        "Name": "Dong Feng (DFM), China",
+                        "Description": "Dong Feng (DFM), China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGH",
+                        "Name": "Qoros (formerly Dong Feng (DFM)), China",
+                        "Description": "Qoros (formerly Dong Feng (DFM)), China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGX",
+                        "Name": "BYD Auto, China",
+                        "Description": "BYD Auto, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LHB",
+                        "Name": "Beijing Automotive Industry Holding",
+                        "Description": "Beijing Automotive Industry Holding",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LH1",
+                        "Name": "FAW-Haima, China",
+                        "Description": "FAW-Haima, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LJC",
+                        "Name": "JAC, China",
+                        "Description": "JAC, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LJ1",
+                        "Name": "JAC, China",
+                        "Description": "JAC, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LKL",
+                        "Name": "Suzhou King Long, China",
+                        "Description": "Suzhou King Long, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LL6",
+                        "Name": "Hunan Changfeng Manufacture Joint-Stock",
+                        "Description": "Hunan Changfeng Manufacture Joint-Stock",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LL8",
+                        "Name": "Linhai (ATV)",
+                        "Description": "Linhai (ATV)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LMC",
+                        "Name": "Suzuki Hong Kong (motorcycles)",
+                        "Description": "Suzuki Hong Kong (motorcycles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LPR",
+                        "Name": "Yamaha Hong Kong (motorcycles)",
+                        "Description": "Yamaha Hong Kong (motorcycles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSG",
+                        "Name": "Shanghai General Motors, China",
+                        "Description": "Shanghai General Motors, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSJ",
+                        "Name": "MG Motor UK Limited - SAIC Motor, Shanghai, China",
+                        "Description": "MG Motor UK Limited - SAIC Motor, Shanghai, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSV",
+                        "Name": "Shanghai Volkswagen, China",
+                        "Description": "Shanghai Volkswagen, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSY",
+                        "Name": "Brilliance Zhonghua",
+                        "Description": "Brilliance Zhonghua",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LTV",
+                        "Name": "Toyota Tian Jin",
+                        "Description": "Toyota Tian Jin",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LUC",
+                        "Name": "Guangqi Honda, China",
+                        "Description": "Guangqi Honda, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVS",
+                        "Name": "Ford Chang An",
+                        "Description": "Ford Chang An",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVV",
+                        "Name": "Chery, China",
+                        "Description": "Chery, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVZ",
+                        "Name": "Dong Feng Sokon Motor Company (DFSK)",
+                        "Description": "Dong Feng Sokon Motor Company (DFSK)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZM",
+                        "Name": "MAN China",
+                        "Description": "MAN China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZE",
+                        "Name": "Isuzu Guangzhou, China",
+                        "Description": "Isuzu Guangzhou, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZG",
+                        "Name": "Shaanxi Automobile Group, China",
+                        "Description": "Shaanxi Automobile Group, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZP",
+                        "Name": "Zhongshan Guochi Motorcycle (Baotian)",
+                        "Description": "Zhongshan Guochi Motorcycle (Baotian)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZY",
+                        "Name": "Yutong Zhengzhou, China",
+                        "Description": "Yutong Zhengzhou, China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZZ",
+                        "Name": "Chongqing Shuangzing Mech & Elec (Howo)",
+                        "Description": "Chongqing Shuangzing Mech & Elec (Howo)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L4B",
+                        "Name": "Xingyue Group (motorcycles)",
+                        "Description": "Xingyue Group (motorcycles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L5C",
+                        "Name": "KangDi (ATV)",
+                        "Description": "KangDi (ATV)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L5K",
+                        "Name": "Zhejiang Yongkang Easy Vehicle",
+                        "Description": "Zhejiang Yongkang Easy Vehicle",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L5N",
+                        "Name": "Zhejiang Taotao, China (ATV & motorcycles)",
+                        "Description": "Zhejiang Taotao, China (ATV & motorcycles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L5Y",
+                        "Name": "Merato Motorcycle Taizhou Zhongneng",
+                        "Description": "Merato Motorcycle Taizhou Zhongneng",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L85",
+                        "Name": "Zhejiang Yongkang Huabao Electric Appliance",
+                        "Description": "Zhejiang Yongkang Huabao Electric Appliance",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L8X",
+                        "Name": "Zhejiang Summit Huawin Motorcycle",
+                        "Description": "Zhejiang Summit Huawin Motorcycle",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L2C",
+                        "Name": "Chery Jaguar Land Rover",
+                        "Description": "Chery Jaguar Land Rover China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "L6T",
+                        "Name": "Geely",
+                        "Description": "Geely China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LB3",
+                        "Name": "Geely",
+                        "Description": "Geely China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LA6",
+                        "Name": "King Long",
+                        "Description": "King Long China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBE",
+                        "Name": "Beijing Hyundai",
+                        "Description": "Beijing Hyundai China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LBV",
+                        "Name": "BMW Brilliance",
+                        "Description": "BMW Brilliance China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LC0",
+                        "Name": "BYD Industry",
+                        "Description": "BYD Industry China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LDC",
+                        "Name": "Dongfeng Peugeot-Citroën",
+                        "Description": "Dongfeng Peugeot-Citroën China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LE4",
+                        "Name": "Beijing Benz",
+                        "Description": "Beijing Benz China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFM",
+                        "Name": "FAW Toyota",
+                        "Description": "FAW Toyota China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFP",
+                        "Name": "FAW Car",
+                        "Description": "FAW Car China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LFV",
+                        "Name": "FAW-Volkswagen",
+                        "Description": "FAW-Volkswagen China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGB",
+                        "Name": "Dongfeng Nissan",
+                        "Description": "Dongfeng Nissan China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGJ",
+                        "Name": "Dongfeng Fengshen",
+                        "Description": "Dongfeng Fengshen China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGW",
+                        "Name": "Great Wall (Havel)",
+                        "Description": "Great Wall (Havel) China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LGX",
+                        "Name": "BYD Auto",
+                        "Description": "BYD Auto China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LH1",
+                        "Name": "FAW Haima",
+                        "Description": "FAW Haima China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LHG",
+                        "Name": "Guangzhou Honda",
+                        "Description": "Guangzhou Honda China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LJ1",
+                        "Name": "JAC",
+                        "Description": "JAC China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LJD",
+                        "Name": "Dongfeng Yueda Kia",
+                        "Description": "Dongfeng Yueda Kia China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LLV",
+                        "Name": "Lifan",
+                        "Description": "Lifan China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LMG",
+                        "Name": "GAC Trumpchi",
+                        "Description": "GAC Trumpchi China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LPA ",
+                        "Name": "Changan PSA (DS Automobiles)",
+                        "Description": "Changan PSA (DS Automobiles) China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LS5",
+                        "Name": "Changan Suzuki",
+                        "Description": "Changan Suzuki China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSFA",
+                        "Name": "SAIC Maxus",
+                        "Description": "SAIC Maxus China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSG",
+                        "Name": "SAIC General Motors",
+                        "Description": "SAIC General Motors China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSJ",
+                        "Name": "SAIC MG",
+                        "Description": "SAIC MG China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LSV",
+                        "Name": "SAIC Volkswagen",
+                        "Description": "SAIC Volkswagen China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LTV",
+                        "Name": "FAW Toyota (Tianjin)",
+                        "Description": "FAW Toyota (Tianjin) China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVG",
+                        "Name": "GAC Toyota",
+                        "Description": "GAC Toyota China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVH",
+                        "Name": "Dongfeng Honda",
+                        "Description": "Dongfeng Honda China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVR",
+                        "Name": "Changan Mazda",
+                        "Description": "Changan Mazda China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVS",
+                        "Name": "Changan Ford",
+                        "Description": "Changan Ford China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LVV",
+                        "Name": "Chery",
+                        "Description": "Chery China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LWV",
+                        "Name": "GAC Fiat",
+                        "Description": "GAC Fiat China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZW",
+                        "Name": "SAIC GM Wuling",
+                        "Description": "SAIC GM Wuling China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "LZY",
+                        "Name": "Yutong",
+                        "Description": "Yutong China",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "M",
+                "Name": "India",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "MAB",
+                        "Name": "Mahindra & Mahindra",
+                        "Description": "Mahindra & Mahindra",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MAC",
+                        "Name": "Mahindra & Mahindra",
+                        "Description": "Mahindra & Mahindra",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MAJ",
+                        "Name": "Ford India",
+                        "Description": "Ford India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MAK",
+                        "Name": "Honda Siel Cars India",
+                        "Description": "Honda Siel Cars India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MAL",
+                        "Name": "Hyundai",
+                        "Description": "Hyundai",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MAT",
+                        "Name": "Tata Motors",
+                        "Description": "Tata Motors",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MA1",
+                        "Name": "Mahindra & Mahindra",
+                        "Description": "Mahindra & Mahindra",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MA3",
+                        "Name": "Suzuki India (Maruti)",
+                        "Description": "Suzuki India (Maruti)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MA6",
+                        "Name": "GM India",
+                        "Description": "GM India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MA7",
+                        "Name": "Mitsubishi India (formerly Honda)",
+                        "Description": "Mitsubishi India (formerly Honda)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MBH",
+                        "Name": "Suzuki India (Maruti)",
+                        "Description": "Suzuki India (Maruti)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MBJ",
+                        "Name": "Toyota India",
+                        "Description": "Toyota India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MBR",
+                        "Name": "Mercedes-Benz India",
+                        "Description": "Mercedes-Benz India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MB1",
+                        "Name": "Ashok Leyland",
+                        "Description": "Ashok Leyland",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MCA",
+                        "Name": "Fiat India",
+                        "Description": "Fiat India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MCB",
+                        "Name": "GM India",
+                        "Description": "GM India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MC2",
+                        "Name": "Volvo Eicher commercial vehicles limited.",
+                        "Description": "Volvo Eicher commercial vehicles limited.",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MDH",
+                        "Name": "Nissan India",
+                        "Description": "Nissan India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MD2",
+                        "Name": "Bajaj Auto",
+                        "Description": "Bajaj Auto",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MD9",
+                        "Name": "Shuttle Cars India",
+                        "Description": "Shuttle Cars India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MEE",
+                        "Name": "Renault India",
+                        "Description": "Renault India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MEX",
+                        "Name": "Volkswagen India",
+                        "Description": "Volkswagen India",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "M",
+                "Name": "Indonesia",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "MHF",
+                        "Name": "Toyota Indonesia",
+                        "Description": "Toyota Indonesia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MHR",
+                        "Name": "Honda Indonesia",
+                        "Description": "Honda Indonesia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "M",
+                "Name": "Thailand",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "MLC",
+                        "Name": "Suzuki Thailand",
+                        "Description": "Suzuki Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MLH",
+                        "Name": "Honda Thailand",
+                        "Description": "Honda Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MMB",
+                        "Name": "Mitsubishi Thailand",
+                        "Description": "Mitsubishi Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MMC",
+                        "Name": "Mitsubishi Thailand",
+                        "Description": "Mitsubishi Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MMM",
+                        "Name": "Chevrolet Thailand",
+                        "Description": "Chevrolet Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MMS",
+                        "Name": "Suzuki Thailand",
+                        "Description": "Suzuki Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MMT",
+                        "Name": "Mitsubishi Thailand",
+                        "Description": "Mitsubishi Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MM8",
+                        "Name": "Mazda Thailand",
+                        "Description": "Mazda Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MNB",
+                        "Name": "Ford Thailand",
+                        "Description": "Ford Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MNT",
+                        "Name": "Nissan Thailand",
+                        "Description": "Nissan Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MPA",
+                        "Name": "Isuzu Thailand",
+                        "Description": "Isuzu Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MP1",
+                        "Name": "Isuzu Thailand",
+                        "Description": "Isuzu Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MRH",
+                        "Name": "Honda Thailand",
+                        "Description": "Honda Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MR0",
+                        "Name": "Toyota Thailand",
+                        "Description": "Toyota Thailand",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "M",
+                "Name": "Myanmar",
+                "StartChar": "S",
+                "EndChar": "S",
+                "Manufacturers": [
+                    {
+                        "WMICode": "MS0",
+                        "Name": "KIA Myanmar",
+                        "Description": "KIA Myanmar",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "MS3",
+                        "Name": "Suzuki Myanmar Motor Co.,Ltd.",
+                        "Description": "Suzuki Myanmar Motor Co.,Ltd.",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "M",
+                "Name": "Not Assigned",
+                "StartChar": "T",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "N",
+                "Name": "Iran",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "N",
+                "Name": "Pakistan",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "N",
+                "Name": "Turkey",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "NLA",
+                        "Name": "Honda Türkiye",
+                        "Description": "Honda Türkiye",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NLE",
+                        "Name": "Mercedes-Benz Türk Truck",
+                        "Description": "Mercedes-Benz Türk Truck",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NLH",
+                        "Name": "Hyundai Assan",
+                        "Description": "Hyundai Assan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NLT",
+                        "Name": "TEMSA",
+                        "Description": "TEMSA",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NMB",
+                        "Name": "Mercedes-Benz Türk Buses",
+                        "Description": "Mercedes-Benz Türk Buses",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NMC",
+                        "Name": "BMC",
+                        "Description": "BMC",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NM0",
+                        "Name": "Ford Turkey",
+                        "Description": "Ford Turkey",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NM4",
+                        "Name": "Tofaş Türk",
+                        "Description": "Tofaş Türk",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NMT",
+                        "Name": "Toyota Türkiye",
+                        "Description": "Toyota Türkiye",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "NNA",
+                        "Name": "Isuzu Turkey",
+                        "Description": "Isuzu Turkey",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "N",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "P",
+                "Name": "Philippenes",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "PE1",
+                        "Name": "Ford Philippines",
+                        "Description": "Ford Philippines",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "PE3",
+                        "Name": "Mazda Philippines",
+                        "Description": "Mazda Philippines",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "P",
+                "Name": "Singapore",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "P",
+                "Name": "Malaysia",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "PL1",
+                        "Name": "Proton, Malaysia",
+                        "Description": "Proton, Malaysia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "PNA",
+                        "Name": "NAZA, Malaysia (Peugeot)",
+                        "Description": "NAZA, Malaysia (Peugeot)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "P",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "R",
+                "Name": "UAE",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "RA1",
+                        "Name": "Steyr Trucks International FZE",
+                        "Description": "Steyr Trucks International FZE, UAE",
+                        "VehicleType": 2,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "R",
+                "Name": "Taiwan",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "RFB",
+                        "Name": "Kymco, Taiwan",
+                        "Description": "Kymco, Taiwan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "RFG",
+                        "Name": "Sanyang SYM, Taiwan",
+                        "Description": "Sanyang SYM, Taiwan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "RFL",
+                        "Name": "Adly, Taiwan",
+                        "Description": "Adly, Taiwan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "RFT",
+                        "Name": "CPI, Taiwan",
+                        "Description": "CPI, Taiwan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "RF3",
+                        "Name": "Aeon Motor, Taiwan",
+                        "Description": "Aeon Motor, Taiwan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "R",
+                "Name": "Vietnam",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "R",
+                "Name": "Saudi Arabia",
+                "StartChar": "S",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Europe",
+        "StartChar": "S",
+        "EndChar": "Z",
+        "Countries": [
+            {
+                "RegionCode": "S",
+                "Name": "United Kingdom",
+                "StartChar": "A",
+                "EndChar": "M",
+                "Manufacturers": [
+                    {
+                        "WMICode": "SAB",
+                        "Name": "Optare",
+                        "Description": "Optare",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SAD",
+                        "Name": "Jaguar (F-Pace, I-Pace)",
+                        "Description": "Jaguar (F-Pace, I-Pace)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SAL",
+                        "Name": "Land Rover",
+                        "Description": "Land Rover",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SAJ",
+                        "Name": "Jaguar",
+                        "Description": "Jaguar",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SAR",
+                        "Name": "Rover",
+                        "Description": "Rover",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SAX",
+                        "Name": "Austin-Rover",
+                        "Description": "Austin-Rover",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SB1",
+                        "Name": "Toyota UK",
+                        "Description": "Toyota UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SBM",
+                        "Name": "McLaren",
+                        "Description": "McLaren",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SCA",
+                        "Name": "Rolls Royce",
+                        "Description": "Rolls Royce",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SCB",
+                        "Name": "Bentley",
+                        "Description": "Bentley",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SCC",
+                        "Name": "Lotus Cars",
+                        "Description": "Lotus Cars",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SCE",
+                        "Name": "DeLorean Motor Cars N. Ireland (UK)",
+                        "Description": "DeLorean Motor Cars N. Ireland (UK)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SCF",
+                        "Name": "Aston",
+                        "Description": "Aston",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SDB",
+                        "Name": "Peugeot UK (formerly Talbot)",
+                        "Description": "Peugeot UK (formerly Talbot)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SED",
+                        "Name": "General Motors Luton Plant",
+                        "Description": "General Motors Luton Plant",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SEY",
+                        "Name": "LDV",
+                        "Description": "LDV",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SFA",
+                        "Name": "Ford UK",
+                        "Description": "Ford UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SFD",
+                        "Name": "Alexander Dennis UK",
+                        "Description": "Alexander Dennis UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SHH",
+                        "Name": "Honda UK",
+                        "Description": "Honda UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SHS",
+                        "Name": "Honda UK",
+                        "Description": "Honda UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SJN",
+                        "Name": "Nissan UK",
+                        "Description": "Nissan UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SKF",
+                        "Name": "Vauxhall",
+                        "Description": "Vauxhall",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SLP",
+                        "Name": "JCB Research UK",
+                        "Description": "JCB Research UK",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SMT",
+                        "Name": "Triumph Motorcycles",
+                        "Description": "Triumph Motorcycles",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "S",
+                "Name": "Eastern Germany",
+                "StartChar": "N",
+                "EndChar": "T",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "S",
+                "Name": "Poland",
+                "StartChar": "U",
+                "EndChar": "Z",
+                "Manufacturers": [
+                    {
+                        "WMICode": "SUF",
+                        "Name": "Fiat Auto Poland",
+                        "Description": "Fiat Auto Poland",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SUL",
+                        "Name": "FSC",
+                        "Description": "FSC (Poland)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SUP",
+                        "Name": "FSO-Daewoo",
+                        "Description": "FSO-Daewoo (Poland)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SUU",
+                        "Name": "Solaris Bus & Coach (Poland)",
+                        "Description": "Solaris Bus & Coach (Poland)",
+                        "VehicleType": 2,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "SWV",
+                        "Name": "TA-NO",
+                        "Description": "TA-NO (Poland)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "S",
+                "Name": "Latvia",
+                "StartChar": "1",
+                "EndChar": "4",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "S",
+                "Name": "Not Assigned",
+                "StartChar": "5",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "T",
+                "Name": "Switzerland",
+                "StartChar": "A",
+                "EndChar": "H",
+                "Manufacturers": [
+                    {
+                        "WMICode": "TCC",
+                        "Name": "Micro Compact Car AG (smart 1998-1999)",
+                        "Description": "Micro Compact Car AG (smart 1998-1999)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TDM",
+                        "Name": "QUANTYA Swiss Electric Movement (Switzerland)",
+                        "Description": "QUANTYA Swiss Electric Movement (Switzerland)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "T",
+                "Name": "Czech Republic",
+                "StartChar": "J",
+                "EndChar": "P",
+                "Manufacturers": [
+                    {
+                        "WMICode": "TK9",
+                        "Name": "SOR buses (Czech Republic)",
+                        "Description": "SOR buses (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TMA",
+                        "Name": "Hyundai Motor Manufacturing Czech",
+                        "Description": "Hyundai Motor Manufacturing Czech",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TMB",
+                        "Name": "Škoda (Czech Republic)",
+                        "Description": "Škoda (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TMK",
+                        "Name": "Karosa (Czech Republic)",
+                        "Description": "Karosa (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TMP",
+                        "Name": "Škoda trolleybuses (Czech Republic)",
+                        "Description": "Škoda trolleybuses (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TMT",
+                        "Name": "Tatra (Czech Republic)",
+                        "Description": "Tatra (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TM9",
+                        "Name": "Škoda trolleybuses (Czech Republic)",
+                        "Description": "Škoda trolleybuses (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TNE",
+                        "Name": "TAZ",
+                        "Description": "TAZ",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TN9",
+                        "Name": "Karosa (Czech Republic)",
+                        "Description": "Karosa (Czech Republic)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "T",
+                "Name": "Hungary",
+                "StartChar": "R",
+                "EndChar": "V",
+                "Manufacturers": [
+                    {
+                        "WMICode": "TRA",
+                        "Name": "Ikarus Bus",
+                        "Description": "Ikarus Bus",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TRU",
+                        "Name": "Audi Hungary",
+                        "Description": "Audi Hungary",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TSB",
+                        "Name": "Ikarus Bus",
+                        "Description": "Ikarus Bus",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TSE",
+                        "Name": "Ikarus Egyedi Autobuszgyar, (Hungary)",
+                        "Description": "Ikarus Egyedi Autobuszgyar, (Hungary)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TSM",
+                        "Name": "Suzuki Hungary",
+                        "Description": "Suzuki Hungary",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "T",
+                "Name": "Portugal",
+                "StartChar": "W",
+                "EndChar": "1",
+                "Manufacturers": [
+                    {
+                        "WMICode": "TW1",
+                        "Name": "Toyota Caetano Portugal",
+                        "Description": "Toyota Caetano Portugal",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TYA",
+                        "Name": "Mitsubishi Trucks Portugal",
+                        "Description": "Mitsubishi Trucks Portugal",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "TYB",
+                        "Name": "Mitsubishi Trucks Portugal",
+                        "Description": "Mitsubishi Trucks Portugal",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "T",
+                "Name": "Not Assigned",
+                "StartChar": "2",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Not Assigned",
+                "StartChar": "A",
+                "EndChar": "G",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Denmark",
+                "StartChar": "H",
+                "EndChar": "M",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Ireland",
+                "StartChar": "N",
+                "EndChar": "T",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Romania",
+                "StartChar": "U",
+                "EndChar": "Z",
+                "Manufacturers": [
+                    {
+                        "WMICode": "UU1",
+                        "Name": "Renault Dacia, (Romania)",
+                        "Description": "Renault Dacia, (Romania)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "UU3",
+                        "Name": "ARO",
+                        "Description": "ARO",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "UU6",
+                        "Name": "Daewoo Romania",
+                        "Description": "Daewoo Romania",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Not Assigned",
+                "StartChar": "1",
+                "EndChar": "4",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Slovakia",
+                "StartChar": "5",
+                "EndChar": "7",
+                "Manufacturers": [
+                    {
+                        "WMICode": "U5Y",
+                        "Name": "Kia Motors",
+                        "Description": "Kia Motors Slovakia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "U6Y",
+                        "Name": "Kia Motors",
+                        "Description": "Kia Motors Slovakia",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "U",
+                "Name": "Not Assigned",
+                "StartChar": "8",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "Austria",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "France",
+                "StartChar": "F",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "VAG",
+                        "Name": "Magna Steyr Puch",
+                        "Description": "Magna Steyr Puch",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VAN",
+                        "Name": "MAN Austria",
+                        "Description": "MAN Austria",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VBK",
+                        "Name": "KTM (Motorcycles)",
+                        "Description": "KTM (Motorcycles)",
+                        "VehicleType": 1,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF1",
+                        "Name": "Renault",
+                        "Description": "Renault",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF2",
+                        "Name": "Renault",
+                        "Description": "Renault",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF3",
+                        "Name": "Peugeot",
+                        "Description": "Peugeot",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF4",
+                        "Name": "Talbot",
+                        "Description": "Talbot",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF6",
+                        "Name": "Renault (Trucks & Buses)",
+                        "Description": "Renault (Trucks & Buses)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF7",
+                        "Name": "Citroën",
+                        "Description": "Citroën",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF8",
+                        "Name": "Matra",
+                        "Description": "Matra",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VF9",
+                        "Name": "Bugatti",
+                        "Description": "Bugatti",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VG5",
+                        "Name": "MBK (motorcycles)",
+                        "Description": "MBK (motorcycles)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VLU",
+                        "Name": "Scania France",
+                        "Description": "Scania France",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VN1",
+                        "Name": "SOVAB (France)",
+                        "Description": "SOVAB (France)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VNE",
+                        "Name": "Irisbus (France)",
+                        "Description": "Irisbus (France)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VNK",
+                        "Name": "Toyota France",
+                        "Description": "Toyota France",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VNV",
+                        "Name": "Renault-Nissan",
+                        "Description": "Renault-Nissan",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    }
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "Spain",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "VSA",
+                        "Name": "Mercedes-Benz Spain",
+                        "Description": "Mercedes-Benz Spain",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VSE",
+                        "Name": "Suzuki Spain (Santana Motors)",
+                        "Description": "Suzuki Spain (Santana Motors)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VSK",
+                        "Name": "Nissan Spain",
+                        "Description": "Nissan Spain",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VSS",
+                        "Name": "SEAT",
+                        "Description": "SEAT",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VSX",
+                        "Name": "Opel Spain",
+                        "Description": "Opel Spain",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VS6",
+                        "Name": "Ford Spain",
+                        "Description": "Ford Spain",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VS7",
+                        "Name": "Citroën Spain",
+                        "Description": "Citroën Spain",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                    {
+                        "WMICode": "VS9",
+                        "Name": "Carrocerias Ayats (Spain)",
+                        "Description": "Carrocerias Ayats (Spain)",
+                        "VehicleType": 0,
+                        "AssemblyPlants": []
+                    },
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "Serbia",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "Croatia",
+                "StartChar": "3",
+                "EndChar": "5",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "V",
+                "Name": "Estonia",
+                "StartChar": "6",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "W",
+                "Name": "Germany",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "Bulgaria",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "Greece",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "Netherlands",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "USSR",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "Luxembourg",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "X",
+                "Name": "Russia",
+                "StartChar": "3",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Belgium",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Finland",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Malta",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Sweden",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Norway",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Belarus",
+                "StartChar": "3",
+                "EndChar": "5",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Y",
+                "Name": "Ukraine",
+                "StartChar": "6",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Z",
+                "Name": "Italy",
+                "StartChar": "A",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Z",
+                "Name": "Not Assigned",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Z",
+                "Name": "Slovenia",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Z",
+                "Name": "Lithuania",
+                "StartChar": "3",
+                "EndChar": "5",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "Z",
+                "Name": "Not Assigned",
+                "StartChar": "6",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "North America",
+        "StartChar": "1",
+        "EndChar": "5",
+        "Countries": [
+            {
+                "RegionCode": "1",
+                "Name": "United States",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "2",
+                "Name": "Canada",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "3",
+                "Name": "Mexico",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "4",
+                "Name": "United States",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "5",
+                "Name": "United States",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Oceania",
+        "StartChar": "6",
+        "EndChar": "7",
+        "Countries": [
+            {
+                "RegionCode": "6",
+                "Name": "Australia",
+                "StartChar": "A",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "6",
+                "Name": "Not Assigned",
+                "StartChar": "X",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "7",
+                "Name": "New Zealand",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "7",
+                "Name": "Not Assigned",
+                "StartChar": "F",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "South America",
+        "StartChar": "8",
+        "EndChar": "0",
+        "Countries": [
+            {
+                "RegionCode": "8",
+                "Name": "Argentina",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "8",
+                "Name": "Chile",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "8",
+                "Name": "Ecuador",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "8",
+                "Name": "Peru",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "8",
+                "Name": "Venezuela",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "8",
+                "Name": "Not Assigned",
+                "StartChar": "3",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Brazil",
+                "StartChar": "A",
+                "EndChar": "E",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Colombia",
+                "StartChar": "F",
+                "EndChar": "K",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Paraguay",
+                "StartChar": "L",
+                "EndChar": "R",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Uruguay",
+                "StartChar": "S",
+                "EndChar": "W",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Trinidad & Tobago",
+                "StartChar": "X",
+                "EndChar": "2",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Brazil",
+                "StartChar": "3",
+                "EndChar": "9",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "9",
+                "Name": "Not Assigned",
+                "StartChar": "0",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionCode": "0",
+                "Name": "Not Assigned",
+                "StartChar": "A",
+                "EndChar": "0",
+                "Manufacturers": [
+                    {
+                        "WMICode": "",
+                        "Name": "",
+                        "Description": "",
+                        "VehicleType": 0,
+                        "AssemblyPlants": [
+                            {
+                                "Code": "",
+                                "Name": "",
+                                "Country": "",
+                                "StartYear": 1921,
+                                "EndYear": 2101
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

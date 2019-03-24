@@ -1,0 +1,3382 @@
+[
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        "WMICode": "R2P",
+        "Name": "Evoke Electric Motorcycles HK",
+        "Description": "Evoke Electric Motorcycles HK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "795",
+        "Name": "Bugatti",
+        "Description": "Bugatti",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        "WMICode": "VTH",
+        "Name": "Derbi (motorcycles)",
+        "Description": "Derbi (motorcycles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VTL",
+        "Name": "Yamaha Spain (motorcycles)",
+        "Description": "Yamaha Spain (motorcycles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VTT",
+        "Name": "Suzuki Spain (motorcycles)",
+        "Description": "Suzuki Spain (motorcycles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VV9",
+        "Name": "TAURO Spain",
+        "Description": "TAURO Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VWA",
+        "Name": "Nissan Spain",
+        "Description": "Nissan Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VWV",
+        "Name": "Volkswagen Spain",
+        "Description": "Volkswagen Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VX1",
+        "Name": "Zastava / Yugo Serbia",
+        "Description": "Zastava / Yugo Serbia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WAG",
+        "Name": "Neoplan",
+        "Description": "Neoplan",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WAU",
+        "Name": "Audi",
+        "Description": "Audi",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WA1",
+        "Name": "Audi SUV",
+        "Description": "Audi SUV",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBA",
+        "Name": "BMW",
+        "Description": "BMW",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBS",
+        "Name": "BMW M",
+        "Description": "BMW M",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBW",
+        "Name": "BMW",
+        "Description": "BMW",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBY",
+        "Name": "BMW",
+        "Description": "BMW",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDA",
+        "Name": "Daimler",
+        "Description": "Daimler",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDB",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDC",
+        "Name": "DaimlerChrysler",
+        "Description": "DaimlerChrysler",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDD",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDF",
+        "Name": "Mercedes-Benz (commercial vehicles)",
+        "Description": "Mercedes-Benz (commercial vehicles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WEB",
+        "Name": "Evobus GmbH (Mercedes-Bus)",
+        "Description": "Evobus GmbH (Mercedes-Bus)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WJM",
+        "Name": "Iveco Magirus",
+        "Description": "Iveco Magirus",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WF0",
+        "Name": "Ford Germany",
+        "Description": "Ford Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WKE",
+        "Name": "Fahrzeugwerk Bernard Krone GmbH & Co. KG",
+        "Description": "Fahrzeugwerk Bernard Krone GmbH & Co. KG",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WKK",
+        "Name": "Kässbohrer/Setra",
+        "Description": "Kässbohrer/Setra",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMA",
+        "Name": "MAN Germany",
+        "Description": "MAN Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WME",
+        "Name": "smart",
+        "Description": "smart",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMW",
+        "Name": "MINI",
+        "Description": "MINI",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMX",
+        "Name": "Mercedes-AMG",
+        "Description": "Mercedes-AMG",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WP0",
+        "Name": "Porsche",
+        "Description": "Porsche",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WP1",
+        "Name": "Porsche SUV",
+        "Description": "Porsche SUV",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W09",
+        "Name": "RUF",
+        "Description": "RUF",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W0L",
+        "Name": "Opel",
+        "Description": "Opel",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W0V",
+        "Name": "Opel",
+        "Description": "Opel",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WUA",
+        "Name": "quattro GmbH",
+        "Description": "quattro GmbH",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WVG",
+        "Name": "Volkswagen MPV/SUV",
+        "Description": "Volkswagen MPV/SUV",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WVW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WV1",
+        "Name": "Volkswagen Commercial Vehicles",
+        "Description": "Volkswagen Commercial Vehicles",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WV2",
+        "Name": "Volkswagen Bus/Van",
+        "Description": "Volkswagen Bus/Van",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WV3",
+        "Name": "Volkswagen Trucks",
+        "Description": "Volkswagen Trucks",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XLB",
+        "Name": "Volvo (NedCar)",
+        "Description": "Volvo (NedCar)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XLE",
+        "Name": "Scania Netherlands",
+        "Description": "Scania Netherlands",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XLR",
+        "Name": "DAF (trucks)",
+        "Description": "DAF (trucks)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XL9/363",
+        "Name": "Spyker",
+        "Description": "Spyker",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XMC",
+        "Name": "Mitsubishi (NedCar)",
+        "Description": "Mitsubishi (NedCar)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTA",
+        "Name": "Lada/AvtoVAZ (Russia)",
+        "Description": "Lada/AvtoVAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTC",
+        "Name": "KAMAZ (Russia)",
+        "Description": "KAMAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTH",
+        "Name": "GAZ (Russia)",
+        "Description": "GAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTT",
+        "Name": "UAZ/Sollers (Russia)",
+        "Description": "UAZ/Sollers (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTU",
+        "Name": "Trolza (Russia)",
+        "Description": "Trolza (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTY",
+        "Name": "LiAZ (Russia)",
+        "Description": "LiAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XUF",
+        "Name": "General Motors Russia",
+        "Description": "General Motors Russia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XUU",
+        "Name": "AvtoTor (Russia, General Motors SKD)",
+        "Description": "AvtoTor (Russia, General Motors SKD)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XW8",
+        "Name": "Volkswagen Group Russia",
+        "Description": "Volkswagen Group Russia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XWB",
+        "Name": "UZ-Daewoo (Uzbekistan)",
+        "Description": "UZ-Daewoo (Uzbekistan)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XWE",
+        "Name": "AvtoTor (Russia, Hyundai-Kia SKD)",
+        "Description": "AvtoTor (Russia, Hyundai-Kia SKD)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "X1M",
+        "Name": "PAZ (Russia)",
+        "Description": "PAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "X4X",
+        "Name": "AvtoTor (Russia, BMW SKD)",
+        "Description": "AvtoTor (Russia, BMW SKD)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "X7L",
+        "Name": "Renault AvtoFramos (Russia)",
+        "Description": "Renault AvtoFramos (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "X7M",
+        "Name": "Hyundai TagAZ (Russia)",
+        "Description": "Hyundai TagAZ (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YBW",
+        "Name": "Volkswagen Belgium",
+        "Description": "Volkswagen Belgium",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YB1",
+        "Name": "Volvo Trucks Belgium",
+        "Description": "Volvo Trucks Belgium",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YCM",
+        "Name": "Mazda Belgium",
+        "Description": "Mazda Belgium",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YE2",
+        "Name": "Van Hool (buses)",
+        "Description": "Van Hool (buses)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YH2",
+        "Name": "BRP Finland (Lynx snowmobiles)",
+        "Description": "BRP Finland (Lynx snowmobiles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YK1",
+        "Name": "Saab-Valmet Finland",
+        "Description": "Saab-Valmet Finland",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS2",
+        "Name": "Scania AB",
+        "Description": "Scania AB",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS3",
+        "Name": "Saab",
+        "Description": "Saab",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS4",
+        "Name": "Scania Bus",
+        "Description": "Scania Bus",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YTN",
+        "Name": "Saab NEVS",
+        "Description": "Saab NEVS",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YT9/007",
+        "Name": "Koenigsegg",
+        "Description": "Koenigsegg",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YT9/034",
+        "Name": "Carvia",
+        "Description": "Carvia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YU7",
+        "Name": "Husaberg (motorcycles)",
+        "Description": "Husaberg (motorcycles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV1",
+        "Name": "Volvo Cars",
+        "Description": "Volvo Cars",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV4",
+        "Name": "Volvo Cars",
+        "Description": "Volvo Cars",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV2",
+        "Name": "Volvo Trucks",
+        "Description": "Volvo Trucks",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV3",
+        "Name": "Volvo Buses",
+        "Description": "Volvo Buses",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "Y3M",
+        "Name": "MAZ (Belarus)",
+        "Description": "MAZ (Belarus)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "Y6D",
+        "Name": "Zaporozhets/AvtoZAZ (Ukraine)",
+        "Description": "Zaporozhets/AvtoZAZ (Ukraine)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAA",
+        "Name": "Autobianchi",
+        "Description": "Autobianchi",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAM",
+        "Name": "Maserati",
+        "Description": "Maserati",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAP",
+        "Name": "Piaggio/Vespa/Gilera",
+        "Description": "Piaggio/Vespa/Gilera",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAR",
+        "Name": "Alfa Romeo",
+        "Description": "Alfa Romeo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZBN",
+        "Name": "Benelli",
+        "Description": "Benelli",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZCG",
+        "Name": "Cagiva SpA / MV Agusta",
+        "Description": "Cagiva SpA / MV Agusta",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZCF",
+        "Name": "Iveco",
+        "Description": "Iveco",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZDM",
+        "Name": "Ducati Motor Holdings SpA",
+        "Description": "Ducati Motor Holdings SpA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZDF",
+        "Name": "Ferrari Dino",
+        "Description": "Ferrari Dino",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZD0",
+        "Name": "Yamaha Italy",
+        "Description": "Yamaha Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZD3",
+        "Name": "Beta Motor",
+        "Description": "Beta Motor",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZD4",
+        "Name": "Aprilia",
+        "Description": "Aprilia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZFA",
+        "Name": "Fiat",
+        "Description": "Fiat",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZFC",
+        "Name": "Fiat V.I.",
+        "Description": "Fiat V.I.",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZFF",
+        "Name": "Ferrari",
+        "Description": "Ferrari",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZGU",
+        "Name": "Moto Guzzi",
+        "Description": "Moto Guzzi",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZHW",
+        "Name": "Lamborghini",
+        "Description": "Lamborghini",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZJM",
+        "Name": "Malaguti",
+        "Description": "Malaguti",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZJN",
+        "Name": "Innocenti",
+        "Description": "Innocenti",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZKH",
+        "Name": "Husqvarna Motorcycles Italy",
+        "Description": "Husqvarna Motorcycles Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZLA",
+        "Name": "Lancia",
+        "Description": "Lancia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "Z8M",
+        "Name": "Marussia (Russia)",
+        "Description": "Marussia (Russia)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1B3",
+        "Name": "Dodge",
+        "Description": "Dodge",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1C3",
+        "Name": "Chrysler",
+        "Description": "Chrysler",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1C4",
+        "Name": "Chrysler",
+        "Description": "Chrysler",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1C6",
+        "Name": "Chrysler",
+        "Description": "Chrysler",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1D3",
+        "Name": "Dodge",
+        "Description": "Dodge",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FA",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FB",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FC",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FD",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FM",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FT",
+        "Name": "Ford Motor Company",
+        "Description": "Ford Motor Company",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FU",
+        "Name": "Freightliner",
+        "Description": "Freightliner",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1FV",
+        "Name": "Freightliner",
+        "Description": "Freightliner",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1F9",
+        "Name": "FWD Corp.",
+        "Description": "FWD Corp.",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G",
+        "Name": "General Motors USA",
+        "Description": "General Motors USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GC",
+        "Name": "Chevrolet Truck USA",
+        "Description": "Chevrolet Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GT",
+        "Name": "GMC Truck USA",
+        "Description": "GMC Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G1",
+        "Name": "Chevrolet USA",
+        "Description": "Chevrolet USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G2",
+        "Name": "Pontiac USA",
+        "Description": "Pontiac USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G3",
+        "Name": "Oldsmobile USA",
+        "Description": "Oldsmobile USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G4",
+        "Name": "Buick USA",
+        "Description": "Buick USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G6",
+        "Name": "Cadillac USA",
+        "Description": "Cadillac USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G8",
+        "Name": "Saturn USA",
+        "Description": "Saturn USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GM",
+        "Name": "Pontiac USA",
+        "Description": "Pontiac USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GY",
+        "Name": "Cadillac USA",
+        "Description": "Cadillac USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1H",
+        "Name": "Honda USA",
+        "Description": "Honda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1HD",
+        "Name": "Harley-Davidson",
+        "Description": "Harley-Davidson",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1HT",
+        "Name": "International Truck and Engine Corp. USA",
+        "Description": "International Truck and Engine Corp. USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1J4",
+        "Name": "Jeep",
+        "Description": "Jeep",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1J8",
+        "Name": "Jeep",
+        "Description": "Jeep",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1L",
+        "Name": "Lincoln USA",
+        "Description": "Lincoln USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1ME",
+        "Name": "Mercury USA",
+        "Description": "Mercury USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M1",
+        "Name": "Mack Truck USA",
+        "Description": "Mack Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M2",
+        "Name": "Mack Truck USA",
+        "Description": "Mack Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M3",
+        "Name": "Mack Truck USA",
+        "Description": "Mack Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M4",
+        "Name": "Mack Truck USA",
+        "Description": "Mack Truck USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M9",
+        "Name": "Mynatt Truck & Equipment",
+        "Description": "Mynatt Truck & Equipment",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1N",
+        "Name": "Nissan USA",
+        "Description": "Nissan USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1NX",
+        "Name": "NUMMI USA",
+        "Description": "NUMMI USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1P3",
+        "Name": "Plymouth USA",
+        "Description": "Plymouth USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1R9",
+        "Name": "Roadrunner Hay Squeeze USA",
+        "Description": "Roadrunner Hay Squeeze USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1VW",
+        "Name": "Volkswagen USA",
+        "Description": "Volkswagen USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1XK",
+        "Name": "Kenworth USA",
+        "Description": "Kenworth USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1XP",
+        "Name": "Peterbilt USA",
+        "Description": "Peterbilt USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1YV",
+        "Name": "Mazda USA (AutoAlliance International)",
+        "Description": "Mazda USA (AutoAlliance International)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1ZV",
+        "Name": "Ford (AutoAlliance International)",
+        "Description": "Ford (AutoAlliance International)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2A4",
+        "Name": "Chrysler Canada",
+        "Description": "Chrysler Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2BP",
+        "Name": "Bombardier Recreational Products",
+        "Description": "Bombardier Recreational Products",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2B3",
+        "Name": "Dodge Canada",
+        "Description": "Dodge Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2B7",
+        "Name": "Dodge Canada",
+        "Description": "Dodge Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2C3",
+        "Name": "Chrysler Canada",
+        "Description": "Chrysler Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2CN",
+        "Name": "CAMI",
+        "Description": "CAMI",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2D3",
+        "Name": "Dodge Canada",
+        "Description": "Dodge Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FA",
+        "Name": "Ford Motor Company Canada",
+        "Description": "Ford Motor Company Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FB",
+        "Name": "Ford Motor Company Canada",
+        "Description": "Ford Motor Company Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FC",
+        "Name": "Ford Motor Company Canada",
+        "Description": "Ford Motor Company Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FM",
+        "Name": "Ford Motor Company Canada",
+        "Description": "Ford Motor Company Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FT",
+        "Name": "Ford Motor Company Canada",
+        "Description": "Ford Motor Company Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FU",
+        "Name": "Freightliner",
+        "Description": "Freightliner",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FV",
+        "Name": "Freightliner",
+        "Description": "Freightliner",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2FZ",
+        "Name": "Sterling",
+        "Description": "Sterling",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2Gx",
+        "Name": "General Motors Canada",
+        "Description": "General Motors Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G1",
+        "Name": "Chevrolet Canada",
+        "Description": "Chevrolet Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G2",
+        "Name": "Pontiac Canada",
+        "Description": "Pontiac Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G3",
+        "Name": "Oldsmobile Canada",
+        "Description": "Oldsmobile Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G4",
+        "Name": "Buick Canada",
+        "Description": "Buick Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G9",
+        "Name": "mfr. of less than 1000/ yr. Canada",
+        "Description": "mfr. of less than 1000/ yr. Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HG",
+        "Name": "Honda Canada",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HK",
+        "Name": "Honda Canada",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HJ",
+        "Name": "Honda Canada",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HM",
+        "Name": "Hyundai Canada",
+        "Description": "Hyundai Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2M",
+        "Name": "Mercury",
+        "Description": "Mercury",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2NV",
+        "Name": "Nova Bus Canada",
+        "Description": "Nova Bus Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2P3",
+        "Name": "Plymouth Canada",
+        "Description": "Plymouth Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2T",
+        "Name": "Toyota Canada",
+        "Description": "Toyota Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2TP",
+        "Name": "Triple E Canada LTD",
+        "Description": "Triple E Canada LTD",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2V4",
+        "Name": "Volkswagen Canada",
+        "Description": "Volkswagen Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2V8",
+        "Name": "Volkswagen Canada",
+        "Description": "Volkswagen Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2WK",
+        "Name": "Western Star",
+        "Description": "Western Star",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2WL",
+        "Name": "Western Star",
+        "Description": "Western Star",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2WM",
+        "Name": "Western Star",
+        "Description": "Western Star",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3C4",
+        "Name": "Chrysler Mexico",
+        "Description": "Chrysler Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3D3",
+        "Name": "Dodge Mexico",
+        "Description": "Dodge Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3D4",
+        "Name": "Dodge Mexico",
+        "Description": "Dodge Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3FA",
+        "Name": "Ford Motor Company Mexico",
+        "Description": "Ford Motor Company Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3FE",
+        "Name": "Ford Motor Company Mexico",
+        "Description": "Ford Motor Company Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3G",
+        "Name": "General Motors Mexico",
+        "Description": "General Motors Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3H",
+        "Name": "Honda Mexico",
+        "Description": "Honda Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3JB",
+        "Name": "BRP Mexico (all-terrain vehicles)",
+        "Description": "BRP Mexico (all-terrain vehicles)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3MD",
+        "Name": "Mazda Mexico",
+        "Description": "Mazda Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3MZ",
+        "Name": "Mazda Mexico",
+        "Description": "Mazda Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3N",
+        "Name": "Nissan Mexico",
+        "Description": "Nissan Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3NS",
+        "Name": "Polaris Industries USA",
+        "Description": "Polaris Industries USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3NE",
+        "Name": "Polaris Industries USA",
+        "Description": "Polaris Industries USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3P3",
+        "Name": "Plymouth Mexico",
+        "Description": "Plymouth Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3VW",
+        "Name": "Volkswagen Mexico",
+        "Description": "Volkswagen Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "46J",
+        "Name": "Federal Motors Inc. USA",
+        "Description": "Federal Motors Inc. USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4EN",
+        "Name": "Emergency One USA",
+        "Description": "Emergency One USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4F",
+        "Name": "Mazda USA",
+        "Description": "Mazda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4JG",
+        "Name": "Mercedes-Benz USA",
+        "Description": "Mercedes-Benz USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4M",
+        "Name": "Mercury",
+        "Description": "Mercury",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4P1",
+        "Name": "Pierce Manufacturing Inc. USA",
+        "Description": "Pierce Manufacturing Inc. USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4RK",
+        "Name": "Nova Bus USA",
+        "Description": "Nova Bus USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4S",
+        "Name": "Subaru-Isuzu Automotive",
+        "Description": "Subaru-Isuzu Automotive",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4T",
+        "Name": "Toyota",
+        "Description": "Toyota",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4T9",
+        "Name": "Lumen Motors",
+        "Description": "Lumen Motors",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4UF",
+        "Name": "Arctic Cat Inc.",
+        "Description": "Arctic Cat Inc.",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4US",
+        "Name": "BMW USA",
+        "Description": "BMW USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4UZ",
+        "Name": "Frt-Thomas Bus",
+        "Description": "Frt-Thomas Bus",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V1",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V2",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V3",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V4",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V5",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4V6",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4VL",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4VM",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4VZ",
+        "Name": "Volvo",
+        "Description": "Volvo",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "538",
+        "Name": "Zero Motorcycles (USA)",
+        "Description": "Zero Motorcycles (USA)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5F",
+        "Name": "Honda USA-Alabama",
+        "Description": "Honda USA-Alabama",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5J",
+        "Name": "Honda USA-Ohio",
+        "Description": "Honda USA-Ohio",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5L",
+        "Name": "Lincoln",
+        "Description": "Lincoln",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5N1",
+        "Name": "Nissan USA",
+        "Description": "Nissan USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5NP",
+        "Name": "Hyundai USA",
+        "Description": "Hyundai USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5T",
+        "Name": "Toyota USA - trucks",
+        "Description": "Toyota USA - trucks",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5YJ",
+        "Name": "Tesla, Inc.",
+        "Description": "Tesla, Inc.",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "56K",
+        "Name": "Indian Motorcycle USA",
+        "Description": "Indian Motorcycle USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6AB",
+        "Name": "MAN Australia",
+        "Description": "MAN Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6F4",
+        "Name": "Nissan Motor Company Australia",
+        "Description": "Nissan Motor Company Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6F5",
+        "Name": "Kenworth Australia",
+        "Description": "Kenworth Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6FP",
+        "Name": "Ford Motor Company Australia",
+        "Description": "Ford Motor Company Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6G1",
+        "Name": "General Motors-Holden (post Nov 2002)",
+        "Description": "General Motors-Holden (post Nov 2002)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6G2",
+        "Name": "Pontiac Australia (GTO & G8)",
+        "Description": "Pontiac Australia (GTO & G8)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6H8",
+        "Name": "General Motors-Holden (pre Nov 2002)",
+        "Description": "General Motors-Holden (pre Nov 2002)",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6MM",
+        "Name": "Mitsubishi Motors Australia",
+        "Description": "Mitsubishi Motors Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6T1",
+        "Name": "Toyota Motor Corporation Australia",
+        "Description": "Toyota Motor Corporation Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6U9",
+        "Name": "Privately Imported car in Australia",
+        "Description": "Privately Imported car in Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AD",
+        "Name": "Peugeot Argentina",
+        "Description": "Peugeot Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AF",
+        "Name": "Ford Motor Company Argentina",
+        "Description": "Ford Motor Company Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AG",
+        "Name": "Chevrolet Argentina",
+        "Description": "Chevrolet Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AJ",
+        "Name": "Toyota Argentina",
+        "Description": "Toyota Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AK",
+        "Name": "Suzuki Argentina",
+        "Description": "Suzuki Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AP",
+        "Name": "Fiat Argentina",
+        "Description": "Fiat Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AW",
+        "Name": "Volkswagen Argentina",
+        "Description": "Volkswagen Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8A1",
+        "Name": "Renault Argentina",
+        "Description": "Renault Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8GD",
+        "Name": "Peugeot Chile",
+        "Description": "Peugeot Chile",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8GG",
+        "Name": "Chevrolet Chile",
+        "Description": "Chevrolet Chile",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8LD",
+        "Name": "Chevrolet Ecuador",
+        "Description": "Chevrolet Ecuador",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "935",
+        "Name": "Citroën Brazil",
+        "Description": "Citroën Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "936",
+        "Name": "Peugeot Brazil",
+        "Description": "Peugeot Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93H",
+        "Name": "Honda Brazil",
+        "Description": "Honda Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93R",
+        "Name": "Toyota Brazil",
+        "Description": "Toyota Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93U",
+        "Name": "Audi Brazil",
+        "Description": "Audi Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93V",
+        "Name": "Audi Brazil",
+        "Description": "Audi Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93X",
+        "Name": "Mitsubishi Motors Brazil",
+        "Description": "Mitsubishi Motors Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93Y",
+        "Name": "Renault Brazil",
+        "Description": "Renault Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "94D",
+        "Name": "Nissan Brazil",
+        "Description": "Nissan Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BD",
+        "Name": "Fiat Brazil",
+        "Description": "Fiat Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BF",
+        "Name": "Ford Motor Company Brazil",
+        "Description": "Ford Motor Company Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BG",
+        "Name": "Chevrolet Brazil",
+        "Description": "Chevrolet Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BM",
+        "Name": "Mercedes-Benz Brazil",
+        "Description": "Mercedes-Benz Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BR",
+        "Name": "Toyota Brazil",
+        "Description": "Toyota Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BS",
+        "Name": "Scania Brazil",
+        "Description": "Scania Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BW",
+        "Name": "Volkswagen Brazil",
+        "Description": "Volkswagen Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9FB",
+        "Name": "Renault Colombia",
+        "Description": "Renault Colombia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WB1",
+        "Name": "BMW Motorrad of North America",
+        "Description": "BMW Motorrad of North America",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    
+    
+    
+    
+    
+    
+    {
+        "WMICode": "MNT",
+        "Name": "Nissan",
+        "Description": "Nissan Thailand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "MM0",
+        "Name": "Mazda",
+        "Description": "Mazda Thailand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "MMB",
+        "Name": "Mitsubishi",
+        "Description": "Mitsubishi Thailand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "MS0",
+        "Name": "KIA",
+        "Description": "KIA Myanmar",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "NMT",
+        "Name": "Toyota",
+        "Description": "Toyota Turkey",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "NM0",
+        "Name": "Ford Otosan",
+        "Description": "Ford Otosan Turkey",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "PL1",
+        "Name": "Proton",
+        "Description": "Proton Malaysia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SAJ",
+        "Name": "Jaguar",
+        "Description": "Jaguar UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SAL",
+        "Name": "Land Rover",
+        "Description": "Land Rover UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SAR",
+        "Name": "Rover",
+        "Description": "Rover UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SAT",
+        "Name": "Triumph",
+        "Description": "Triumph UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SB1",
+        "Name": "Toyota",
+        "Description": "Toyota UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SBM",
+        "Name": "McLAREN Automotive Limited",
+        "Description": "McLAREN Automotive Limited UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SCC",
+        "Name": "Lotus Cars",
+        "Description": "Lotus Cars UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SCF",
+        "Name": "Aston Martin Lagonda Limited",
+        "Description": "Aston Martin Lagonda Limited UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SCE",
+        "Name": "DeLorean",
+        "Description": "DeLorean UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SFD",
+        "Name": "Alexander Dennis",
+        "Description": "Alexander Dennis UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SFE",
+        "Name": "Alexander Dennis (North America)",
+        "Description": "Alexander Dennis (North America) UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SHH",
+        "Name": "Honda",
+        "Description": "Honda UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SHS",
+        "Name": "Honda",
+        "Description": "Honda UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "SJN",
+        "Name": "Nissan",
+        "Description": "Nissan UK",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "TCC",
+        "Name": "Micro Compact Car",
+        "Description": "Micro Compact Car Switzerland",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "TMA",
+        "Name": "Hyundai",
+        "Description": "Hyundai Czech Republic",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "TMB",
+        "Name": "Škoda",
+        "Description": "Škoda Czech Republic",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "TRU",
+        "Name": "Audi",
+        "Description": "Audi Hungary",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "TSM",
+        "Name": "Suzuki",
+        "Description": "Suzuki Hungary",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "U5Y",
+        "Name": "Kia",
+        "Description": "Kia Slovakia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "UU",
+        "Name": "Dacia",
+        "Description": "Dacia Romania",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VA0",
+        "Name": "ÖAF",
+        "Description": "ÖAF Austria",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF1",
+        "Name": "Renault",
+        "Description": "Renault France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF2",
+        "Name": "Renault",
+        "Description": "Renault France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF3",
+        "Name": "Peugeot",
+        "Description": "Peugeot France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF4",
+        "Name": "Talbot",
+        "Description": "Talbot France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF5",
+        "Name": "Iveco Unic SA",
+        "Description": "Iveco Unic SA France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF6",
+        "Name": "Renault Trucks/Volvo",
+        "Description": "Renault Trucks/Volvo France",
+        "VehicleType": 2,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF7",
+        "Name": "Citroën",
+        "Description": "Citroën France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF8",
+        "Name": "Matra/Talbot/Simca",
+        "Description": "Matra/Talbot/Simca France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VF9",
+        "Name": "Bugatti",
+        "Description": "Bugatti France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VFE",
+        "Name": "IvecoBus",
+        "Description": "IvecoBus France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VNK",
+        "Name": "Toyota",
+        "Description": "Toyota France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VR1",
+        "Name": "DS Automobiles",
+        "Description": "DS Automobiles France",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VSS",
+        "Name": "SEAT",
+        "Description": "SEAT Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VS7",
+        "Name": "Citroën",
+        "Description": "Citroën Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "VV9",
+        "Name": "Tauro Sport Auto",
+        "Description": "Tauro Sport Auto Spain",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WAG",
+        "Name": "Neoplan",
+        "Description": "Neoplan Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WAU",
+        "Name": "Audi",
+        "Description": "Audi Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WAP",
+        "Name": "Alpina",
+        "Description": "Alpina Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBA",
+        "Name": "BMW",
+        "Description": "BMW Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBS",
+        "Name": "BMW M",
+        "Description": "BMW Motorsport Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WBX",
+        "Name": "BMW",
+        "Description": "BMW Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDB",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMX",
+        "Name": "DaimlerChrysler AG/Daimler AG",
+        "Description": "DaimlerChrysler AG/Daimler AG Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDD",
+        "Name": "DaimlerChrysler AG/Daimler AG",
+        "Description": "DaimlerChrysler AG/Daimler AG Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WDC",
+        "Name": "DaimlerChrysler AG/Daimler AG",
+        "Description": "DaimlerChrysler AG/Daimler AG Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WEB",
+        "Name": "EvoBus",
+        "Description": "EvoBus Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WF0",
+        "Name": "Ford of Europe",
+        "Description": "Ford of Europe Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WJM",
+        "Name": "Iveco",
+        "Description": "Iveco Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WJR",
+        "Name": "Irmscher",
+        "Description": "Irmscher Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WKK",
+        "Name": "Karl Kässbohrer Fahrzeugwerke",
+        "Description": "Karl Kässbohrer Fahrzeugwerke Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMA",
+        "Name": "MAN",
+        "Description": "MAN Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WME",
+        "Name": "Smart",
+        "Description": "Smart Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WMW",
+        "Name": "Mini",
+        "Description": "Mini Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WP0",
+        "Name": "Porsche",
+        "Description": "Porsche car Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WP1",
+        "Name": "Porsche SUV",
+        "Description": "Porsche SUV Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WUA",
+        "Name": "Quattro",
+        "Description": "Quattro Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WVG",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WVW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WV1",
+        "Name": "Volkswagen Commercial Vehicles",
+        "Description": "Volkswagen Commercial Vehicles Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "WV2",
+        "Name": "Volkswagen Commercial Vehicles",
+        "Description": "Volkswagen Commercial Vehicles Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W09",
+        "Name": "Ruf Automobile",
+        "Description": "Ruf Automobile Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W0L",
+        "Name": "Opel/Vauxhall",
+        "Description": "Opel/Vauxhall Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "W0SV",
+        "Name": "Opel Special Vehicles",
+        "Description": "Opel Special Vehicles Germany",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XLR",
+        "Name": "DAF Trucks",
+        "Description": "DAF Trucks Netherlands",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTA",
+        "Name": "AvtoVAZ",
+        "Description": "AvtoVAZ Russia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "XTB",
+        "Name": "AZLK",
+        "Description": "AZLK Russia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YK1",
+        "Name": "Saab",
+        "Description": "Saab Finland",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS2",
+        "Name": "Scania, Södertälje",
+        "Description": "Scania, Södertälje Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS3",
+        "Name": "Saab",
+        "Description": "Saab Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YS4",
+        "Name": "Scania, Katrineholm",
+        "Description": "Scania, Katrineholm Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YTN",
+        "Name": "Saab NEVS",
+        "Description": "Saab NEVS Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV1",
+        "Name": "Volvo Cars",
+        "Description": "Volvo Cars Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV2",
+        "Name": "Volvo Trucks",
+        "Description": "Volvo Trucks Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YV3",
+        "Name": "Volvo Buses",
+        "Description": "Volvo Buses Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "YT9",
+        "Name": "Koenigsegg Automotive AB",
+        "Description": "Koenigsegg Automotive AB Sweden",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZA9",
+        "Name": "Bugatti",
+        "Description": "Bugatti Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAM",
+        "Name": "Maserati",
+        "Description": "Maserati Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZAR",
+        "Name": "Alfa Romeo",
+        "Description": "Alfa Romeo Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZCF",
+        "Name": "Iveco",
+        "Description": "Iveco Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZFA",
+        "Name": "Fiat",
+        "Description": "Fiat Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZFF",
+        "Name": "Ferrari",
+        "Description": "Ferrari Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZGA",
+        "Name": "IvecoBus",
+        "Description": "Iveco Bus Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZHW",
+        "Name": "Lamborghini",
+        "Description": "Lamborghini Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "ZLA",
+        "Name": "Lancia",
+        "Description": "Lancia Italy",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1B",
+        "Name": "Dodge",
+        "Description": "Dodge USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1C",
+        "Name": "Chrysler",
+        "Description": "Chrysler USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1F",
+        "Name": "Ford",
+        "Description": "Ford USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G",
+        "Name": "General Motors",
+        "Description": "General Motors USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G1",
+        "Name": "Chevrolet",
+        "Description": "Chevrolet USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G3",
+        "Name": "Oldsmobile",
+        "Description": "Oldsmobile USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G4",
+        "Name": "Buick",
+        "Description": "Buick USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1G9",
+        "Name": "Google",
+        "Description": "Google USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GB",
+        "Name": "Chevrolet incomplete vehicles",
+        "Description": "Chevrolet incomplete vehicles USA",
+        "VehicleType": 7,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GC",
+        "Name": "Chevrolet",
+        "Description": "Chevrolet USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GD",
+        "Name": "GMC incomplete vehicles",
+        "Description": "GMC incomplete vehicles USA",
+        "VehicleType": 7,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1GM",
+        "Name": "Pontiac",
+        "Description": "Pontiac USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1HG",
+        "Name": "Honda",
+        "Description": "Honda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1J",
+        "Name": "Jeep",
+        "Description": "Jeep USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1L",
+        "Name": "Lincoln",
+        "Description": "Lincoln USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1M",
+        "Name": "Mercury",
+        "Description": "Mercury USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1MR",
+        "Name": "Continental",
+        "Description": "Continental USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1N?",
+        "Name": "Nissan",
+        "Description": "Nissan USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1VW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1YV",
+        "Name": "Mazda",
+        "Description": "Mazda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "1ZV",
+        "Name": "Ford",
+        "Description": "Ford USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2DG",
+        "Name": "Ontario Drive & Gear",
+        "Description": "Ontario Drive & Gear Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2F",
+        "Name": "Ford",
+        "Description": "Ford Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2GX",
+        "Name": "General Motors",
+        "Description": "General Motors Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G1",
+        "Name": "Chevrolet",
+        "Description": "Chevrolet Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G2",
+        "Name": "Pontiac",
+        "Description": "Pontiac Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2G9",
+        "Name": "Gnome Homes",
+        "Description": "Gnome Homes Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HG",
+        "Name": "Honda",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HH",
+        "Name": "Acura",
+        "Description": "Acura Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HJ",
+        "Name": "Honda",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HK",
+        "Name": "Honda",
+        "Description": "Honda Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2HM",
+        "Name": "Hyundai",
+        "Description": "Hyundai Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2L9",
+        "Name": "Les Contenants Durabac",
+        "Description": "Les Contenants Durabac Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2LN",
+        "Name": "Lincoln",
+        "Description": "Lincoln Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2M",
+        "Name": "Mercury",
+        "Description": "Mercury Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "2T",
+        "Name": "Toyota",
+        "Description": "Toyota Canada",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3F",
+        "Name": "Ford",
+        "Description": "Ford Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3G",
+        "Name": "General Motors",
+        "Description": "General Motors Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3HG",
+        "Name": "Honda",
+        "Description": "Honda Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3HM",
+        "Name": "Honda",
+        "Description": "Honda Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3KP",
+        "Name": "Kia",
+        "Description": "Kia Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3N",
+        "Name": "Nissan",
+        "Description": "Nissan Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "3VW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen Mexico",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4F",
+        "Name": "Mazda",
+        "Description": "Mazda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4J",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4M",
+        "Name": "Mercury",
+        "Description": "Mercury USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4S3",
+        "Name": "Subaru",
+        "Description": "Subaru USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4S4",
+        "Name": "Subaru",
+        "Description": "Subaru USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4S6",
+        "Name": "Honda",
+        "Description": "Honda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4T",
+        "Name": "Toyota",
+        "Description": "Toyota USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "4US",
+        "Name": "BMW",
+        "Description": "BMW USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5FN",
+        "Name": "Honda",
+        "Description": "Honda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5J6",
+        "Name": "Honda",
+        "Description": "Honda USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5L",
+        "Name": "Lincoln",
+        "Description": "Lincoln USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5N1",
+        "Name": "Nissan",
+        "Description": "Nissan USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5NM",
+        "Name": "Hyundai",
+        "Description": "Hyundai USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5NP",
+        "Name": "Hyundai",
+        "Description": "Hyundai USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5T",
+        "Name": "Toyota",
+        "Description": "Toyota USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5U",
+        "Name": "BMW",
+        "Description": "BMW USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5X",
+        "Name": "Hyundai/Kia",
+        "Description": "Hyundai/Kia USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "5YJ",
+        "Name": "Tesla",
+        "Description": "Tesla USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "55",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz USA",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6F",
+        "Name": "Ford",
+        "Description": "Ford Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6G",
+        "Name": "General Motors",
+        "Description": "General Motors Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6G1",
+        "Name": "Chevrolet",
+        "Description": "Chevrolet Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6G2",
+        "Name": "Pontiac",
+        "Description": "Pontiac Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6H",
+        "Name": "Holden",
+        "Description": "Holden Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6MM",
+        "Name": "Mitsubishi",
+        "Description": "Mitsubishi Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6T1",
+        "Name": "Toyota",
+        "Description": "Toyota Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "6U9",
+        "Name": "Japanese Imports",
+        "Description": "Japanese Imports Australia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7A1",
+        "Name": "Mitsubishi",
+        "Description": "Mitsubishi New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7A3",
+        "Name": "Honda",
+        "Description": "Honda New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7A4",
+        "Name": "Toyota",
+        "Description": "Toyota New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7A5",
+        "Name": "Ford",
+        "Description": "Ford New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7A8",
+        "Name": "NZ Transport Agency",
+        "Description": "NZ Transport Agency (pre-2009) New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "7AT",
+        "Name": "NZ Transport Agency",
+        "Description": "NZ Transport Agency (post-2009) New Zealand",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AP",
+        "Name": "Fiat",
+        "Description": "Fiat Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AF",
+        "Name": "Ford",
+        "Description": "Ford Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AG",
+        "Name": "General Motors",
+        "Description": "General Motors Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AJ",
+        "Name": "Toyota",
+        "Description": "Toyota Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8A1",
+        "Name": "Renault",
+        "Description": "Renault Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AC",
+        "Name": "Mercedes Benz",
+        "Description": "Mercedes Benz Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8BC",
+        "Name": "Citroën",
+        "Description": "Citroën Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AD",
+        "Name": "Peugeot",
+        "Description": "Peugeot Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8C3",
+        "Name": "Honda",
+        "Description": "Honda Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "8AT",
+        "Name": "Iveco",
+        "Description": "Iveco Argentina",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BD",
+        "Name": "Fiat Automóveis",
+        "Description": "Fiat Automóveis Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BG",
+        "Name": "General Motors",
+        "Description": "General Motors Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BW",
+        "Name": "Volkswagen",
+        "Description": "Volkswagen Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BF",
+        "Name": "Ford",
+        "Description": "Ford Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93H",
+        "Name": "Honda",
+        "Description": "Honda Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BR",
+        "Name": "Toyota",
+        "Description": "Toyota Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "936",
+        "Name": "Peugeot",
+        "Description": "Peugeot Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "935",
+        "Name": "Citroën",
+        "Description": "Citroën Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93Y",
+        "Name": "Renault",
+        "Description": "Renault Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93X",
+        "Name": "Souza Ramos - Mitsubishi/Suzuki",
+        "Description": "Souza Ramos - Mitsubishi/Suzuki Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BH",
+        "Name": "Hyundai",
+        "Description": "Hyundai Motor Company Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "95P",
+        "Name": "CAOA / Hyundai",
+        "Description": "CAOA / Hyundai Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "94D",
+        "Name": "Nissan",
+        "Description": "Nissan Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "98R",
+        "Name": "Chery",
+        "Description": "Chery Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "988",
+        "Name": "Jeep",
+        "Description": "Jeep Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "98M",
+        "Name": "BMW",
+        "Description": "BMW Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BM",
+        "Name": "Mercedes-Benz",
+        "Description": "Mercedes-Benz Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "99A",
+        "Name": "Audi",
+        "Description": "Audi Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "99J",
+        "Name": "JLR Jaguar Land Rover",
+        "Description": "JLR Jaguar Land Rover Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9C2",
+        "Name": "Honda Motorcycles",
+        "Description": "Honda Motorcycles Brazil",
+        "VehicleType": 1,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9C6",
+        "Name": "Yamaha",
+        "Description": "Yamaha Brazil",
+        "VehicleType": 1,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9CD",
+        "Name": "Suzuki Motorcycles",
+        "Description": "Suzuki Motorcycles Brazil",
+        "VehicleType": 1,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93W",
+        "Name": "Fiat Professional",
+        "Description": "Fiat Professional Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "93Z",
+        "Name": "Iveco",
+        "Description": "Iveco Brazil",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "953",
+        "Name": "VW Trucks / MAN",
+        "Description": "VW Trucks / MAN Brazil",
+        "VehicleType": 2,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BS",
+        "Name": "Scania",
+        "Description": "Scania Brazil",
+        "VehicleType": 2,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9BV",
+        "Name": "Volvo Trucks",
+        "Description": "Volvo Trucks Brazil",
+        "VehicleType": 2,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9FB",
+        "Name": "Renault",
+        "Description": "Renault Colombia",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9UJ",
+        "Name": "Chery",
+        "Description": "Chery Uruguay",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9UK",
+        "Name": "Lifan",
+        "Description": "Lifan Uruguay",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    },
+    {
+        "WMICode": "9UW",
+        "Name": "Kia",
+        "Description": "Kia Uruguay",
+        "VehicleType": 0,
+        "AssemblyPlants": []
+    }
+]
