@@ -2,17 +2,40 @@ package core
 
 import "testing"
 
+//Audi -- "WAUZZZ8E88A025765"
+//Chev -- "KL1MJ68036C084769"
+//Hyundai -- "KNHCU41DLCU177882"
+
 //This is expectected from every test.
 var expectations = VIN{
-	Full:   "5NPEU46F77H259112",
+	//Full:   "5NPEU46F77H259112",
+	Full:   "KL1MJ68036C084769",
 	Unique: "5NPEU46F77H",
 	Serial: 259112,
 	WMInfo: WMInfo{
-		Country:      "USA",
+		Country:      "United States",
 		Manufacturer: "Hyundai",
 		VehicleType:  PassengerCar,
 		Region:       "North America",
 	},
+}
+
+func init() {
+	CreateContext()
+}
+
+func TestVIN_JustPrint(t *testing.T) {
+	obj := newVIN(expectations.Full)
+
+	err := obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	t.Log(obj)
+
+	t.Fail()
 }
 
 func TestVIN_IsValid(t *testing.T) {

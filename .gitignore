@@ -15,3 +15,6 @@
 
 vin
 dist
+
+*/db/*
+!*.seed.json

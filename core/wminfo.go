@@ -18,11 +18,13 @@ func FindWMInfo(uniquevin string) (WMInfo, error) {
 
 	result.Region = region.Name
 
-	countryCode := uniquevin[1:1]
+	regionCode := uniquevin[:1]
+	countryCode := uniquevin[1:2]
+
 	for i := 0; i < len(region.Countries); i++ {
 		country := region.Countries[i]
 
-		if country.StartChar <= countryCode && country.EndChar >= countryCode {
+		if country.RegionCode == regionCode && country.HasCode(countryCode) {
 			result.Country = country.Name
 			wmi := uniquevin[:3]
 

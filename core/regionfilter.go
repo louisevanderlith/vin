@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk"
+)
 
 type regionFilter func(obj *Region) bool
 
@@ -12,6 +14,6 @@ func byUniqueVIN(uniquevin string) regionFilter {
 	regionChar := uniquevin[:1]
 
 	return func(obj *Region) bool {
-		return obj.StartChar >= regionChar && obj.EndChar <= regionChar
+		return obj.HasCode(regionChar)
 	}
 }
