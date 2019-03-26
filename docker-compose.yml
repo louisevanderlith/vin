@@ -1,0 +1,47 @@
+version: "3.7"
+
+services:
+  VINDEV:
+      image: avosa/vin:latest
+      build: .
+      environment:
+        - RUNMODE=${RUNMODE}
+        - HOST=${HOST}
+      depends_on:
+        - RouterDEV
+      networks:
+        - mango_net
+      volumes: 
+        - ./db/:/db/
+      ports:
+        - "8095:8095"
+      command: ["./wait-for-it.sh", "RouterDEV:8080", "--", "python", "app.py"]
+  RouterDEV:
+    image: avosa/router:latest
+    environment:
+        - RUNMODE=${RUNMODE}
+        - HOST=${HOST}
+    ports:
+      - "8080:8080"
+    networks:
+        - mango_net
+  GateDEV:
+    image: avosa/gate:latest
+    environment:
+        - RUNMODE=${RUNMODE}
+        - HOST=${HOST}
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+        - mango_net
+    depends_on:
+        - VINDEV
+    volumes:
+      - ../gate/certs:/certs:ro
+    command: ["./wait-for-it.sh", "VINDEV:8095", "--", "python", "app.py"]
+
+networks:
+  mango_net:
+    driver: bridge
+    name: mango_net

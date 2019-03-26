@@ -16,5 +16,6 @@
 vin
 dist
 
-*/db/*
+*/db/
+db/
 !*.seed.json

@@ -7,7 +7,7 @@ RUN go mod download
 
 COPY main.go .
 COPY controllers ./controllers
-COPY logic ./logic
+COPY core ./core
 COPY routers ./routers
 
 RUN CGO_ENABLED="0" go build

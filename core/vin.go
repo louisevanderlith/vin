@@ -30,12 +30,23 @@ func newVIN(fullvin string) *VIN {
 
 //BuildVIN will create a full as possible detail record
 func BuildVIN(fullvin string) (husk.Recorder, error) {
-	//obj := newVIN(fullvin)
+	obj := newVIN(fullvin)
 
-	//set := ctx.VINS.Create(obj)
-	//ctx.VINS.Save()
+	err := obj.deconstruct()
 
-	return nil, nil
+	if err != nil {
+		return nil, err
+	}
+
+	set := ctx.VINS.Create(obj)
+
+	if set.Error != nil {
+		return nil, set.Error
+	}
+
+	ctx.VINS.Save()
+
+	return set.Record, nil
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
@@ -59,15 +70,15 @@ func ValidateVIN(fullvin string) error {
 }
 
 //deconstruct will attempt to populat as much detail as possible for the given VIN
-func (v *VIN) deconstruct() error {
-	v.Unique, v.Serial = getUniqueSerial(v.Full)
-	wmiInfo, err := FindWMInfo(v.Unique)
+func (m *VIN) deconstruct() error {
+	m.Unique, m.Serial = getUniqueSerial(m.Full)
+	wmiInfo, err := FindWMInfo(m.Unique)
 
 	if err != nil {
 		return err
 	}
 
-	v.WMInfo = wmiInfo
+	m.WMInfo = wmiInfo
 
 	return nil
 }
