@@ -2,7 +2,8 @@ package core
 
 import "github.com/louisevanderlith/husk"
 
-type Listing struct {
+type Vehicle struct {
+	VIN            *VIN
 	UniqueVIN      string // VIN without SEQ No
 	SequenceNo     int
 	Series         *Series
@@ -14,6 +15,6 @@ type Listing struct {
 	Alterations    []*Alteration
 }
 
-func (m Listing) Valid() (bool, error) {
+func (m Vehicle) Valid() (bool, error) {
 	return husk.ValidateStruct(&m)
 }

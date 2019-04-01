@@ -8,7 +8,7 @@ type Series struct {
 	Spec      string
 	StartYear int
 	EndYear   int
-	Listings  []Listing
+	Vehicles  []Vehicle
 }
 
 func (m Series) Valid() (bool, error) {

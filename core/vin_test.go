@@ -8,8 +8,7 @@ import "testing"
 
 //This is expectected from every test.
 var expectations = VIN{
-	//Full:   "5NPEU46F77H259112",
-	Full:   "KL1MJ68036C084769",
+	Full:   "5NPEU46F77H259112",
 	Unique: "5NPEU46F77H",
 	Serial: 259112,
 	WMInfo: WMInfo{

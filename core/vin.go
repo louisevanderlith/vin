@@ -30,6 +30,12 @@ func newVIN(fullvin string) *VIN {
 
 //BuildVIN will create a full as possible detail record
 func BuildVIN(fullvin string) (husk.Recorder, error) {
+	result, ok := doesVINExist(fullvin)
+
+	if ok {
+		return result, nil
+	}
+
 	obj := newVIN(fullvin)
 
 	err := obj.deconstruct()
@@ -38,7 +44,7 @@ func BuildVIN(fullvin string) (husk.Recorder, error) {
 		return nil, err
 	}
 
-	set := ctx.VINS.Create(obj)
+	set := ctx.Listings.Create(obj)
 
 	if set.Error != nil {
 		return nil, set.Error
@@ -149,4 +155,14 @@ func getCharacterMap() map[string]int {
 	digitMap["Z"] = 9
 
 	return digitMap
+}
+
+func doesVINExist(fullvin string) (husk.Recorder, bool) {
+	result, err := ctx.VINS.FindFirst(byFullVIN(fullvin))
+
+	if err != nil {
+		return nil, false
+	}
+
+	return result, true
 }
