@@ -2,9 +2,11 @@ package core
 
 import "testing"
 
-//Audi -- "WAUZZZ8E88A025765"
-//Chev -- "KL1MJ68036C084769"
-//Hyundai -- "KNHCU41DLCU177882"
+//Audi -- WAUZZZ8E88A025765
+//Chev -- KL1MJ68036C084769
+//Hyundai -- "KNHCU41DLCU177882
+//Mustang -- 1ZVHT82H485113456
+//Hyundai 2 --5NPEU46F77H259112
 
 //This is expectected from every test.
 var expectations = VIN{
@@ -24,9 +26,13 @@ func init() {
 }
 
 func TestVIN_JustPrint(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -65,9 +71,13 @@ func TestVIN_NoIOQ(t *testing.T) {
 }
 
 func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -79,9 +89,13 @@ func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -93,9 +107,13 @@ func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_ManufacturerCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -107,9 +125,13 @@ func TestDeconstruct_WMI_ManufacturerCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_CountryCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -121,9 +143,13 @@ func TestDeconstruct_WMI_CountryCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_VehicleTypeCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)
@@ -135,9 +161,13 @@ func TestDeconstruct_WMI_VehicleTypeCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
-	obj := newVIN(expectations.Full)
+	obj, err := newVIN(expectations.Full)
 
-	err := obj.deconstruct()
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
 
 	if err != nil {
 		t.Error(err)

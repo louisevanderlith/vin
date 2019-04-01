@@ -8,6 +8,7 @@ type AssemblyPlant struct {
 	Country   string
 	StartYear int
 	EndYear   int
+	Series    []Series
 }
 
 func (m AssemblyPlant) Valid() (bool, error) {

@@ -10,6 +10,6 @@ func (f vehicleFilter) Filter(obj husk.Dataer) bool {
 
 func byFullVIN(fullvin string) vehicleFilter {
 	return func(obj *Vehicle) bool {
-		return obj.UniqueVIN == fullvin
+		return obj.VIN.Full == fullvin
 	}
 }

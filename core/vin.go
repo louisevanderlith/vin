@@ -22,37 +22,18 @@ func (m VIN) Valid() (bool, error) {
 	return husk.ValidateStruct(&m)
 }
 
-func newVIN(fullvin string) *VIN {
-	return &VIN{
+func newVIN(fullvin string) (*VIN, error) {
+	vin := &VIN{
 		Full: fullvin,
 	}
-}
 
-//BuildVIN will create a full as possible detail record
-func BuildVIN(fullvin string) (husk.Recorder, error) {
-	result, ok := doesVINExist(fullvin)
-
-	if ok {
-		return result, nil
-	}
-
-	obj := newVIN(fullvin)
-
-	err := obj.deconstruct()
+	err := vin.deconstruct()
 
 	if err != nil {
 		return nil, err
 	}
 
-	set := ctx.Listings.Create(obj)
-
-	if set.Error != nil {
-		return nil, set.Error
-	}
-
-	ctx.VINS.Save()
-
-	return set.Record, nil
+	return vin, nil
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
@@ -158,7 +139,7 @@ func getCharacterMap() map[string]int {
 }
 
 func doesVINExist(fullvin string) (husk.Recorder, bool) {
-	result, err := ctx.VINS.FindFirst(byFullVIN(fullvin))
+	result, err := ctx.Vehicles.FindFirst(byFullVIN(fullvin))
 
 	if err != nil {
 		return nil, false
