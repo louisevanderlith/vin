@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   VINDEV:
-      image: avosa/vin:latest
+      image: avosa/vin:dev
       build: .
       environment:
         - RUNMODE=${RUNMODE}
@@ -17,7 +17,7 @@ services:
         - "8095:8095"
       command: ["./wait-for-it.sh", "RouterDEV:8080", "--", "python", "app.py"]
   RouterDEV:
-    image: avosa/router:latest
+    image: avosa/router:dev
     environment:
         - RUNMODE=${RUNMODE}
         - HOST=${HOST}
@@ -26,7 +26,7 @@ services:
     networks:
         - mango_net
   GateDEV:
-    image: avosa/gate:latest
+    image: avosa/gate:dev
     environment:
         - RUNMODE=${RUNMODE}
         - HOST=${HOST}

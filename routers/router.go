@@ -5,6 +5,7 @@ import (
 	"github.com/astaxie/beego/plugins/cors"
 	"github.com/louisevanderlith/mango"
 	"github.com/louisevanderlith/mango/control"
+	secure "github.com/louisevanderlith/secure/core"
 	"github.com/louisevanderlith/vin/controllers"
 )
 
@@ -19,7 +20,7 @@ func Setup(s *mango.Service) {
 func EnableFilter(s *mango.Service) *control.ControllerMap {
 	ctrlmap := control.CreateControlMap(s)
 
-	emptyMap := make(control.ActionMap)
+	emptyMap := make(secure.ActionMap)
 
 	ctrlmap.Add("/lookup", emptyMap)
 
