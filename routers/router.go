@@ -1,6 +1,11 @@
 package routers
 
 import (
+	"fmt"
+	"strings"
+
+	"github.com/louisevanderlith/secure/core/roletype"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/plugins/cors"
 	"github.com/louisevanderlith/mango"
@@ -9,28 +14,30 @@ import (
 	"github.com/louisevanderlith/vin/controllers"
 )
 
-func Setup(s *mango.Service) {
-	ctrlmap := EnableFilter(s)
+func Setup(s *mango.Service, host string) {
+	ctrlmap := EnableFilter(s, host)
 
-	lognCtrl := controllers.NewLookupCtrl(ctrlmap)
+	lookupCtrl := controllers.NewLookupCtrl(ctrlmap)
 
-	beego.Router("/v1/lookup/:vin", lognCtrl, "get:Get")
+	beego.Router("/v1/lookup/:vin", lookupCtrl, "get:Get")
+	beego.Router("/v1/lookup", lookupCtrl, "post:Post")
 }
 
-func EnableFilter(s *mango.Service) *control.ControllerMap {
+func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
 	ctrlmap := control.CreateControlMap(s)
 
 	emptyMap := make(secure.ActionMap)
+	emptyMap["GET"] = roletype.User
+	emptyMap["POST"] = roletype.Owner
 
-	ctrlmap.Add("/lookup", emptyMap)
+	ctrlmap.Add("/v1/lookup", emptyMap)
 
-	beego.InsertFilter("/*", beego.BeforeRouter, ctrlmap.FilterAPI)
+	beego.InsertFilter("/v1/*", beego.BeforeRouter, ctrlmap.FilterAPI, false)
+	allowed := fmt.Sprintf("https://*%s", strings.TrimSuffix(host, "/"))
 
 	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
-		AllowAllOrigins: true,
-		AllowMethods:    []string{"GET", "POST", "OPTIONS"},
-		AllowHeaders:    []string{"Origin", "Authorization", "Access-Control-Allow-Origin", "Content-Type"},
-		ExposeHeaders:   []string{"Content-Length", "Access-Control-Allow-Origin"},
+		AllowOrigins: []string{allowed},
+		AllowMethods: []string{"GET", "POST", "OPTIONS"},
 	}))
 
 	return ctrlmap

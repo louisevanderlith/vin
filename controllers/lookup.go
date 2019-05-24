@@ -1,6 +1,9 @@
 package controllers
 
 import (
+	"encoding/json"
+	"net/http"
+
 	"github.com/louisevanderlith/mango/control"
 	"github.com/louisevanderlith/vin/core"
 )
@@ -25,11 +28,39 @@ func (req *LookupController) Get() {
 	err := core.ValidateVIN(vin)
 
 	if err != nil {
-		req.Serve(nil, err)
+		req.Serve(http.StatusBadRequest, err, nil)
 		return
 	}
 
-	results, err := core.BuildVIN(vin)
+	results, err := core.BuildInfo(vin)
 
-	req.Serve(results, err)
+	if err != nil {
+		req.Serve(http.StatusInternalServerError, err, nil)
+		return
+	}
+
+	req.Serve(http.StatusOK, nil, results)
+}
+
+// @Title Create & Save
+// @Description Creates the details of a VIN after validation
+// @Success 200 {husk.Key} husk.Key
+// @router / [post]
+func (req *LookupController) Post() {
+	var obj core.VIN
+	err := json.Unmarshal(req.Ctx.Input.RequestBody, &obj)
+
+	if err != nil {
+		req.Serve(http.StatusBadRequest, err, nil)
+		return
+	}
+
+	rec, err := obj.Create()
+
+	if err != nil {
+		req.Serve(http.StatusInternalServerError, err, nil)
+		return
+	}
+
+	req.Serve(http.StatusOK, nil, rec)
 }

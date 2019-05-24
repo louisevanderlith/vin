@@ -5,8 +5,8 @@ import (
 )
 
 type context struct {
-	Vehicles husk.Tabler
-	Regions  husk.Tabler
+	VIN     husk.Tabler
+	Regions husk.Tabler
 }
 
 var ctx context
@@ -15,14 +15,14 @@ func CreateContext() {
 	defer seed()
 
 	ctx = context{
-		Vehicles: husk.NewTable(new(Vehicle)),
-		Regions:  husk.NewTable(new(Region)),
+		Regions: husk.NewTable(new(Region)),
+		VIN:     husk.NewTable(new(VIN)),
 	}
 }
 
 func Shutdown() {
 	ctx.Regions.Save()
-	ctx.Vehicles.Save()
+	ctx.VIN.Save()
 }
 
 func seed() {
