@@ -17,11 +17,6 @@ type VIN struct {
 	WMInfo WMInfo
 }
 
-//Valid checks if the object's values meets the data requirements
-func (m VIN) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
-}
-
 func newVIN(fullvin string) (*VIN, error) {
 	vin := &VIN{
 		Full: fullvin,
@@ -34,6 +29,32 @@ func newVIN(fullvin string) (*VIN, error) {
 	}
 
 	return vin, nil
+}
+
+//Valid checks if the object's values meets the data requirements
+func (m VIN) Valid() (bool, error) {
+	return husk.ValidateStruct(&m)
+}
+
+func (m VIN) Create() (husk.Key, error) {
+	item, err := ctx.VIN.FindFirst(byFullVIN(m.Full))
+
+	//If Found, just return the Key
+	if err == nil {
+		return item.GetKey(), nil
+	}
+
+	if err != nil {
+		return husk.CrazyKey(), err
+	}
+
+	cset := ctx.VIN.Create(m)
+
+	if cset.Error != nil {
+		return husk.CrazyKey(), cset.Error
+	}
+
+	return cset.Record.GetKey(), nil
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
@@ -54,6 +75,23 @@ func ValidateVIN(fullvin string) error {
 	}
 
 	return nil
+}
+
+//BuildInfo tries to extract information from VIN number
+func BuildInfo(fullvin string) (*VIN, error) {
+	vin, err := newVIN(fullvin)
+
+	if err != nil {
+		return nil, err
+	}
+
+	err = vin.deconstruct()
+
+	if err != nil {
+		return nil, err
+	}
+
+	return vin, nil
 }
 
 //deconstruct will attempt to populat as much detail as possible for the given VIN
@@ -138,6 +176,7 @@ func getCharacterMap() map[string]int {
 	return digitMap
 }
 
+/*
 func doesVINExist(fullvin string) (husk.Recorder, bool) {
 	result, err := ctx.Vehicles.FindFirst(byFullVIN(fullvin))
 
@@ -147,3 +186,4 @@ func doesVINExist(fullvin string) (husk.Recorder, bool) {
 
 	return result, true
 }
+*/
