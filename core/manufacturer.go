@@ -2,7 +2,7 @@ package core
 
 import "github.com/louisevanderlith/husk"
 
-type VehicleType = int
+type VehicleType int
 
 const (
 	PassengerCar VehicleType = iota
@@ -14,6 +14,20 @@ const (
 	ATV
 	Incomplete
 )
+
+var vehTypes = [...]string{
+	"PassengerCar",
+	"Motorcycle",
+	"Truck",
+	"MPV",
+	"Trailer",
+	"LSV",
+	"ATV",
+	"Incomplete"}
+
+func (s VehicleType) String() string {
+	return vehTypes[s]
+}
 
 type Manufacturer struct {
 	WMICode        string

@@ -21,6 +21,8 @@ func Setup(s *mango.Service, host string) {
 
 	beego.Router("/v1/lookup/:vin", lookupCtrl, "get:Get")
 	beego.Router("/v1/lookup", lookupCtrl, "post:Post")
+
+	beego.Router("/v1/validate/:vin", controllers.NewValidateCtrl(ctrlmap), "get:Get")
 }
 
 func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
@@ -31,6 +33,7 @@ func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
 	emptyMap["POST"] = roletype.Owner
 
 	ctrlmap.Add("/v1/lookup", emptyMap)
+	ctrlmap.Add("/v1/validate", emptyMap)
 
 	beego.InsertFilter("/v1/*", beego.BeforeRouter, ctrlmap.FilterAPI, false)
 	allowed := fmt.Sprintf("https://*%s", strings.TrimSuffix(host, "/"))

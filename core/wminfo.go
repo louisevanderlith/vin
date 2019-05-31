@@ -4,7 +4,7 @@ type WMInfo struct {
 	Region       string
 	Country      string
 	Manufacturer string
-	VehicleType  VehicleType
+	VehicleType  string // VehicleType
 }
 
 func FindWMInfo(uniquevin string) (WMInfo, error) {
@@ -33,7 +33,7 @@ func FindWMInfo(uniquevin string) (WMInfo, error) {
 
 				if manufacturer.WMICode == wmi {
 					result.Manufacturer = manufacturer.Name
-					result.VehicleType = manufacturer.VehicleType
+					result.VehicleType = manufacturer.VehicleType.String()
 
 					break
 				}
