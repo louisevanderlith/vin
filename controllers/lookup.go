@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"encoding/json"
+	"log"
 	"net/http"
 
 	"github.com/louisevanderlith/mango/control"
@@ -32,32 +32,18 @@ func (req *LookupController) Get() {
 		return
 	}
 
-	results, err := core.BuildInfo(vin)
+	obj, err := core.BuildInfo(vin)
 
 	if err != nil {
+		log.Println("build", err)
 		req.Serve(http.StatusInternalServerError, err, nil)
-		return
-	}
-
-	req.Serve(http.StatusOK, nil, results)
-}
-
-// @Title Create & Save
-// @Description Creates the details of a VIN after validation
-// @Success 200 {husk.Key} husk.Key
-// @router / [post]
-func (req *LookupController) Post() {
-	var obj core.VIN
-	err := json.Unmarshal(req.Ctx.Input.RequestBody, &obj)
-
-	if err != nil {
-		req.Serve(http.StatusBadRequest, err, nil)
 		return
 	}
 
 	rec, err := obj.Create()
 
 	if err != nil {
+		log.Println("create", err)
 		req.Serve(http.StatusInternalServerError, err, nil)
 		return
 	}
