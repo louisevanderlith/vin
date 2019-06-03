@@ -36,25 +36,21 @@ func (m VIN) Valid() (bool, error) {
 	return husk.ValidateStruct(&m)
 }
 
-func (m VIN) Create() (husk.Key, error) {
+func (m VIN) Create() (husk.Recorder, error) {
 	item, err := ctx.VIN.FindFirst(byFullVIN(m.Full))
 
-	//If Found, just return the Key
+	//If Found, just return the record
 	if err == nil {
-		return item.GetKey(), nil
-	}
-
-	if err != nil {
-		return husk.CrazyKey(), err
+		return item, nil
 	}
 
 	cset := ctx.VIN.Create(m)
 
 	if cset.Error != nil {
-		return husk.CrazyKey(), cset.Error
+		return nil, cset.Error
 	}
 
-	return cset.Record.GetKey(), nil
+	return cset.Record, nil
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.

@@ -17,11 +17,7 @@ import (
 func Setup(s *mango.Service, host string) {
 	ctrlmap := EnableFilter(s, host)
 
-	lookupCtrl := controllers.NewLookupCtrl(ctrlmap)
-
-	beego.Router("/v1/lookup/:vin", lookupCtrl, "get:Get")
-	beego.Router("/v1/lookup", lookupCtrl, "post:Post")
-
+	beego.Router("/v1/lookup/:vin", controllers.NewLookupCtrl(ctrlmap), "get:Get")
 	beego.Router("/v1/validate/:vin", controllers.NewValidateCtrl(ctrlmap), "get:Get")
 }
 
