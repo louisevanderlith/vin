@@ -64,6 +64,8 @@ github.com/louisevanderlith/mango v0.3.50 h1:yzvD+FN6lnCL7RaHjwaAXYn0Ys2kRrsMk+/
 github.com/louisevanderlith/mango v0.3.50/go.mod h1:bG1auEUQrEdXVsJvBN1yS4p4XrlAKWfVr+FlDI4jKdc=
 github.com/louisevanderlith/mango v0.3.53 h1:5kRKMQTjmJhuK5NWPQC4s7lhwHJuYp4y8xzVuRqRVX8=
 github.com/louisevanderlith/mango v0.3.53/go.mod h1:bG1auEUQrEdXVsJvBN1yS4p4XrlAKWfVr+FlDI4jKdc=
+github.com/louisevanderlith/mango v0.3.55 h1:QBgDFwx72dKfNB/Z5cDiVaUhfAnvIV2J9s6caVBTvoE=
+github.com/louisevanderlith/mango v0.3.55/go.mod h1:bG1auEUQrEdXVsJvBN1yS4p4XrlAKWfVr+FlDI4jKdc=
 github.com/louisevanderlith/secure v0.0.0-20190405144636-b7fb199bb689/go.mod h1:r8RUEvDA4onIU4FxTbJNVcszOquBhE7EgVA6iq7Ln98=
 github.com/louisevanderlith/secure v0.1.0 h1:y2hvNg0l3e6y3TJpj5Db+Bvrp5OCHLBTrtCGlgHD72U=
 github.com/louisevanderlith/secure v0.1.0/go.mod h1:M0cpImwBIehj7GqvN6WC1z3kiv98mjTiwngopuVvKHY=

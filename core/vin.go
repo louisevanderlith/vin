@@ -31,6 +31,20 @@ func newVIN(fullvin string) (*VIN, error) {
 	return vin, nil
 }
 
+func GetVIN(key husk.Key) (*VIN, error) {
+	rec, err := ctx.VIN.FindByKey(key)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return rec.Data().(*VIN), nil
+}
+
+func GetAllVINS(page, size int) husk.Collection {
+	return ctx.VIN.Find(page, size, husk.Everything())
+}
+
 //Valid checks if the object's values meets the data requirements
 func (m VIN) Valid() (bool, error) {
 	return husk.ValidateStruct(&m)
