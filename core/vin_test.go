@@ -7,6 +7,7 @@ import "testing"
 //Hyundai -- "KNHCU41DLCU177882
 //Mustang -- 1ZVHT82H485113456
 //Hyundai 2 --5NPEU46F77H259112
+//Toyota -- JT152EEA100302159
 
 //This is expectected from every test.
 var expectations = VIN{
@@ -16,7 +17,7 @@ var expectations = VIN{
 	WMInfo: WMInfo{
 		Country:      "United States",
 		Manufacturer: "Hyundai",
-		VehicleType:  PassengerCar,
+		VehicleType:  "PassengerCar",
 		Region:       "North America",
 	},
 }
@@ -176,4 +177,25 @@ func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
 	if obj.WMInfo.Region != expectations.WMInfo.Region {
 		t.Errorf("expected %v, got %v", expectations.WMInfo.Region, obj.WMInfo.Region)
 	}
+}
+
+func TestDeconstruct_VDS_Toyota(t *testing.T) {
+	obj, err := newVIN("JT152EEA100302159")
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	err = obj.deconstruct()
+
+	if err != nil {
+		t.Error(err)
+	}
+
+	//FINISH
+}
+
+func TestManufactureYear_D_83_13(t *testing.T){
+	//D can be either 1983 OR 2013
+	year, err := getCharWeight
 }

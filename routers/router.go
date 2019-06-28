@@ -20,6 +20,11 @@ func Setup(s *mango.Service, host string) {
 	adminCtrl := controllers.NewAdminCtrl(ctrlmap)
 	beego.Router("/v1/admin/:key", adminCtrl, "get:GetByKey")
 	beego.Router("/v1/admin/all/:pagesize", adminCtrl, "get:Get")
+
+	regionCtrl := controllers.NewRegionCtrl(ctrlmap)
+	beego.Router("/v1/region/:key", regionCtrl, "get:GetByKey")
+	beego.Router("/v1/region/all/:pagesize", regionCtrl, "get:Get")
+
 	beego.Router("/v1/lookup/:vin", controllers.NewLookupCtrl(ctrlmap), "get:Get")
 	beego.Router("/v1/validate/:vin", controllers.NewValidateCtrl(ctrlmap), "get:Get")
 }
@@ -38,6 +43,7 @@ func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
 	adminMap["GET"] = roletype.Admin
 	adminMap["POST"] = roletype.Admin
 	ctrlmap.Add("/v1/admin", adminMap)
+	ctrlmap.Add("/v1/region", adminMap)
 
 	beego.InsertFilter("/v1/*", beego.BeforeRouter, ctrlmap.FilterAPI, false)
 	allowed := fmt.Sprintf("https://*%s", strings.TrimSuffix(host, "/"))

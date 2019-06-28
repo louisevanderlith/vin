@@ -25,6 +25,20 @@ func (r *Region) HasCode(regionCode string) bool {
 	return s <= v && v <= e
 }
 
+func GetRegion(key husk.Key) (*Region, error) {
+	rec, err := ctx.Regions.FindByKey(key)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return rec.Data().(*Region), nil
+}
+
+func GetAllRegions(page, size int) husk.Collection {
+	return ctx.Regions.Find(page, size, husk.Everything())
+}
+
 func GetRegionByCode(uniquevin string) (*Region, error) {
 	record, err := ctx.Regions.FindFirst(byUniqueVIN(uniquevin))
 

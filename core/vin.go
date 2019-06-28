@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/louisevanderlith/husk"
+	"github.com/louisevanderlith/vin/core/vds"
 )
 
 //VIN is the key to the entire vehicle database.
@@ -115,7 +117,17 @@ func (m *VIN) deconstruct() error {
 
 	m.WMInfo = wmiInfo
 
-	return nil
+	//Get Year
+	years, err := manufactureYear(m.Full[9:10])
+
+	if err != nil {
+		return err
+	}
+
+	//Get VDS
+	_, err = vds.FindVDSInfo(m.Unique, years)
+
+	return err
 }
 
 func getUniqueSerial(fullvin string) (string, int) {
@@ -184,6 +196,30 @@ func getCharacterMap() map[string]int {
 	digitMap["Z"] = 9
 
 	return digitMap
+}
+
+func manufactureYear(digit string) ([]int, error) {
+	charWeight := getCharWeight(digit)
+
+	if charWeight == 0 {
+		return nil, errors.New("unable to get a weight")
+	}
+
+	var result []int
+
+	//VIN Characters are reset every 30years
+	years := []int{1980, 2010}
+	maxYear := time.Now().Year()
+
+	for _, v := range years {
+		year := v + charWeight
+
+		if year < maxYear {
+			result = append(result, year)
+		}
+	}
+
+	return result, nil
 }
 
 /*
