@@ -46,3 +46,23 @@ func (req *RegionController) Get() {
 
 	req.Serve(http.StatusOK, nil, results)
 }
+
+// @router /v1/region/ [put]
+func (req *RegionController) Put() {
+	body := &core.Region{}
+	key, err := req.GetKeyedRequest(body)
+
+	if err != nil {
+		req.Serve(http.StatusBadRequest, err, nil)
+		return
+	}
+
+	err = body.Update(key)
+
+	if err != nil {
+		req.Serve(http.StatusNotFound, err, nil)
+		return
+	}
+
+	req.Serve(http.StatusOK, nil, nil)
+}

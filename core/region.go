@@ -61,3 +61,20 @@ func getCharWeight(char string) int {
 	//Alpha chars will return their index in the alphabet
 	return int(char[0] % 32)
 }
+
+func (p Region) Update(key husk.Key) error {
+	reg, err := ctx.Regions.FindByKey(key)
+
+	if err != nil {
+		return err
+	}
+
+	err = reg.Set(p)
+
+	if err != nil {
+		return err
+	}
+
+	defer ctx.Regions.Save()
+	return ctx.Regions.Update(reg)
+}
