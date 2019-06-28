@@ -18,7 +18,7 @@ const (
 
 type Body struct {
 	Code      string
-	Layout    BodyLayout
+	Layout    string
 	Doors     int
 	StartYear int
 	EndYear   int

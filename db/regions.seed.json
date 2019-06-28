@@ -21,7 +21,53 @@
                                 "Name": "",
                                 "Country": "",
                                 "StartYear": 1921,
-                                "EndYear": 2101
+                                "EndYear": 2101,
+                                "Series": [
+                                    {
+                                        "Spec": "",
+                                        "Plaform": {
+                                            "Code": "B10",
+                                            "Engine": {
+                                                "Family": "10",
+                                                "Series": "XC",
+                                                "Code": "B12",
+                                                "Displacement": 1989,
+                                                "FuelType": "Petrol",
+                                                "Layout": "Boxer",
+                                                "Cylinders": 4,
+                                                "Valvetrain": "DOHC",
+                                                "ValvesPerCylinder": 4,
+                                                "PowerKW": 125,
+                                                "PowerAt": 3600,
+                                                "TorqueNm": 89,
+                                                "TorqueAt": 3336,
+                                                "Induction": "NA",
+                                                "StartYear": 1999,
+                                                "EndYear": 1999
+                                            },
+                                            "Gearbox": {
+                                                "SeriesCode": "CC555",
+                                                "Code": "",
+                                                "Gears": 9,
+                                                "Type": "CVT",
+                                                "StartYear": 1999,
+                                                "EndYear": 1999
+                                            },
+                                            "Body": {
+                                                "Code": "X",
+                                                "Layout": "Fastback",
+                                                "Doors": 9,
+                                                "StartYear": 1921,
+                                                "EndYear": 2101
+                                            },
+                                            "DriveLayout": "FF",
+                                            "StartYear": 1921,
+                                            "EndYear": 1999
+                                        },
+                                        "StartYear": 1921,
+                                        "EndYear": 2101
+                                    }
+                                ]
                             }
                         ]
                     },

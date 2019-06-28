@@ -18,10 +18,10 @@ const (
 
 type Platform struct {
 	Code        string
-	Engine      *Engine
-	Gearbox     *Gearbox
-	Body        *Body
-	DriveLayout DriveLayout
+	Engine      Engine
+	Gearbox     Gearbox
+	Body        Body
+	DriveLayout string
 	StartYear   int
 	EndYear     int
 }

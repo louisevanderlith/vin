@@ -35,8 +35,8 @@ type Engine struct {
 	Series            string
 	Code              string
 	Displacement      int
-	FuelType          FuelType
-	Layout            EngineLayout
+	FuelType          string
+	Layout            string
 	Cylinders         int
 	Valvetrain        string
 	ValvesPerCylinder int
@@ -44,10 +44,9 @@ type Engine struct {
 	PowerAt           int
 	TorqueNm          int
 	TorqueAt          int
-	Induction         Induction
+	Induction         string
 	StartYear         int
 	EndYear           int
-	Models            []Model
 }
 
 func (m Engine) Valid() (bool, error) {

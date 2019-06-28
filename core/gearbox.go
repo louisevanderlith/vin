@@ -15,8 +15,7 @@ type Gearbox struct {
 	SeriesCode string
 	Code       string
 	Gears      int
-	Type       GearboxType
-	Models     []Model
+	Type       string
 	StartYear  int
 	EndYear    int
 }
