@@ -3,25 +3,18 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/louisevanderlith/droxolite/xontrols"
 	"github.com/louisevanderlith/husk"
-	"github.com/louisevanderlith/mango/control"
 	"github.com/louisevanderlith/vin/core"
 )
 
 type RegionController struct {
-	control.APIController
-}
-
-func NewRegionCtrl(ctrlmap *control.ControllerMap) *RegionController {
-	result := &RegionController{}
-	result.SetInstanceMap(ctrlmap)
-
-	return result
+	xontrols.APICtrl
 }
 
 // /v1/region/:key
 func (req *RegionController) GetByKey() {
-	k := req.Ctx.Input.Param(":key")
+	k := req.FindParam("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {

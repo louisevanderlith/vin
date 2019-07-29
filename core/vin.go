@@ -13,10 +13,11 @@ import (
 
 //VIN is the key to the entire vehicle database.
 type VIN struct {
-	Full   string `hsk:"size(17)"`
-	Unique string `hsk:"min(2)"`
-	Serial int
-	WMInfo WMInfo
+	Full    string `hsk:"size(17)"`
+	Unique  string `hsk:"min(2)"`
+	Serial  int
+	WMInfo  WMInfo
+	VDSInfo vds.VDSInfo
 }
 
 func newVIN(fullvin string) (*VIN, error) {
@@ -125,7 +126,7 @@ func (m *VIN) deconstruct() error {
 	}
 
 	//Get VDS
-	_, err = vds.FindVDSInfo(m.Unique, years)
+	_, err = vds.FindVDSInfo(wmiInfo.Manufacturer, m.Unique, years)
 
 	return err
 }

@@ -3,25 +3,18 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/louisevanderlith/droxolite/xontrols"
 	"github.com/louisevanderlith/husk"
-	"github.com/louisevanderlith/mango/control"
 	"github.com/louisevanderlith/vin/core"
 )
 
 type AdminController struct {
-	control.APIController
-}
-
-func NewAdminCtrl(ctrlmap *control.ControllerMap) *AdminController {
-	result := &AdminController{}
-	result.SetInstanceMap(ctrlmap)
-
-	return result
+	xontrols.APICtrl
 }
 
 // /v1/vin/:key
 func (req *AdminController) GetByKey() {
-	k := req.Ctx.Input.Param(":key")
+	k := req.FindParam("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {

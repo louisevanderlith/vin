@@ -1,21 +1,39 @@
 package routers
 
 import (
-	"fmt"
-	"strings"
+	"github.com/louisevanderlith/droxolite"
+	"github.com/louisevanderlith/droxolite/roletype"
 
-	"github.com/louisevanderlith/secure/core/roletype"
-
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/plugins/cors"
-	"github.com/louisevanderlith/mango"
-	"github.com/louisevanderlith/mango/control"
-	secure "github.com/louisevanderlith/secure/core"
 	"github.com/louisevanderlith/vin/controllers"
 )
 
-func Setup(s *mango.Service, host string) {
-	ctrlmap := EnableFilter(s, host)
+func Setup(poxy *droxolite.Epoxy) {
+	//Admin
+	admCtrl := &controllers.AdminController{}
+	admGroup := droxolite.NewRouteGroup("admin", admCtrl)
+	admGroup.AddRoute("/{key:[0-9]+\x60[0-9]+}", "GET", roletype.Admin, admCtrl.GetByKey)
+	admGroup.AddRoute("/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.Admin, admCtrl.Get)
+	poxy.AddGroup(admGroup)
+
+	//Region
+	regnCtrl := &controllers.RegionController{}
+	regnGroup := droxolite.NewRouteGroup("region", regnCtrl)
+	regnGroup.AddRoute("/{key:[0-9]+\x60[0-9]+}", "GET", roletype.User, regnCtrl.GetByKey)
+	regnGroup.AddRoute("/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.User, regnCtrl.Get)
+	poxy.AddGroup(regnGroup)
+
+	//Lookup
+	lookCtrl := &controllers.LookupController{}
+	lookGroup := droxolite.NewRouteGroup("lookup", lookCtrl)
+	lookGroup.AddRoute("/{vin}", "GET", roletype.User, lookCtrl.Get)
+	poxy.AddGroup(lookGroup)
+
+	//Validate
+	valCtrl := &controllers.ValidateController{}
+	valGroup := droxolite.NewRouteGroup("validate", valCtrl)
+	valGroup.AddRoute("/{vin}", "GET", roletype.User, valCtrl.Get)
+	poxy.AddGroup(valGroup)
+	/*ctrlmap := EnableFilter(s, host)
 
 	adminCtrl := controllers.NewAdminCtrl(ctrlmap)
 	beego.Router("/v1/admin/:key", adminCtrl, "get:GetByKey")
@@ -26,9 +44,10 @@ func Setup(s *mango.Service, host string) {
 	beego.Router("/v1/region/all/:pagesize", regionCtrl, "get:Get")
 
 	beego.Router("/v1/lookup/:vin", controllers.NewLookupCtrl(ctrlmap), "get:Get")
-	beego.Router("/v1/validate/:vin", controllers.NewValidateCtrl(ctrlmap), "get:Get")
+	beego.Router("/v1/validate/:vin", controllers.NewValidateCtrl(ctrlmap), "get:Get")*/
 }
 
+/*
 func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
 	ctrlmap := control.CreateControlMap(s)
 
@@ -54,4 +73,4 @@ func EnableFilter(s *mango.Service, host string) *control.ControllerMap {
 	}))
 
 	return ctrlmap
-}
+}*/

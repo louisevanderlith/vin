@@ -1,5 +1,9 @@
 package core
 
+import (
+	"strings"
+)
+
 type WMInfo struct {
 	Region       string
 	Country      string
@@ -31,7 +35,7 @@ func FindWMInfo(uniquevin string) (WMInfo, error) {
 			for j := 0; j < len(country.Manufacturers); j++ {
 				manufacturer := country.Manufacturers[j]
 
-				if manufacturer.WMICode == wmi {
+				if strings.HasPrefix(wmi, manufacturer.WMICode) {
 					result.Manufacturer = manufacturer.Name
 					result.VehicleType = manufacturer.VehicleType.String()
 

@@ -1,4 +1,4 @@
-FROM golang:1.11 as build_base
+FROM golang:1.12 as build_base
 
 WORKDIR /box
 

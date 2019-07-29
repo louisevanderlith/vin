@@ -1,7 +1,11 @@
 package vds
 
-func Analyse(vin string) interface{} {
-	return nil
+type BMWVDS struct {
+	VDSInfo
+}
+
+func AnalyseBMW(vin string, obj *VDSInfo) (interface{}, error) {
+	return nil, nil
 }
 
 //4-7 Model
@@ -11,9 +15,11 @@ A = automatic
 C = convertible
 CS = coupe sport
 i = injection; international
-e = ETA (high mpg, high torque, low RPM) engine L = long-wheelbase; luxury
+e = ETA (high mpg, high torque, low RPM) engine
+L = long-wheelbase; luxury
 M = Motorsport
-s = sport; also used to denote coupe body in NA markets t = touring; touring could equate to hatchback, wagon, or
+s = sport; also used to denote coupe body in NA markets
+t = touring; touring could equate to hatchback, wagon, or
 
 td = turbodiesel
 tds = intercooled turbodiesel

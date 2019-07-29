@@ -5,34 +5,43 @@ import (
 	"os"
 	"path"
 
-	"github.com/louisevanderlith/mango"
-	"github.com/louisevanderlith/mango/enums"
+	"github.com/louisevanderlith/droxolite"
+	"github.com/louisevanderlith/droxolite/servicetype"
 	"github.com/louisevanderlith/vin/routers"
 
-	"github.com/astaxie/beego"
 	"github.com/louisevanderlith/vin/core"
 )
 
 func main() {
 	keyPath := os.Getenv("KEYPATH")
 	pubName := os.Getenv("PUBLICKEY")
-	host := os.Getenv("HOST")
+	//host := os.Getenv("HOST")
 	pubPath := path.Join(keyPath, pubName)
+
+	conf, err := droxolite.LoadConfig()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Register with router
+	srv := droxolite.NewService(conf.Appname, pubPath, conf.HTTPPort, servicetype.API)
+
+	err = srv.Register()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	poxy := droxolite.NewEpoxy(srv)
+	routers.Setup(poxy)
 
 	core.CreateContext()
 	defer core.Shutdown()
 
-	// Register with router
-	appName := beego.BConfig.AppName
-	srv := mango.NewService(appName, pubPath, enums.API)
-
-	port := beego.AppConfig.String("httpport")
-	err := srv.Register(port)
+	err = poxy.Boot()
 
 	if err != nil {
-		log.Print("Register: ", err)
-	} else {
-		routers.Setup(srv, host)
-		beego.Run()
+		log.Fatal(err)
 	}
 }

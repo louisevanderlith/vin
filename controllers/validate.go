@@ -3,19 +3,12 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/louisevanderlith/mango/control"
+	"github.com/louisevanderlith/droxolite/xontrols"
 	"github.com/louisevanderlith/vin/core"
 )
 
 type ValidateController struct {
-	control.APIController
-}
-
-func NewValidateCtrl(ctrlMap *control.ControllerMap) *ValidateController {
-	result := &ValidateController{}
-	result.SetInstanceMap(ctrlMap)
-
-	return result
+	xontrols.APICtrl
 }
 
 // @Title Validate
@@ -23,7 +16,7 @@ func NewValidateCtrl(ctrlMap *control.ControllerMap) *ValidateController {
 // @Success 200 {bool} bool
 // @router /:vin [get]
 func (req *ValidateController) Get() {
-	vin := req.Ctx.Input.Param(":vin")
+	vin := req.FindParam("vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {

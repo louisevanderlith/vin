@@ -180,7 +180,7 @@ func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_VDS_Toyota(t *testing.T) {
-	obj, err := newVIN("JT152EEA100302159")
+	obj, err := newVIN("JT2MX83E2K0030681")
 
 	if err != nil {
 		t.Error(err)
@@ -192,10 +192,6 @@ func TestDeconstruct_VDS_Toyota(t *testing.T) {
 		t.Error(err)
 	}
 
+	t.Fail()
 	//FINISH
-}
-
-func TestManufactureYear_D_83_13(t *testing.T){
-	//D can be either 1983 OR 2013
-	year, err := getCharWeight
 }
