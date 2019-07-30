@@ -4,5 +4,7 @@ github.com/gorilla/mux v1.7.3 h1:gnP5JzjVOuiZD07fKKToCAOjS0yOpj/qPETTXCCS6hw=
 github.com/gorilla/mux v1.7.3/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
 github.com/louisevanderlith/droxolite v1.0.4 h1:YmzxJuqcr3UwZVSkXrwQozTn53LLUOwC6sdKkQvi/EU=
 github.com/louisevanderlith/droxolite v1.0.4/go.mod h1:YOrkilGQKwRv1TCIDkGEO0xmrgPkyQzh8RCshZJxSnI=
+github.com/louisevanderlith/droxolite v1.0.6 h1:8uObU4amz3jy24ECdMqivg1aQPyGLM2YrwDBfnn5EOM=
+github.com/louisevanderlith/droxolite v1.0.6/go.mod h1:YOrkilGQKwRv1TCIDkGEO0xmrgPkyQzh8RCshZJxSnI=
 github.com/louisevanderlith/husk v0.6.25 h1:QfO71voenofBx8DC0pw8f1zy/S5fHfiBIY5oN/cnTbE=
 github.com/louisevanderlith/husk v0.6.25/go.mod h1:FiREVNZW48kA++iCekTEqFLcpe1m31+FQhd1ePm0YLA=
