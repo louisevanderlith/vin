@@ -29,7 +29,7 @@ func (req *LookupController) Get() {
 		return
 	}
 
-	results, err := core.BuildVIN(vin)
+	results, err := core.doesVINExist(vin)
 
 	req.Serve(results, err)
 }
