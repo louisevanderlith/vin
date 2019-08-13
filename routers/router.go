@@ -11,27 +11,27 @@ func Setup(poxy *droxolite.Epoxy) {
 	//Admin
 	admCtrl := &controllers.AdminController{}
 	admGroup := droxolite.NewRouteGroup("admin", admCtrl)
-	admGroup.AddRoute("/{key:[0-9]+\x60[0-9]+}", "GET", roletype.Admin, admCtrl.GetByKey)
-	admGroup.AddRoute("/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.Admin, admCtrl.Get)
+	admGroup.AddRoute("VIN by Key", "/{key:[0-9]+\x60[0-9]+}", "GET", roletype.Admin, admCtrl.GetByKey)
+	admGroup.AddRoute("All VIN Numbers", "/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.Admin, admCtrl.Get)
 	poxy.AddGroup(admGroup)
 
 	//Region
 	regnCtrl := &controllers.RegionController{}
 	regnGroup := droxolite.NewRouteGroup("region", regnCtrl)
-	regnGroup.AddRoute("/{key:[0-9]+\x60[0-9]+}", "GET", roletype.User, regnCtrl.GetByKey)
-	regnGroup.AddRoute("/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.User, regnCtrl.Get)
+	regnGroup.AddRoute("Region by Key", "/{key:[0-9]+\x60[0-9]+}", "GET", roletype.User, regnCtrl.GetByKey)
+	regnGroup.AddRoute("All Regions", "/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.User, regnCtrl.Get)
 	poxy.AddGroup(regnGroup)
 
 	//Lookup
 	lookCtrl := &controllers.LookupController{}
 	lookGroup := droxolite.NewRouteGroup("lookup", lookCtrl)
-	lookGroup.AddRoute("/{vin}", "GET", roletype.User, lookCtrl.Get)
+	lookGroup.AddRoute("Find VIN", "/{vin}", "GET", roletype.User, lookCtrl.Get)
 	poxy.AddGroup(lookGroup)
 
 	//Validate
 	valCtrl := &controllers.ValidateController{}
 	valGroup := droxolite.NewRouteGroup("validate", valCtrl)
-	valGroup.AddRoute("/{vin}", "GET", roletype.User, valCtrl.Get)
+	valGroup.AddRoute("Validate VIN", "/{vin}", "GET", roletype.User, valCtrl.Get)
 	poxy.AddGroup(valGroup)
 	/*ctrlmap := EnableFilter(s, host)
 

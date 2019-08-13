@@ -2,8 +2,8 @@ github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumC
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/gorilla/mux v1.7.3 h1:gnP5JzjVOuiZD07fKKToCAOjS0yOpj/qPETTXCCS6hw=
 github.com/gorilla/mux v1.7.3/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
-github.com/louisevanderlith/droxolite v1.2.4 h1:vt4xpfcFzn+r6poFLcEC4Urpxji7aQzLPFoOv0kik5g=
-github.com/louisevanderlith/droxolite v1.2.4/go.mod h1:4MGmNynabJT1TDKQO0lGxMv9TNoWQ3+b2W98wK/mESk=
+github.com/louisevanderlith/droxolite v1.2.9 h1:5u2jYfLtUjGzss9uZRaUPPcthMUBi5hJpEimXtCdkx0=
+github.com/louisevanderlith/droxolite v1.2.9/go.mod h1:4MGmNynabJT1TDKQO0lGxMv9TNoWQ3+b2W98wK/mESk=
 github.com/louisevanderlith/husk v0.6.25 h1:QfO71voenofBx8DC0pw8f1zy/S5fHfiBIY5oN/cnTbE=
 github.com/louisevanderlith/husk v0.6.25/go.mod h1:FiREVNZW48kA++iCekTEqFLcpe1m31+FQhd1ePm0YLA=
 github.com/rs/cors v1.6.0 h1:G9tHG9lebljV9mfp9SNPDL36nCDxmo3zTlAf1YgvzmI=
