@@ -3,59 +3,54 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/louisevanderlith/droxolite/xontrols"
+	"github.com/louisevanderlith/droxolite/context"
 	"github.com/louisevanderlith/husk"
 	"github.com/louisevanderlith/vin/core"
 )
 
 type RegionController struct {
-	xontrols.APICtrl
 }
 
 // /v1/region/:key
-func (req *RegionController) GetByKey() {
-	k := req.FindParam("key")
+func (req *RegionController) GetByKey(ctx context.Contexer) (int, interface{}) {
+	k := ctx.FindParam("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {
-		req.Serve(http.StatusBadRequest, err, nil)
-		return
+		return http.StatusBadRequest, err
 	}
 
 	rec, err := core.GetRegion(key)
 
 	if err != nil {
-		req.Serve(http.StatusNotFound, err, nil)
-		return
+		return http.StatusNotFound, err
 	}
 
-	req.Serve(http.StatusOK, nil, rec)
+	return http.StatusOK, rec
 }
 
 // @router /all/:pagesize [get]
-func (req *RegionController) Get() {
-	page, size := req.GetPageData()
+func (req *RegionController) Get(ctx context.Contexer) (int, interface{}) {
+	page, size := ctx.GetPageData()
 	results := core.GetAllRegions(page, size)
 
-	req.Serve(http.StatusOK, nil, results)
+	return http.StatusOK, results
 }
 
 // @router /v1/region/ [put]
-func (req *RegionController) Put() {
+func (req *RegionController) Put(ctx context.Contexer) (int, interface{}) {
 	body := &core.Region{}
-	key, err := req.GetKeyedRequest(body)
+	key, err := ctx.GetKeyedRequest(body)
 
 	if err != nil {
-		req.Serve(http.StatusBadRequest, err, nil)
-		return
+		return http.StatusBadRequest, err
 	}
 
 	err = body.Update(key)
 
 	if err != nil {
-		req.Serve(http.StatusNotFound, err, nil)
-		return
+		return http.StatusNotFound, err
 	}
 
-	req.Serve(http.StatusOK, nil, nil)
+	return http.StatusOK, nil
 }

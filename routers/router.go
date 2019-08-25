@@ -1,36 +1,38 @@
 package routers
 
 import (
-	"github.com/louisevanderlith/droxolite"
+	"github.com/louisevanderlith/droxolite/mix"
+	"github.com/louisevanderlith/droxolite/resins"
 	"github.com/louisevanderlith/droxolite/roletype"
+	"github.com/louisevanderlith/droxolite/routing"
 
 	"github.com/louisevanderlith/vin/controllers"
 )
 
-func Setup(poxy *droxolite.Epoxy) {
+func Setup(poxy resins.Epoxi) {
 	//Admin
 	admCtrl := &controllers.AdminController{}
-	admGroup := droxolite.NewRouteGroup("admin", admCtrl)
+	admGroup := routing.NewRouteGroup("admin", mix.JSON)
 	admGroup.AddRoute("VIN by Key", "/{key:[0-9]+\x60[0-9]+}", "GET", roletype.Admin, admCtrl.GetByKey)
 	admGroup.AddRoute("All VIN Numbers", "/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.Admin, admCtrl.Get)
 	poxy.AddGroup(admGroup)
 
 	//Region
 	regnCtrl := &controllers.RegionController{}
-	regnGroup := droxolite.NewRouteGroup("region", regnCtrl)
+	regnGroup := routing.NewRouteGroup("region", mix.JSON)
 	regnGroup.AddRoute("Region by Key", "/{key:[0-9]+\x60[0-9]+}", "GET", roletype.User, regnCtrl.GetByKey)
 	regnGroup.AddRoute("All Regions", "/all/{pagesize:[A-Z][0-9]+}", "GET", roletype.User, regnCtrl.Get)
 	poxy.AddGroup(regnGroup)
 
 	//Lookup
 	lookCtrl := &controllers.LookupController{}
-	lookGroup := droxolite.NewRouteGroup("lookup", lookCtrl)
+	lookGroup := routing.NewRouteGroup("lookup", mix.JSON)
 	lookGroup.AddRoute("Find VIN", "/{vin}", "GET", roletype.User, lookCtrl.Get)
 	poxy.AddGroup(lookGroup)
 
 	//Validate
 	valCtrl := &controllers.ValidateController{}
-	valGroup := droxolite.NewRouteGroup("validate", valCtrl)
+	valGroup := routing.NewRouteGroup("validate", mix.JSON)
 	valGroup.AddRoute("Validate VIN", "/{vin}", "GET", roletype.User, valCtrl.Get)
 	poxy.AddGroup(valGroup)
 	/*ctrlmap := EnableFilter(s, host)

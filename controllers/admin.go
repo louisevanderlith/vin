@@ -3,39 +3,36 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/louisevanderlith/droxolite/xontrols"
+	"github.com/louisevanderlith/droxolite/context"
 	"github.com/louisevanderlith/husk"
 	"github.com/louisevanderlith/vin/core"
 )
 
 type AdminController struct {
-	xontrols.APICtrl
 }
 
 // /v1/vin/:key
-func (req *AdminController) GetByKey() {
-	k := req.FindParam("key")
+func (req *AdminController) GetByKey(ctx context.Contexer) (int, interface{}) {
+	k := ctx.FindParam("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {
-		req.Serve(http.StatusBadRequest, err, nil)
-		return
+		return http.StatusBadRequest, err
 	}
 
 	rec, err := core.GetVIN(key)
 
 	if err != nil {
-		req.Serve(http.StatusNotFound, err, nil)
-		return
+		return http.StatusNotFound, err
 	}
 
-	req.Serve(http.StatusOK, nil, rec)
+	return http.StatusOK, rec
 }
 
 // @router /all/:pagesize [get]
-func (req *AdminController) Get() {
-	page, size := req.GetPageData()
+func (req *AdminController) Get(ctx context.Contexer) (int, interface{}) {
+	page, size := ctx.GetPageData()
 	results := core.GetAllVINS(page, size)
 
-	req.Serve(http.StatusOK, nil, results)
+	return http.StatusOK, results
 }
