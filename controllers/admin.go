@@ -8,11 +8,17 @@ import (
 	"github.com/louisevanderlith/vin/core"
 )
 
-type AdminController struct {
+type Admin struct {
+}
+
+func (x *Admin) Get(ctx context.Requester) (int, interface{}) {
+	results := core.GetAllVINS(1, 10)
+
+	return http.StatusOK, results
 }
 
 // /v1/vin/:key
-func (req *AdminController) GetByKey(ctx context.Contexer) (int, interface{}) {
+func (req *Admin) View(ctx context.Requester) (int, interface{}) {
 	k := ctx.FindParam("key")
 	key, err := husk.ParseKey(k)
 
@@ -30,7 +36,7 @@ func (req *AdminController) GetByKey(ctx context.Contexer) (int, interface{}) {
 }
 
 // @router /all/:pagesize [get]
-func (req *AdminController) Get(ctx context.Contexer) (int, interface{}) {
+func (req *Admin) Search(ctx context.Requester) (int, interface{}) {
 	page, size := ctx.GetPageData()
 	results := core.GetAllVINS(page, size)
 

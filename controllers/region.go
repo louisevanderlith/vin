@@ -8,11 +8,17 @@ import (
 	"github.com/louisevanderlith/vin/core"
 )
 
-type RegionController struct {
+type Regions struct {
+}
+
+func (req *Regions) Get(ctx context.Requester) (int, interface{}) {
+	results := core.GetAllRegions(1, 10)
+
+	return http.StatusOK, results
 }
 
 // /v1/region/:key
-func (req *RegionController) GetByKey(ctx context.Contexer) (int, interface{}) {
+func (req *Regions) View(ctx context.Requester) (int, interface{}) {
 	k := ctx.FindParam("key")
 	key, err := husk.ParseKey(k)
 
@@ -30,7 +36,7 @@ func (req *RegionController) GetByKey(ctx context.Contexer) (int, interface{}) {
 }
 
 // @router /all/:pagesize [get]
-func (req *RegionController) Get(ctx context.Contexer) (int, interface{}) {
+func (req *Regions) Search(ctx context.Requester) (int, interface{}) {
 	page, size := ctx.GetPageData()
 	results := core.GetAllRegions(page, size)
 
@@ -38,7 +44,7 @@ func (req *RegionController) Get(ctx context.Contexer) (int, interface{}) {
 }
 
 // @router /v1/region/ [put]
-func (req *RegionController) Put(ctx context.Contexer) (int, interface{}) {
+func (req *Regions) Update(ctx context.Requester) (int, interface{}) {
 	body := &core.Region{}
 	key, err := ctx.GetKeyedRequest(body)
 

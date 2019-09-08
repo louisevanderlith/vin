@@ -8,14 +8,11 @@ import (
 	"github.com/louisevanderlith/vin/core"
 )
 
-type LookupController struct {
-}
-
 // @Title Validate and Deserialize
 // @Description Gets the details of a VIN after validation
 // @Success 200 {[]core.Profile} []core.Portfolio]
 // @router /:vin [get]
-func (req *LookupController) Get(ctx context.Contexer) (int, interface{}) {
+func Lookup(ctx context.Requester) (int, interface{}) {
 	vin := ctx.FindParam("vin")
 	err := core.ValidateVIN(vin)
 
