@@ -35,7 +35,7 @@ func (req *Regions) View(ctx context.Requester) (int, interface{}) {
 	return http.StatusOK, rec
 }
 
-// @router /all/:pagesize [get]
+// @router /:pagesize/:query== [get]
 func (req *Regions) Search(ctx context.Requester) (int, interface{}) {
 	page, size := ctx.GetPageData()
 	results := core.GetAllRegions(page, size)
@@ -45,8 +45,14 @@ func (req *Regions) Search(ctx context.Requester) (int, interface{}) {
 
 // @router /v1/region/ [put]
 func (req *Regions) Update(ctx context.Requester) (int, interface{}) {
+	key, err := husk.ParseKey(ctx.FindParam("key"))
+
+	if err != nil {
+		return http.StatusBadRequest, err
+	}
+
 	body := &core.Region{}
-	key, err := ctx.GetKeyedRequest(body)
+	err = ctx.Body(body)
 
 	if err != nil {
 		return http.StatusBadRequest, err
