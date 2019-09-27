@@ -19,7 +19,6 @@ RUN CGO_ENABLED="0" go build
 FROM scratch
 
 COPY --from=builder /box/vin .
-COPY conf conf
 
 EXPOSE 8095
 
