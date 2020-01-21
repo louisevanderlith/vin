@@ -1,10 +1,10 @@
-package controllers
+package lookup
 
 import (
 	"log"
 	"net/http"
 
-	"github.com/louisevanderlith/droxolite/context"
+	"github.com/gin-gonic/gin"
 	"github.com/louisevanderlith/vin/core"
 )
 
@@ -12,27 +12,30 @@ import (
 // @Description Gets the details of a VIN after validation
 // @Success 200 {[]core.Profile} []core.Portfolio]
 // @router /:vin [get]
-func Lookup(ctx context.Requester) (int, interface{}) {
+func Lookup(c *gin.Context) {
 	vin := c.Param("vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {
-		return http.StatusBadRequest, err
+		c.AbortWithError(http.StatusBadRequest, err)
+		return
 	}
 
 	obj, err := core.BuildInfo(vin)
 
 	if err != nil {
 		log.Println("build", err)
-		return http.StatusInternalServerError, err
+		c.AbortWithError(http.StatusInternalServerError, err)
+		return
 	}
 
 	rec, err := obj.Create()
 
 	if err != nil {
 		log.Println("create", err)
-		return http.StatusInternalServerError, err
+		c.AbortWithError(http.StatusInternalServerError, err)
+		return
 	}
 
-	return http.StatusOK, rec
+	c.JSON(http.StatusOK, rec)
 }
