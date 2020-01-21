@@ -12,7 +12,7 @@ import (
 // @Success 200 {bool} bool
 // @router /:vin [get]
 func Validate(ctx context.Requester) (int, interface{}) {
-	vin := ctx.FindParam("vin")
+	vin := c.Param("vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {

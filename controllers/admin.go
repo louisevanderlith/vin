@@ -11,15 +11,15 @@ import (
 type Admin struct {
 }
 
-func (x *Admin) Get(ctx context.Requester) (int, interface{}) {
+func (x *Admin) Get(c *gin.Context) {
 	results := core.GetAllVINS(1, 10)
 
 	return http.StatusOK, results
 }
 
 // /v1/vin/:key
-func (req *Admin) View(ctx context.Requester) (int, interface{}) {
-	k := ctx.FindParam("key")
+func (req *Admin) View(c *gin.Context) {
+	k := c.Param("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {
@@ -36,7 +36,7 @@ func (req *Admin) View(ctx context.Requester) (int, interface{}) {
 }
 
 // @router /all/:pagesize [get]
-func (req *Admin) Search(ctx context.Requester) (int, interface{}) {
+func (req *Admin) Search(c *gin.Context) {
 	page, size := ctx.GetPageData()
 	results := core.GetAllVINS(page, size)
 

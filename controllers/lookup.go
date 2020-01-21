@@ -13,7 +13,7 @@ import (
 // @Success 200 {[]core.Profile} []core.Portfolio]
 // @router /:vin [get]
 func Lookup(ctx context.Requester) (int, interface{}) {
-	vin := ctx.FindParam("vin")
+	vin := c.Param("vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {

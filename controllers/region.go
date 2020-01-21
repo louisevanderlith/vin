@@ -11,15 +11,15 @@ import (
 type Regions struct {
 }
 
-func (req *Regions) Get(ctx context.Requester) (int, interface{}) {
+func (req *Regions) Get(c *gin.Context) {
 	results := core.GetAllRegions(1, 10)
 
 	return http.StatusOK, results
 }
 
 // /v1/region/:key
-func (req *Regions) View(ctx context.Requester) (int, interface{}) {
-	k := ctx.FindParam("key")
+func (req *Regions) View(c *gin.Context) {
+	k := c.Param("key")
 	key, err := husk.ParseKey(k)
 
 	if err != nil {
@@ -36,7 +36,7 @@ func (req *Regions) View(ctx context.Requester) (int, interface{}) {
 }
 
 // @router /:pagesize/:query== [get]
-func (req *Regions) Search(ctx context.Requester) (int, interface{}) {
+func (req *Regions) Search(c *gin.Context) {
 	page, size := ctx.GetPageData()
 	results := core.GetAllRegions(page, size)
 
@@ -44,8 +44,8 @@ func (req *Regions) Search(ctx context.Requester) (int, interface{}) {
 }
 
 // @router /v1/region/ [put]
-func (req *Regions) Update(ctx context.Requester) (int, interface{}) {
-	key, err := husk.ParseKey(ctx.FindParam("key"))
+func (req *Regions) Update(c *gin.Context) {
+	key, err := husk.ParseKey(c.Param("key"))
 
 	if err != nil {
 		return http.StatusBadRequest, err
