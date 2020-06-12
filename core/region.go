@@ -35,7 +35,7 @@ func GetRegion(key husk.Key) (*Region, error) {
 	return rec.Data().(*Region), nil
 }
 
-func GetAllRegions(page, size int) husk.Collection {
+func GetAllRegions(page, size int) (husk.Collection, error) {
 	return ctx.Regions.Find(page, size, husk.Everything())
 }
 

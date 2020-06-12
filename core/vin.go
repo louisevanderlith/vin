@@ -44,7 +44,7 @@ func GetVIN(key husk.Key) (*VIN, error) {
 	return rec.Data().(*VIN), nil
 }
 
-func GetAllVINS(page, size int) husk.Collection {
+func GetAllVINS(page, size int) (husk.Collection, error) {
 	return ctx.VIN.Find(page, size, husk.Everything())
 }
 

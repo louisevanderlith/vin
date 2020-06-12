@@ -1,6 +1,8 @@
-package controllers
+package handles
 
 import (
+	"github.com/louisevanderlith/droxolite/mix"
+	"log"
 	"net/http"
 
 	"github.com/louisevanderlith/droxolite/context"
@@ -11,13 +13,20 @@ import (
 // @Description Attempts to validate the vin
 // @Success 200 {bool} bool
 // @router /:vin [get]
-func Validate(ctx context.Requester) (int, interface{}) {
+func Validate(w http.ResponseWriter, r *http.Request) {
+	ctx := context.New(w, r)
 	vin := ctx.FindParam("vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {
-		return http.StatusBadRequest, err
+		log.Println(err)
+		http.Error(w, "", http.StatusBadRequest)
+		return
 	}
 
-	return http.StatusOK, true
+	err = ctx.Serve(http.StatusOK, mix.JSON(true))
+
+	if err != nil {
+		log.Println(err)
+	}
 }

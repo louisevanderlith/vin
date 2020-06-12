@@ -1,4 +1,4 @@
-FROM golang:1.12 as build_base
+FROM golang:1.13 as build_base
 
 WORKDIR /box
 
@@ -10,9 +10,8 @@ RUN go mod download
 FROM build_base as builder
 
 COPY main.go .
-COPY controllers ./controllers
+COPY handles ./handles
 COPY core ./core
-COPY routers ./routers
 
 RUN CGO_ENABLED="0" go build
 
