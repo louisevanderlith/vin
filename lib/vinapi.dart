@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:html';
 
-import '../pathlookup.dart';
-import 'requester.dart';
+import 'package:mango_ui/requester.dart';
 
 Future<HttpRequest> validateVIN(String vin) async {
-  final url = await buildPath("VIN.API", "validate", [vin]);
+  var apiroute = getEndpoint("vin");
+  var url = "${apiroute}/validate/${vin}";
 
-  return invokeService("GET", url, true, "");
+  return invokeService("GET", url, null);
 }

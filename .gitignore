@@ -15,6 +15,9 @@
 
 vin
 dist
+.packages
+.dart_tool
+pubspec.lock
 
 db/*.husk
 !db/*.seed.json

@@ -9,6 +9,19 @@ import (
 
 func SetupRoutes(scrt, secureUrl string) http.Handler {
 	r := mux.NewRouter()
+
+	mans := kong.ResourceMiddleware("vin.lookup.manufacturers", scrt, secureUrl, GetManufacturers)
+	r.HandleFunc("/lookup/manufacturers/{year:[0-9]+}", mans).Methods(http.MethodGet)
+
+	mdls := kong.ResourceMiddleware("vin.lookup.models", scrt, secureUrl, GetModels)
+	r.HandleFunc("/lookup/models/{year:[0-9]+}/{manufacturer:[a-zA-Z]+}", mdls).Methods(http.MethodGet)
+
+	trms := kong.ResourceMiddleware("vin.lookup.trims", scrt, secureUrl, GetTrims)
+	r.HandleFunc("/lookup/trim/{year:[0-9]+}/{manufacturer:[a-zA-Z]+}/{model:[a-zA-Z]+}", trms).Methods(http.MethodGet)
+
+	vald := kong.ResourceMiddleware("vin.validate", scrt, secureUrl, Validate)
+	r.HandleFunc("/validate/{vin}", vald).Methods(http.MethodGet)
+
 	/*
 		admCtrl := &handles.Admin{}
 			regnCtrl := &handles.Regions{}
