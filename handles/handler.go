@@ -22,6 +22,19 @@ func SetupRoutes(scrt, secureUrl string) http.Handler {
 	vald := kong.ResourceMiddleware("vin.validate", scrt, secureUrl, Validate)
 	r.HandleFunc("/validate/{vin}", vald).Methods(http.MethodGet)
 
+	viewRgn := kong.ResourceMiddleware("vin.region.view", scrt, secureUrl, ViewRegions)
+	r.HandleFunc("/regions/{key:[0-9]+\\x60[0-9]+}", viewRgn).Methods(http.MethodGet)
+
+	getRgn := kong.ResourceMiddleware("vin.region.search", scrt, secureUrl, GetRegions)
+	r.HandleFunc("/regions", getRgn).Methods(http.MethodGet)
+
+	srchRgn := kong.ResourceMiddleware("vin.region.search", scrt, secureUrl, SearchRegions)
+	r.HandleFunc("/regions/{pagesize:[A-Z][0-9]+}", srchRgn).Methods(http.MethodGet)
+	r.HandleFunc("/regions/{pagesize:[A-Z][0-9]+}/{hash:[a-zA-Z0-9]+={0,2}}", srchRgn).Methods(http.MethodGet)
+
+	updateRgn := kong.ResourceMiddleware("vin.region.update", scrt, secureUrl, UpdateRegion)
+	r.HandleFunc("/regions/{key:[0-9]+\\x60[0-9]+}", updateRgn).Methods(http.MethodPut)
+
 	/*
 		admCtrl := &handles.Admin{}
 			regnCtrl := &handles.Regions{}
@@ -72,7 +85,7 @@ func SetupRoutes(scrt, secureUrl string) http.Handler {
 		    "Secret": "secret"
 		  },
 	*/
-	lst, err := kong.Whitelist(http.DefaultClient, secureUrl, "comment.messages.view", scrt)
+	lst, err := kong.Whitelist(http.DefaultClient, secureUrl, "vin.validate", scrt)
 
 	if err != nil {
 		panic(err)
