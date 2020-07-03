@@ -26,7 +26,7 @@ type Platform struct {
 	EndYear     int
 }
 
-func (m Platform) Valid() (bool, error) {
+func (m Platform) Valid() error {
 	return husk.ValidateStruct(&m)
 }
 

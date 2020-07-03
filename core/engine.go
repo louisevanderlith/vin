@@ -49,6 +49,6 @@ type Engine struct {
 	EndYear           int
 }
 
-func (m Engine) Valid() (bool, error) {
+func (m Engine) Valid() error {
 	return husk.ValidateStruct(&m)
 }

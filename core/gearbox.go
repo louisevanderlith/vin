@@ -20,6 +20,6 @@ type Gearbox struct {
 	EndYear    int
 }
 
-func (m Gearbox) Valid() (bool, error) {
+func (m Gearbox) Valid() error {
 	return husk.ValidateStruct(&m)
 }

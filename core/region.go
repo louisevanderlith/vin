@@ -13,11 +13,11 @@ type Region struct {
 	Countries []Country
 }
 
-func (m Region) Valid() (bool, error) {
+func (m Region) Valid() error {
 	return husk.ValidateStruct(&m)
 }
 
-func (r *Region) HasCode(regionCode string) bool {
+func (r Region) HasCode(regionCode string) bool {
 	s := getCharWeight(r.StartChar)
 	e := getCharWeight(r.EndChar)
 	v := getCharWeight(regionCode)
@@ -25,28 +25,28 @@ func (r *Region) HasCode(regionCode string) bool {
 	return s <= v && v <= e
 }
 
-func GetRegion(key husk.Key) (*Region, error) {
+func GetRegion(key husk.Key) (Region, error) {
 	rec, err := ctx.Regions.FindByKey(key)
 
 	if err != nil {
-		return nil, err
+		return Region{}, err
 	}
 
-	return rec.Data().(*Region), nil
+	return rec.Data().(Region), nil
 }
 
 func GetAllRegions(page, size int) (husk.Collection, error) {
 	return ctx.Regions.Find(page, size, husk.Everything())
 }
 
-func GetRegionByCode(uniquevin string) (*Region, error) {
+func GetRegionByCode(uniquevin string) (Region, error) {
 	record, err := ctx.Regions.FindFirst(byUniqueVIN(uniquevin))
 
 	if err != nil {
-		return nil, err
+		return Region{}, err
 	}
 
-	return record.Data().(*Region), nil
+	return record.Data().(Region), nil
 }
 
 func getCharWeight(char string) int {

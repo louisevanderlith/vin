@@ -10,7 +10,7 @@ type Country struct {
 	Manufacturers []Manufacturer
 }
 
-func (m Country) Valid() (bool, error) {
+func (m Country) Valid() error {
 	return husk.ValidateStruct(&m)
 }
 

@@ -24,6 +24,6 @@ type Body struct {
 	EndYear   int
 }
 
-func (m Body) Valid() (bool, error) {
+func (m Body) Valid() error {
 	return husk.ValidateStruct(&m)
 }

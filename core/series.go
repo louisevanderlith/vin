@@ -9,6 +9,6 @@ type Series struct {
 	EndYear   int
 }
 
-func (m Series) Valid() (bool, error) {
+func (m Series) Valid() error {
 	return husk.ValidateStruct(&m)
 }

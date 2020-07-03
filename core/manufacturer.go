@@ -37,6 +37,6 @@ type Manufacturer struct {
 	AssemblyPlants []AssemblyPlant
 }
 
-func (m Manufacturer) Valid() (bool, error) {
+func (m Manufacturer) Valid() error {
 	return husk.ValidateStruct(&m)
 }

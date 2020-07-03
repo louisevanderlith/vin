@@ -10,6 +10,9 @@ import (
 func SetupRoutes(scrt, secureUrl string) http.Handler {
 	r := mux.NewRouter()
 
+	lkp := kong.ResourceMiddleware("vin.lookup", scrt, secureUrl, Lookup)
+	r.HandleFunc("/lookup/{vin:[A-Z0-9]+}", lkp).Methods(http.MethodGet)
+
 	mans := kong.ResourceMiddleware("vin.lookup.manufacturers", scrt, secureUrl, GetManufacturers)
 	r.HandleFunc("/lookup/manufacturers/{year:[0-9]+}", mans).Methods(http.MethodGet)
 
@@ -20,7 +23,7 @@ func SetupRoutes(scrt, secureUrl string) http.Handler {
 	r.HandleFunc("/lookup/trim/{year:[0-9]+}/{manufacturer:[a-zA-Z]+}/{model:[a-zA-Z]+}", trms).Methods(http.MethodGet)
 
 	vald := kong.ResourceMiddleware("vin.validate", scrt, secureUrl, Validate)
-	r.HandleFunc("/validate/{vin}", vald).Methods(http.MethodGet)
+	r.HandleFunc("/validate/{vin:[A-Z0-9]+}", vald).Methods(http.MethodGet)
 
 	viewRgn := kong.ResourceMiddleware("vin.region.view", scrt, secureUrl, ViewRegions)
 	r.HandleFunc("/regions/{key:[0-9]+\\x60[0-9]+}", viewRgn).Methods(http.MethodGet)
@@ -35,56 +38,16 @@ func SetupRoutes(scrt, secureUrl string) http.Handler {
 	updateRgn := kong.ResourceMiddleware("vin.region.update", scrt, secureUrl, UpdateRegion)
 	r.HandleFunc("/regions/{key:[0-9]+\\x60[0-9]+}", updateRgn).Methods(http.MethodPut)
 
-	/*
-		admCtrl := &handles.Admin{}
-			regnCtrl := &handles.Regions{}
-			e.JoinBundle("/", roletype.Admin, mix.JSON, admCtrl, regnCtrl)
-			e.JoinPath(e.Router().(*mux.Router), "/lookup/{vin}", "Find VIN", http.MethodGet, roletype.User, mix.JSON, handles.Lookup)
-			e.JoinPath(e.Router().(*mux.Router), "/validate/{vin}", "Find VIN", http.MethodGet, roletype.User, mix.JSON, handles.Validate)
-	*/
+	viewAdmin := kong.ResourceMiddleware("vin.admin.view", scrt, secureUrl, ViewAdmin)
+	r.HandleFunc("/admin/{key:[0-9]+\\x60[0-9]+}", viewAdmin).Methods(http.MethodGet)
 
-	/*
-		{
-		    "Name": "vin.lookup",
-		    "DisplayName": "VIN Lookup",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.validate",
-		    "DisplayName": "VIN Validation",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.region.view",
-		    "DisplayName": "View vin Region",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.region.create",
-		    "DisplayName": "Create vin Region",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.region.update",
-		    "DisplayName": "Update vin Region",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.region.search",
-		    "DisplayName": "Search vin Regions",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.admin.view",
-		    "DisplayName": "View vin Region",
-		    "Secret": "secret"
-		  },
-		  {
-		    "Name": "vin.admin.search",
-		    "DisplayName": "Search vin Regions",
-		    "Secret": "secret"
-		  },
-	*/
+	getAdmin := kong.ResourceMiddleware("vin.admin.search", scrt, secureUrl, GetAdmin)
+	r.HandleFunc("/admin", getAdmin).Methods(http.MethodGet)
+
+	srchAdmin := kong.ResourceMiddleware("vin.admin.search", scrt, secureUrl, SearchAdmin)
+	r.HandleFunc("/admin/{pagesize:[A-Z][0-9]+}", srchAdmin).Methods(http.MethodGet)
+	r.HandleFunc("/admin/{pagesize:[A-Z][0-9]+}/{hash:[a-zA-Z0-9]+={0,2}}", srchAdmin).Methods(http.MethodGet)
+
 	lst, err := kong.Whitelist(http.DefaultClient, secureUrl, "vin.validate", scrt)
 
 	if err != nil {

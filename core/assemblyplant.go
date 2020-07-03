@@ -11,6 +11,6 @@ type AssemblyPlant struct {
 	Series    []Series
 }
 
-func (m AssemblyPlant) Valid() (bool, error) {
+func (m AssemblyPlant) Valid() error {
 	return husk.ValidateStruct(&m)
 }

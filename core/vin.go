@@ -49,7 +49,7 @@ func GetAllVINS(page, size int) (husk.Collection, error) {
 }
 
 //Valid checks if the object's values meets the data requirements
-func (m VIN) Valid() (bool, error) {
+func (m VIN) Valid() error {
 	return husk.ValidateStruct(&m)
 }
 
