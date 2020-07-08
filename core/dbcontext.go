@@ -2,7 +2,6 @@ package core
 
 import (
 	"github.com/louisevanderlith/husk"
-	"github.com/louisevanderlith/husk/serials"
 )
 
 type context struct {
@@ -14,10 +13,10 @@ var ctx context
 
 func CreateContext() {
 	ctx = context{
-		Regions: husk.NewTable(Region{}, serials.GobSerial{}),
-		VIN:     husk.NewTable(VIN{}, serials.GobSerial{}),
+		Regions: husk.NewTable(Region{}),
+		VIN:     husk.NewTable(VIN{}),
 	}
-	
+
 	seed()
 }
 

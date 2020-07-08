@@ -61,13 +61,13 @@ func (m VIN) Create() (husk.Recorder, error) {
 		return item, nil
 	}
 
-	cset := ctx.VIN.Create(m)
+	rec, err := ctx.VIN.Create(m)
 
-	if cset.Error != nil {
-		return nil, cset.Error
+	if err != nil {
+		return nil, err
 	}
 
-	return cset.Record, nil
+	return rec, nil
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
