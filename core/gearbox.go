@@ -21,5 +21,5 @@ type Gearbox struct {
 }
 
 func (m Gearbox) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }

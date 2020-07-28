@@ -38,5 +38,5 @@ type Manufacturer struct {
 }
 
 func (m Manufacturer) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }

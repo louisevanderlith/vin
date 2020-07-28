@@ -12,5 +12,5 @@ type AssemblyPlant struct {
 }
 
 func (m AssemblyPlant) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }

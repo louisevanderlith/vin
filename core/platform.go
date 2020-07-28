@@ -27,7 +27,7 @@ type Platform struct {
 }
 
 func (m Platform) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }
 
 /*

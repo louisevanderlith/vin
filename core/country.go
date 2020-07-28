@@ -11,7 +11,7 @@ type Country struct {
 }
 
 func (m Country) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }
 
 func (r *Country) HasCode(regionCode string) bool {

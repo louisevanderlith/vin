@@ -25,5 +25,5 @@ type Body struct {
 }
 
 func (m Body) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }

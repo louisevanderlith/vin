@@ -50,5 +50,5 @@ type Engine struct {
 }
 
 func (m Engine) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }

@@ -10,5 +10,5 @@ type Series struct {
 }
 
 func (m Series) Valid() error {
-	return husk.ValidateStruct(&m)
+	return husk.ValidateStruct(m)
 }
