@@ -1,12 +1,12 @@
 package handles
 
 import (
+	"github.com/louisevanderlith/droxolite/drx"
 	"github.com/louisevanderlith/droxolite/mix"
 	"log"
 	"net/http"
 	"strconv"
 
-	"github.com/louisevanderlith/droxolite/context"
 	"github.com/louisevanderlith/vin/core"
 )
 
@@ -15,8 +15,7 @@ import (
 // @Success 200 {[]core.Profile} []core.Portfolio]
 // @router /:vin [get]
 func Lookup(w http.ResponseWriter, r *http.Request) {
-	ctx := context.New(w, r)
-	vin := ctx.FindParam("vin")
+	vin := drx.FindParam(r, "vin")
 	err := core.ValidateVIN(vin)
 
 	if err != nil {
@@ -41,7 +40,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	err = ctx.Serve(http.StatusOK, mix.JSON(rec))
+	err = mix.Write(w, mix.JSON(rec))
 
 	if err != nil {
 		log.Println(err)
@@ -49,9 +48,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetManufacturers(w http.ResponseWriter, r *http.Request) {
-	ctx := context.New(w, r)
-
-	year, _ := strconv.Atoi(ctx.FindParam("year"))
+	year, _ := strconv.Atoi(drx.FindParam(r, "year"))
 	result, err := core.GetManufacturers(year)
 
 	if err != nil {
@@ -66,7 +63,7 @@ func GetManufacturers(w http.ResponseWriter, r *http.Request) {
 		lst = append(lst, name)
 	}
 
-	err = ctx.Serve(http.StatusOK, mix.JSON(lst))
+	err = mix.Write(w, mix.JSON(lst))
 
 	if err != nil {
 		log.Println(err)
@@ -74,10 +71,8 @@ func GetManufacturers(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetModels(w http.ResponseWriter, r *http.Request) {
-	ctx := context.New(w, r)
-
-	year, _ := strconv.Atoi(ctx.FindParam("year"))
-	man := ctx.FindParam("manufacturer")
+	year, _ := strconv.Atoi(drx.FindParam(r, "year"))
+	man := drx.FindParam(r, "manufacturer")
 
 	result, err := core.GetModels(year, man)
 
@@ -93,7 +88,7 @@ func GetModels(w http.ResponseWriter, r *http.Request) {
 		lst = append(lst, name)
 	}
 
-	err = ctx.Serve(http.StatusOK, mix.JSON(lst))
+	err = mix.Write(w, mix.JSON(lst))
 
 	if err != nil {
 		log.Println(err)
@@ -101,11 +96,9 @@ func GetModels(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetTrims(w http.ResponseWriter, r *http.Request) {
-	ctx := context.New(w, r)
-
-	year, _ := strconv.Atoi(ctx.FindParam("year"))
-	man := ctx.FindParam("manufacturer")
-	mdl := ctx.FindParam("model")
+	year, _ := strconv.Atoi(drx.FindParam(r, "year"))
+	man := drx.FindParam(r, "manufacturer")
+	mdl := drx.FindParam(r, "model")
 
 	result, err := core.GetTrims(year, man, mdl)
 
@@ -121,7 +114,7 @@ func GetTrims(w http.ResponseWriter, r *http.Request) {
 		lst = append(lst, name)
 	}
 
-	err = ctx.Serve(http.StatusOK, mix.JSON(lst))
+	err = mix.Write(w, mix.JSON(lst))
 
 	if err != nil {
 		log.Println(err)
