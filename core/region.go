@@ -1,9 +1,11 @@
 package core
 
 import (
+	"github.com/louisevanderlith/husk/hsk"
+	"github.com/louisevanderlith/husk/op"
+	"github.com/louisevanderlith/husk/records"
+	"github.com/louisevanderlith/husk/validation"
 	"strconv"
-
-	"github.com/louisevanderlith/husk"
 )
 
 type Region struct {
@@ -14,7 +16,7 @@ type Region struct {
 }
 
 func (m Region) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }
 
 func (r Region) HasCode(regionCode string) bool {
@@ -25,7 +27,7 @@ func (r Region) HasCode(regionCode string) bool {
 	return s <= v && v <= e
 }
 
-func GetRegion(key husk.Key) (Region, error) {
+func GetRegion(key hsk.Key) (Region, error) {
 	rec, err := ctx.Regions.FindByKey(key)
 
 	if err != nil {
@@ -35,8 +37,8 @@ func GetRegion(key husk.Key) (Region, error) {
 	return rec.Data().(Region), nil
 }
 
-func GetAllRegions(page, size int) (husk.Collection, error) {
-	return ctx.Regions.Find(page, size, husk.Everything())
+func GetAllRegions(page, size int) (records.Page, error) {
+	return ctx.Regions.Find(page, size, op.Everything())
 }
 
 func GetRegionByCode(uniquevin string) (Region, error) {
@@ -62,19 +64,6 @@ func getCharWeight(char string) int {
 	return int(char[0] % 32)
 }
 
-func (p Region) Update(key husk.Key) error {
-	reg, err := ctx.Regions.FindByKey(key)
-
-	if err != nil {
-		return err
-	}
-
-	err = reg.Set(p)
-
-	if err != nil {
-		return err
-	}
-
-	defer ctx.Regions.Save()
-	return ctx.Regions.Update(reg)
+func (p Region) Update(key hsk.Key) error {
+	return ctx.Regions.Update(key, p)
 }

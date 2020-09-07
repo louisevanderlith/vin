@@ -15,7 +15,7 @@ import (
 // @router /:vin [get]
 func Validate(w http.ResponseWriter, r *http.Request) {
 	vin := drx.FindParam(r, "vin")
-	err := core.ValidateVIN(vin)
+	err := core.Context().ValidateVIN(vin)
 
 	if err != nil {
 		log.Println(err)

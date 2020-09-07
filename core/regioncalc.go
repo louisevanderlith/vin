@@ -1,11 +1,13 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/hsk"
+)
 
 type regionCalc func(result interface{}, obj Region) error
 
-func (f regionCalc) Calc(result interface{}, obj husk.Dataer) error {
-	return f(result, obj.(Region))
+func (f regionCalc) Map(result interface{}, obj hsk.Record) error {
+	return f(result, obj.Data().(Region))
 }
 
 func Manufacturers(year int) regionCalc {

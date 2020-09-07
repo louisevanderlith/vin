@@ -16,7 +16,7 @@ import (
 // @router /:vin [get]
 func Lookup(w http.ResponseWriter, r *http.Request) {
 	vin := drx.FindParam(r, "vin")
-	err := core.ValidateVIN(vin)
+	err := core.Context().ValidateVIN(vin)
 
 	if err != nil {
 		log.Println(err)
@@ -24,7 +24,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	obj, err := core.BuildInfo(vin)
+	obj, err := core.Context().BuildInfo(vin)
 
 	if err != nil {
 		log.Println(err)
@@ -32,15 +32,20 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	rec, err := obj.Create()
+	item, err := core.Context().FindVIN(vin)
+
+	if err != nil && item == nil {
+		log.Println("Find Error", err)
+		err = core.Context().CreateVIN(*obj)
+	}
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Create Error", err)
 		http.Error(w, "", http.StatusInternalServerError)
 		return
 	}
 
-	err = mix.Write(w, mix.JSON(rec))
+	err = mix.Write(w, mix.JSON(item))
 
 	if err != nil {
 		log.Println(err)

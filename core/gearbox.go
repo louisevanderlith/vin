@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type GearboxType = int
 
@@ -21,5 +23,5 @@ type Gearbox struct {
 }
 
 func (m Gearbox) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }

@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type Country struct {
 	RegionCode    string
@@ -11,7 +13,7 @@ type Country struct {
 }
 
 func (m Country) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }
 
 func (r *Country) HasCode(regionCode string) bool {

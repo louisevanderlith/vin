@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type Series struct {
 	Platform  Platform
@@ -10,5 +12,5 @@ type Series struct {
 }
 
 func (m Series) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }

@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type EngineLayout = int
 
@@ -50,5 +52,5 @@ type Engine struct {
 }
 
 func (m Engine) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }

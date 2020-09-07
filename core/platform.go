@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type DriveLayout = int
 
@@ -27,7 +29,7 @@ type Platform struct {
 }
 
 func (m Platform) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }
 
 /*

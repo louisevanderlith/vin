@@ -3,10 +3,10 @@ package handles
 import (
 	"github.com/louisevanderlith/droxolite/drx"
 	"github.com/louisevanderlith/droxolite/mix"
+	"github.com/louisevanderlith/husk/keys"
 	"log"
 	"net/http"
 
-	"github.com/louisevanderlith/husk"
 	"github.com/louisevanderlith/vin/core"
 )
 
@@ -29,7 +29,7 @@ func GetRegions(w http.ResponseWriter, r *http.Request) {
 // /v1/region/:key
 func ViewRegions(w http.ResponseWriter, r *http.Request) {
 	k := drx.FindParam(r, "key")
-	key, err := husk.ParseKey(k)
+	key, err := keys.ParseKey(k)
 
 	if err != nil {
 		log.Println(err)
@@ -72,7 +72,7 @@ func SearchRegions(w http.ResponseWriter, r *http.Request) {
 
 // @router /v1/region/ [put]
 func UpdateRegion(w http.ResponseWriter, r *http.Request) {
-	key, err := husk.ParseKey(drx.FindParam(r, "key"))
+	key, err := keys.ParseKey(drx.FindParam(r, "key"))
 
 	if err != nil {
 		log.Println(err)

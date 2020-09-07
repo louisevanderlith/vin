@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type BodyLayout = int
 
@@ -25,5 +27,5 @@ type Body struct {
 }
 
 func (m Body) Valid() error {
-	return husk.ValidateStruct(m)
+	return validation.Struct(m)
 }

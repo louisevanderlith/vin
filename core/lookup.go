@@ -2,7 +2,7 @@ package core
 
 func GetManufacturers(year int) (map[string]struct{}, error) {
 	result := make(map[string]struct{})
-	err := ctx.Regions.Calculate(&result, Manufacturers(year))
+	err := ctx.Regions.Map(&result, Manufacturers(year))
 
 	if err != nil {
 		return nil, err
@@ -13,7 +13,7 @@ func GetManufacturers(year int) (map[string]struct{}, error) {
 
 func GetModels(year int, manufacturer string) (map[string]struct{}, error) {
 	result := make(map[string]struct{})
-	err := ctx.Regions.Calculate(&result, Models(year, manufacturer))
+	err := ctx.Regions.Map(&result, Models(year, manufacturer))
 
 	if err != nil {
 		return nil, err
@@ -24,7 +24,7 @@ func GetModels(year int, manufacturer string) (map[string]struct{}, error) {
 
 func GetTrims(year int, manufacturer, model string) (map[string]struct{}, error) {
 	result := make(map[string]struct{})
-	err := ctx.Regions.Calculate(&result, Trim(year, manufacturer, model))
+	err := ctx.Regions.Map(&result, Trim(year, manufacturer, model))
 
 	if err != nil {
 		return nil, err
