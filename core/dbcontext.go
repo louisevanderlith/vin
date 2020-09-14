@@ -76,7 +76,7 @@ func (c context) GetVIN(key hsk.Key) (*VIN, error) {
 		return nil, err
 	}
 
-	return rec.Data().(*VIN), nil
+	return rec.GetValue().(*VIN), nil
 }
 
 func (c context) FindVIN(fullvin string) (*VIN, error) {
@@ -86,7 +86,7 @@ func (c context) FindVIN(fullvin string) (*VIN, error) {
 		return nil, err
 	}
 
-	return rec.Data().(*VIN), nil
+	return rec.GetValue().(*VIN), nil
 }
 
 func (c context) GetAllVINS(page, size int) (records.Page, error) {

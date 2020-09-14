@@ -34,7 +34,7 @@ func GetRegion(key hsk.Key) (Region, error) {
 		return Region{}, err
 	}
 
-	return rec.Data().(Region), nil
+	return rec.GetValue().(Region), nil
 }
 
 func GetAllRegions(page, size int) (records.Page, error) {
@@ -48,7 +48,7 @@ func GetRegionByCode(uniquevin string) (Region, error) {
 		return Region{}, err
 	}
 
-	return record.Data().(Region), nil
+	return record.GetValue().(Region), nil
 }
 
 func getCharWeight(char string) int {

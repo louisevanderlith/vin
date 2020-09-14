@@ -7,7 +7,7 @@ import (
 type regionCalc func(result interface{}, obj Region) error
 
 func (f regionCalc) Map(result interface{}, obj hsk.Record) error {
-	return f(result, obj.Data().(Region))
+	return f(result, obj.GetValue().(Region))
 }
 
 func Manufacturers(year int) regionCalc {
@@ -30,28 +30,25 @@ func Manufacturers(year int) regionCalc {
 	}
 }
 
-func Models(year int, manufacturer string) regionCalc {
+func Models(year int, manufacturerName string) regionCalc {
 	return func(result interface{}, obj Region) error {
 		lst := *(result.(*map[string]struct{}))
 
-		/*for _, country := range obj.Countries {
+		for _, country := range obj.Countries {
 			for _, manufacturer := range country.Manufacturers {
-				for _, plant := range manufacturer.AssemblyPlants {
-					if year >= plant.StartYear && year <= plant.EndYear {
-						for _, series := range plant.Series {
-							series.
+				if manufacturer.Name == manufacturerName {
+					for _, plant := range manufacturer.AssemblyPlants {
+						if year >= plant.StartYear && year <= plant.EndYear {
+							for _, series := range plant.Series {
+								if year >= series.StartYear && year <= series.EndYear {
+									lst[series.Spec] = struct{}{}
+								}
+							}
 						}
-
-						lst[plant.] = struct{}{}
 					}
 				}
 			}
 		}
-
-
-		if obj.Year == year && obj.Series.Manufacturer == manufacturer {
-			lst[obj.Series.Model] = struct{}{}
-		}*/
 
 		result = &lst
 

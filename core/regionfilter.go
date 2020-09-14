@@ -7,7 +7,7 @@ import (
 type regionFilter func(obj Region) bool
 
 func (f regionFilter) Filter(obj hsk.Record) bool {
-	return f(obj.Data().(Region))
+	return f(obj.GetValue().(Region))
 }
 
 func byUniqueVIN(uniquevin string) regionFilter {

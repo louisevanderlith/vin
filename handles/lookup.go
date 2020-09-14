@@ -19,7 +19,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 	err := core.Context().ValidateVIN(vin)
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Validate VIN Error", err)
 		http.Error(w, "", http.StatusBadRequest)
 		return
 	}
@@ -27,7 +27,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 	obj, err := core.Context().BuildInfo(vin)
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Build Info Error", err)
 		http.Error(w, "", http.StatusInternalServerError)
 		return
 	}
@@ -48,7 +48,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 	err = mix.Write(w, mix.JSON(item))
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Serve Error", err)
 	}
 }
 
@@ -57,7 +57,7 @@ func GetManufacturers(w http.ResponseWriter, r *http.Request) {
 	result, err := core.GetManufacturers(year)
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Get Manufacturers Error", err)
 		http.Error(w, "", http.StatusInternalServerError)
 		return
 	}
@@ -71,7 +71,7 @@ func GetManufacturers(w http.ResponseWriter, r *http.Request) {
 	err = mix.Write(w, mix.JSON(lst))
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Serve Error", err)
 	}
 }
 
@@ -82,7 +82,7 @@ func GetModels(w http.ResponseWriter, r *http.Request) {
 	result, err := core.GetModels(year, man)
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Get Models Error", err)
 		http.Error(w, "", http.StatusInternalServerError)
 		return
 	}
