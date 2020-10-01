@@ -1,6 +1,10 @@
-package core
+package main
 
-import "testing"
+import (
+	"github.com/louisevanderlith/vin/core"
+	"log"
+	"testing"
+)
 
 //Audi -- WAUZZZ8E88A025765
 //Chev -- KL1MJ68036C084769
@@ -10,11 +14,11 @@ import "testing"
 //Toyota -- JT152EEA100302159
 
 //This is expectected from every test.
-var expectations = VIN{
+var expectations = core.VIN{
 	Full:   "5NPEU46F77H259112",
 	Unique: "5NPEU46F77H",
 	Serial: 259112,
-	WMInfo: WMInfo{
+	WMInfo: core.WMInfo{
 		Country:      "United States",
 		Manufacturer: "Hyundai",
 		VehicleType:  "PassengerCar",
@@ -23,17 +27,11 @@ var expectations = VIN{
 }
 
 func init() {
-	CreateContext()
+	core.CreateContext()
 }
 
 func TestVIN_JustPrint(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -46,7 +44,7 @@ func TestVIN_JustPrint(t *testing.T) {
 
 func TestVIN_IsValid(t *testing.T) {
 	in := "5NPEU46F77H259112"
-	err := ValidateVIN(in)
+	err := core.Context().ValidateVIN(in)
 
 	if err != nil {
 		t.Error(err)
@@ -55,7 +53,7 @@ func TestVIN_IsValid(t *testing.T) {
 
 func TestVIN_NotValid(t *testing.T) {
 	in := "5NBEU46F77H259112"
-	err := ValidateVIN(in)
+	err := core.Context().ValidateVIN(in)
 
 	if err == nil {
 		t.Error("Expecting error")
@@ -64,7 +62,7 @@ func TestVIN_NotValid(t *testing.T) {
 
 func TestVIN_NoIOQ(t *testing.T) {
 	in := "5NBEU46F77H259Q12"
-	err := ValidateVIN(in)
+	err := core.Context().ValidateVIN(in)
 
 	if err == nil {
 		t.Error("Expecting error")
@@ -72,13 +70,7 @@ func TestVIN_NoIOQ(t *testing.T) {
 }
 
 func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -90,13 +82,7 @@ func TestDeconstruct_UniqueSerial_SerialCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -108,13 +94,7 @@ func TestDeconstruct_UniqueSerial_UniqueCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_ManufacturerCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -126,13 +106,7 @@ func TestDeconstruct_WMI_ManufacturerCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_CountryCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -144,13 +118,7 @@ func TestDeconstruct_WMI_CountryCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_VehicleTypeCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -162,13 +130,7 @@ func TestDeconstruct_WMI_VehicleTypeCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
-	obj, err := newVIN(expectations.Full)
-
-	if err != nil {
-		t.Error(err)
-	}
-
-	err = obj.deconstruct()
+	obj, err := core.Context().BuildInfo(expectations.Full)
 
 	if err != nil {
 		t.Error(err)
@@ -180,18 +142,13 @@ func TestDeconstruct_WMI_RegionCorrect(t *testing.T) {
 }
 
 func TestDeconstruct_VDS_Toyota(t *testing.T) {
-	obj, err := newVIN("JT2MX83E2K0030681")
+	obj, err := core.Context().BuildInfo("JT2MX83E2K0030681")
 
 	if err != nil {
 		t.Error(err)
 	}
 
-	err = obj.deconstruct()
-
-	if err != nil {
-		t.Error(err)
-	}
-
+	log.Println(obj)
 	t.Fail()
 	//FINISH
 }
