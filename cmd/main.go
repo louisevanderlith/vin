@@ -10,9 +10,8 @@ import (
 )
 
 func main() {
-	securty := flag.String("security", "http://localhost:8086", "Security Provider's URL")
-	manager := flag.String("manager", "http://localhost:8097", "Manager Provider's URL")
-	srcSecrt := flag.String("scopekey", "secret", "Secret used to validate against scopes")
+	issuer := flag.String("issuer", "http://127.0.0.1:8080", "OIDC Provider's URL")
+	audience := flag.String("audience", "folio", "Token target 'aud'")
 	flag.Parse()
 
 	core.CreateContext()
@@ -22,7 +21,7 @@ func main() {
 		ReadTimeout:  time.Second * 15,
 		WriteTimeout: time.Second * 15,
 		Addr:         ":8095",
-		Handler:      handles.SetupRoutes(*srcSecrt, *securty, *manager),
+		Handler:      handles.SetupRoutes(*issuer, *audience),
 	}
 
 	err := srvr.ListenAndServe()

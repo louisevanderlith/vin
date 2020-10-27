@@ -22,3 +22,5 @@ pubspec.lock
 db/*.husk
 !db/*.seed.json
 core/db/*
+
+cmd/cmd

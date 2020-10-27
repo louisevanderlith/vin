@@ -9,7 +9,7 @@ RUN go mod download
 
 FROM build_base as builder
 
-COPY main.go .
+COPY cmd/main.go .
 COPY handles ./handles
 COPY core ./core
 

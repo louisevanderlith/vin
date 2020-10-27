@@ -45,7 +45,7 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	err = mix.Write(w, mix.JSON(item))
+	err = mix.Write(w, mix.JSON(*item))
 
 	if err != nil {
 		log.Println("Serve Error", err)
