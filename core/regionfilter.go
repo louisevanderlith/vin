@@ -1,19 +1,19 @@
 package core
 
 import (
-	"github.com/louisevanderlith/husk"
+	"github.com/louisevanderlith/husk/hsk"
 )
 
-type regionFilter func(obj *Region) bool
+type regionFilter func(obj Region) bool
 
-func (f regionFilter) Filter(obj husk.Dataer) bool {
-	return f(obj.(*Region))
+func (f regionFilter) Filter(obj hsk.Record) bool {
+	return f(obj.GetValue().(Region))
 }
 
 func byUniqueVIN(uniquevin string) regionFilter {
 	regionChar := uniquevin[:1]
 
-	return func(obj *Region) bool {
+	return func(obj Region) bool {
 		return obj.HasCode(regionChar)
 	}
 }

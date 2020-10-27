@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type VehicleType int
 
@@ -37,6 +39,6 @@ type Manufacturer struct {
 	AssemblyPlants []AssemblyPlant
 }
 
-func (m Manufacturer) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Manufacturer) Valid() error {
+	return validation.Struct(m)
 }

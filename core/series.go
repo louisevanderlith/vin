@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type Series struct {
 	Platform  Platform
@@ -9,6 +11,6 @@ type Series struct {
 	EndYear   int
 }
 
-func (m Series) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Series) Valid() error {
+	return validation.Struct(m)
 }

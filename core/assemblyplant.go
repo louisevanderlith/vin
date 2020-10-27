@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type AssemblyPlant struct {
 	Code      string
@@ -11,6 +13,6 @@ type AssemblyPlant struct {
 	Series    []Series
 }
 
-func (m AssemblyPlant) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m AssemblyPlant) Valid() error {
+	return validation.Struct(m)
 }

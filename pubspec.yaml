@@ -1,0 +1,9 @@
+name: mango_vin
+version: 1.0.0
+description: Wrapper for VIN API
+repository: https://github.com/louisevanderlith/vin
+homepage: https://github.com/louisevanderlith/vin
+environment:
+  sdk: '>=2.0.0 < 3.0.0'
+dependencies:
+  mango_ui: '^1.0.3'

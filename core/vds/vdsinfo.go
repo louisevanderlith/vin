@@ -2,7 +2,6 @@ package vds
 
 import (
 	"fmt"
-	"log"
 )
 
 type VDSAnalyzer func(vds string, obj *VDSInfo) (interface{}, error)
@@ -35,6 +34,5 @@ func FindVDSInfo(make string, unique string, years []int) (interface{}, error) {
 		return nil, err
 	}
 
-	log.Printf("%v\n", tmp)
-	return nil, nil
+	return tmp, nil
 }

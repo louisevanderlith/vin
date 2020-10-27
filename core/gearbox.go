@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type GearboxType = int
 
@@ -20,6 +22,6 @@ type Gearbox struct {
 	EndYear    int
 }
 
-func (m Gearbox) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Gearbox) Valid() error {
+	return validation.Struct(m)
 }

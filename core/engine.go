@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type EngineLayout = int
 
@@ -49,6 +51,6 @@ type Engine struct {
 	EndYear           int
 }
 
-func (m Engine) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Engine) Valid() error {
+	return validation.Struct(m)
 }

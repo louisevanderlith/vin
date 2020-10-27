@@ -2,12 +2,10 @@ package core
 
 import (
 	"errors"
-	"fmt"
+	"github.com/louisevanderlith/husk/validation"
 	"strconv"
-	"strings"
 	"time"
 
-	"github.com/louisevanderlith/husk"
 	"github.com/louisevanderlith/vin/core/vds"
 )
 
@@ -34,80 +32,12 @@ func newVIN(fullvin string) (*VIN, error) {
 	return vin, nil
 }
 
-func GetVIN(key husk.Key) (*VIN, error) {
-	rec, err := ctx.VIN.FindByKey(key)
-
-	if err != nil {
-		return nil, err
-	}
-
-	return rec.Data().(*VIN), nil
-}
-
-func GetAllVINS(page, size int) husk.Collection {
-	return ctx.VIN.Find(page, size, husk.Everything())
-}
-
 //Valid checks if the object's values meets the data requirements
-func (m VIN) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m VIN) Valid() error {
+	return validation.Struct(m)
 }
 
-func (m VIN) Create() (husk.Recorder, error) {
-	item, err := ctx.VIN.FindFirst(byFullVIN(m.Full))
-
-	//If Found, just return the record
-	if err == nil {
-		return item, nil
-	}
-
-	cset := ctx.VIN.Create(m)
-
-	if cset.Error != nil {
-		return nil, cset.Error
-	}
-
-	return cset.Record, nil
-}
-
-//ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
-func ValidateVIN(fullvin string) error {
-	if len(fullvin) != 17 {
-		return errors.New("not correct length")
-	}
-
-	if strings.ContainsAny(fullvin, "IOQ") {
-		return errors.New("found illegal characters")
-	}
-
-	checkDigit := fullvin[8:9]
-	score := calculateScore(fullvin)
-
-	if checkDigit != score {
-		return fmt.Errorf("check digit %s is invalid for %s", checkDigit, score)
-	}
-
-	return nil
-}
-
-//BuildInfo tries to extract information from VIN number
-func BuildInfo(fullvin string) (*VIN, error) {
-	vin, err := newVIN(fullvin)
-
-	if err != nil {
-		return nil, err
-	}
-
-	err = vin.deconstruct()
-
-	if err != nil {
-		return nil, err
-	}
-
-	return vin, nil
-}
-
-//deconstruct will attempt to populat as much detail as possible for the given VIN
+//deconstruct will attempt to populate as much detail as possible for the given VIN
 func (m *VIN) deconstruct() error {
 	m.Unique, m.Serial = getUniqueSerial(m.Full)
 	wmiInfo, err := FindWMInfo(m.Unique)
@@ -224,7 +154,7 @@ func manufactureYear(digit string) ([]int, error) {
 }
 
 /*
-func doesVINExist(fullvin string) (husk.Recorder, bool) {
+func doesVINExist(fullvin string) (hsk.Record, bool) {
 	result, err := ctx.Vehicles.FindFirst(byFullVIN(fullvin))
 
 	if err != nil {

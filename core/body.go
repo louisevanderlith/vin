@@ -1,6 +1,8 @@
 package core
 
-import "github.com/louisevanderlith/husk"
+import (
+	"github.com/louisevanderlith/husk/validation"
+)
 
 type BodyLayout = int
 
@@ -24,6 +26,6 @@ type Body struct {
 	EndYear   int
 }
 
-func (m Body) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Body) Valid() error {
+	return validation.Struct(m)
 }

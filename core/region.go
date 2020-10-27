@@ -1,9 +1,11 @@
 package core
 
 import (
+	"github.com/louisevanderlith/husk/hsk"
+	"github.com/louisevanderlith/husk/op"
+	"github.com/louisevanderlith/husk/records"
+	"github.com/louisevanderlith/husk/validation"
 	"strconv"
-
-	"github.com/louisevanderlith/husk"
 )
 
 type Region struct {
@@ -13,11 +15,11 @@ type Region struct {
 	Countries []Country
 }
 
-func (m Region) Valid() (bool, error) {
-	return husk.ValidateStruct(&m)
+func (m Region) Valid() error {
+	return validation.Struct(m)
 }
 
-func (r *Region) HasCode(regionCode string) bool {
+func (r Region) HasCode(regionCode string) bool {
 	s := getCharWeight(r.StartChar)
 	e := getCharWeight(r.EndChar)
 	v := getCharWeight(regionCode)
@@ -25,28 +27,28 @@ func (r *Region) HasCode(regionCode string) bool {
 	return s <= v && v <= e
 }
 
-func GetRegion(key husk.Key) (*Region, error) {
+func GetRegion(key hsk.Key) (Region, error) {
 	rec, err := ctx.Regions.FindByKey(key)
 
 	if err != nil {
-		return nil, err
+		return Region{}, err
 	}
 
-	return rec.Data().(*Region), nil
+	return rec.GetValue().(Region), nil
 }
 
-func GetAllRegions(page, size int) husk.Collection {
-	return ctx.Regions.Find(page, size, husk.Everything())
+func GetAllRegions(page, size int) (records.Page, error) {
+	return ctx.Regions.Find(page, size, op.Everything())
 }
 
-func GetRegionByCode(uniquevin string) (*Region, error) {
+func GetRegionByCode(uniquevin string) (Region, error) {
 	record, err := ctx.Regions.FindFirst(byUniqueVIN(uniquevin))
 
 	if err != nil {
-		return nil, err
+		return Region{}, err
 	}
 
-	return record.Data().(*Region), nil
+	return record.GetValue().(Region), nil
 }
 
 func getCharWeight(char string) int {
@@ -62,19 +64,6 @@ func getCharWeight(char string) int {
 	return int(char[0] % 32)
 }
 
-func (p Region) Update(key husk.Key) error {
-	reg, err := ctx.Regions.FindByKey(key)
-
-	if err != nil {
-		return err
-	}
-
-	err = reg.Set(p)
-
-	if err != nil {
-		return err
-	}
-
-	defer ctx.Regions.Save()
-	return ctx.Regions.Update(reg)
+func (p Region) Update(key hsk.Key) error {
+	return ctx.Regions.Update(key, p)
 }
