@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/louisevanderlith/vin/core"
+	"io/ioutil"
 	"net/http"
 )
 
@@ -16,6 +17,11 @@ func ValidateVIN(web *http.Client, host, vin string) (bool, error) {
 	}
 
 	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		bdy, _ := ioutil.ReadAll(resp.Body)
+		return false, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
+	}
 
 	result := false
 	dec := json.NewDecoder(resp.Body)
@@ -34,9 +40,16 @@ func LookupVIN(web *http.Client, host, vin string) (core.VIN, error) {
 
 	defer resp.Body.Close()
 
+	if resp.StatusCode != http.StatusOK {
+		bdy, _ := ioutil.ReadAll(resp.Body)
+		return core.VIN{}, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
+	}
+
 	result := core.VIN{}
 	dec := json.NewDecoder(resp.Body)
 	err = dec.Decode(&result)
 
 	return result, err
 }
+
+
