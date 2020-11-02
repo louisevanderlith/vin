@@ -10,30 +10,30 @@ import (
 	"net/http"
 )
 
-func FetchRegion(web *http.Client, host string, k hsk.Key) (core.Region, error) {
-	url := fmt.Sprintf("%s/regions/%s", host, k.String())
+func FetchVIN(web *http.Client, host string, k hsk.Key) (core.VIN, error) {
+	url := fmt.Sprintf("%s/admin/%s", host, k.String())
 	resp, err := web.Get(url)
 
 	if err != nil {
-		return core.Region{}, err
+		return core.VIN{}, err
 	}
 
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
 		bdy, _ := ioutil.ReadAll(resp.Body)
-		return core.Region{}, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
+		return core.VIN{}, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
 	}
 
-	result := core.Region{}
+	result := core.VIN{}
 	dec := json.NewDecoder(resp.Body)
 	err = dec.Decode(&result)
 
 	return result, err
 }
 
-func FetchRegions(web *http.Client, host, pagesize string) (records.Page, error) {
-	url := fmt.Sprintf("%s/regions/%s", host, pagesize)
+func FetchLatestVINs(web *http.Client, host, pagesize string) (records.Page, error) {
+	url := fmt.Sprintf("%s/admin/%s", host, pagesize)
 	resp, err := web.Get(url)
 
 	if err != nil {
@@ -47,7 +47,7 @@ func FetchRegions(web *http.Client, host, pagesize string) (records.Page, error)
 		return nil, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
 	}
 
-	result := records.NewResultPage(core.Region{})
+	result := records.NewResultPage(core.VIN{})
 	dec := json.NewDecoder(resp.Body)
 	err = dec.Decode(&result)
 
