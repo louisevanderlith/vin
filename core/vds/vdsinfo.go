@@ -28,11 +28,5 @@ func FindVDSInfo(make string, unique string, years []int) (interface{}, error) {
 		return nil, fmt.Errorf("no analyzer found for %s", make)
 	}
 
-	tmp, err := analyzer(vdsStr, result)
-
-	if err != nil {
-		return nil, err
-	}
-
-	return tmp, nil
+	return analyzer(vdsStr, result)
 }

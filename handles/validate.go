@@ -18,7 +18,7 @@ func Validate(w http.ResponseWriter, r *http.Request) {
 	err := core.Context().ValidateVIN(vin)
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Validate Error", err)
 		http.Error(w, "", http.StatusBadRequest)
 		return
 	}
@@ -26,6 +26,6 @@ func Validate(w http.ResponseWriter, r *http.Request) {
 	err = mix.Write(w, mix.JSON(true))
 
 	if err != nil {
-		log.Println(err)
+		log.Println("Serve Error", err)
 	}
 }
