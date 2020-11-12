@@ -47,7 +47,7 @@ func LookupVIN(web *http.Client, host, vin string) (hsk.Record, error) {
 		return nil, fmt.Errorf("%v: %s", resp.StatusCode, string(bdy))
 	}
 
-	result := records.NewRecord(core.VIN{})
+	result := records.NewRecord(&core.VIN{})
 	dec := json.NewDecoder(resp.Body)
 	err = dec.Decode(&result)
 
