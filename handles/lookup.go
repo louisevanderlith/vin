@@ -3,6 +3,7 @@ package handles
 import (
 	"github.com/louisevanderlith/droxolite/drx"
 	"github.com/louisevanderlith/droxolite/mix"
+	"github.com/louisevanderlith/husk/records"
 	"log"
 	"net/http"
 	"strconv"
@@ -34,18 +35,19 @@ func Lookup(w http.ResponseWriter, r *http.Request) {
 
 	item, err := core.Context().FindVIN(vin)
 
-	if err != nil && item == nil {
-		log.Println("Find Error", err)
-		err = core.Context().CreateVIN(*obj)
-	}
-
 	if err != nil {
-		log.Println("Create Error", err)
-		http.Error(w, "", http.StatusInternalServerError)
-		return
+		k, err := core.Context().CreateVIN(obj)
+
+		if err != nil {
+			log.Println("Create Error", err)
+			http.Error(w, "", http.StatusInternalServerError)
+			return
+		}
+
+		item = records.MakeRecord(k, obj)
 	}
 
-	err = mix.Write(w, mix.JSON(*item))
+	err = mix.Write(w, mix.JSON(item))
 
 	if err != nil {
 		log.Println("Serve Error", err)

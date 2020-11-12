@@ -58,7 +58,13 @@ func (m *VIN) deconstruct() error {
 	//Get VDS
 	_, err = vds.FindVDSInfo(wmiInfo.Manufacturer, m.Unique, years)
 
-	return err
+	if err != nil {
+		return err
+	}
+
+	//m.VDSInfo = vds
+
+	return nil
 }
 
 func getUniqueSerial(fullvin string) (string, int) {

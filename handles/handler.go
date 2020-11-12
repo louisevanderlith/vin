@@ -25,12 +25,6 @@ func SetupRoutes(issuer, audience string) http.Handler {
 	r.Handle("/admin/{pagesize:[A-Z][0-9]+}", mw.Handler(http.HandlerFunc(SearchAdmin))).Methods(http.MethodGet)
 	r.Handle("/admin/{pagesize:[A-Z][0-9]+}/{hash:[a-zA-Z0-9]+={0,2}}", mw.Handler(http.HandlerFunc(SearchAdmin))).Methods(http.MethodGet)
 
-	//lst, err := middle.Whitelist(http.DefaultClient, securityUrl, "vin.validate", scrt)
-
-	//if err != nil {
-	//	panic(err)
-	//}
-
 	corsOpts := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"}, //you service is available and allowed for this base url
 		AllowedMethods: []string{

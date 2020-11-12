@@ -15,11 +15,11 @@ import (
 )
 
 type VINContext interface {
-	CreateVIN(vin VIN) error
+	CreateVIN(vin VIN) (hsk.Key, error)
 	ValidateVIN(fullvin string) error
-	BuildInfo(fullvin string) (*VIN, error)
-	FindVIN(fullvin string) (*VIN, error)
-	GetVIN(key hsk.Key) (*VIN, error)
+	BuildInfo(fullvin string) (VIN, error)
+	FindVIN(fullvin string) (hsk.Record, error)
+	GetVIN(key hsk.Key) (VIN, error)
 	GetAllVINS(page, size int) (records.Page, error)
 }
 
@@ -27,9 +27,8 @@ func Context() VINContext {
 	return ctx
 }
 
-func (c context) CreateVIN(m VIN) error {
-	_, err := c.VIN.Create(m)
-	return err
+func (c context) CreateVIN(m VIN) (hsk.Key, error) {
+	return c.VIN.Create(m)
 }
 
 //ValidateVIN does exactly what it says. This is the first step in creating a VIN DB Entry.
@@ -53,40 +52,40 @@ func (c context) ValidateVIN(fullvin string) error {
 }
 
 //BuildInfo tries to extract information from VIN number
-func (c context) BuildInfo(fullvin string) (*VIN, error) {
+func (c context) BuildInfo(fullvin string) (VIN, error) {
 	vin, err := newVIN(fullvin)
 
 	if err != nil {
-		return nil, err
+		return VIN{}, err
 	}
 
 	err = vin.deconstruct()
 
 	if err != nil {
-		return nil, err
+		return VIN{}, err
 	}
 
-	return vin, nil
+	return *vin, nil
 }
 
-func (c context) GetVIN(key hsk.Key) (*VIN, error) {
+func (c context) GetVIN(key hsk.Key) (VIN, error) {
 	rec, err := c.VIN.FindByKey(key)
 
 	if err != nil {
-		return nil, err
+		return VIN{}, err
 	}
 
-	return rec.GetValue().(*VIN), nil
+	return rec.GetValue().(VIN), nil
 }
 
-func (c context) FindVIN(fullvin string) (*VIN, error) {
+func (c context) FindVIN(fullvin string) (hsk.Record, error) {
 	rec, err := c.VIN.FindFirst(byFullVIN(fullvin))
 
 	if err != nil {
 		return nil, err
 	}
 
-	return rec.GetValue().(*VIN), nil
+	return rec, nil
 }
 
 func (c context) GetAllVINS(page, size int) (records.Page, error) {
